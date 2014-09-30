@@ -22,16 +22,6 @@
     <!-- Custom -->
     <link href="css/styles.css" rel="stylesheet">
 
-
-    <style>
-
-      @media (max-width: 900px) {
-        body .container .jumbotron {
-
-        }
-      }
-
-    </style>
   </head>
   <body>
 
@@ -44,12 +34,18 @@
 
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
+
+            <img class="navbar-toggle" src="svg/logo-stamp-white.svg" style="text-align: right; float: left; height: 60px; width: 60px; padding: 0; border: 0; margin: 0; margin-left: 15px;">
+
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
+              <span style="color: #fff">Menu</span>
             </button>
+
+            <button type="button" class="navbar-toggle collapsed">
+              <span style="color: #fff">My Account</span>
+            </button>
+
+
           </div>
 
           <style>
@@ -63,7 +59,7 @@
 
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-left" style="margin-left: -30px;">
+            <ul class="nav navbar-nav navbar-left">
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Events <span class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
@@ -143,10 +139,10 @@
         <div class="jumbotron">
           <div class="row">
             <div class="col-md-4">
-              <img src="svg/logo.svg"/ style="margin-left: 39px; margin-top: 30px;">
+              <img src="svg/logo.svg"/ style="margin-left: 39px; margin-top: 30px;" class="large-logo">
             </div>
             <div class="col-md-7 col-md-offset-1">
-              <div class="input-group" style="margin-top: 38px; margin-right: 50px; box-shadow: 2px 2px 2px 1px rgba(0,0,0,.2);">
+              <div class="input-group" style="">
                 <input type="text" class="form-control" placeholder="Search the catalog..." style="border-radius: 0; height: 40px; padding-left: 15px;">
                 <span class="input-group-btn">
                   <button class="btn btn-default" type="button" style="border-radius: 0; color: #fff; background-color: #EE3E2C; width: 60px; height: 40px; border: none"><span class="glyphicon glyphicon-search" style=""></span></button>
@@ -156,11 +152,19 @@
           </div>
           <div class="row">
             <div class="col-md-3 col-md-offset-9">
-              <p style="margin-right: 40px; color: #fff; font-size: 16px;">The Young Steinway Concert Series begins on Sunday, October 5 in the Petty Auditorium<br><br><span style="color: #EE3E2C">Attend <span class="glyphicon glyphicon-play" style="font-size: 12px"></span><span class="glyphicon glyphicon-play"style="font-size: 12px"></span><span class="glyphicon glyphicon-play"style="font-size: 12px"></span><span>
+              <p class="jumbotron-text">The Young Steinway Concert Series begins on Sunday, October 5 in the Petty Auditorium<br><br><span style="color: #EE3E2C">Attend <span class="glyphicon glyphicon-play" style="font-size: 12px"></span><span class="glyphicon glyphicon-play"style="font-size: 12px"></span><span class="glyphicon glyphicon-play"style="font-size: 12px"></span><span>
             </div>
           </div>
+
         </div>
+
+        <div class="row">
+            <div class="col-xs-12 jumptron-text-small">
+               <p>The Young Steinway Concert Series begins on Sunday, October 5 in the Petty Auditorium <a href="#">Register Now <span class="glyphicon glyphicon-play" style="font-size: 12px"></span><span class="glyphicon glyphicon-play"style="font-size: 12px"></span><span class="glyphicon glyphicon-play"style="font-size: 12px"></span></a></p>
+            </div>
+          </div>
       </div>
+
     </div>
 
     <!-- Events, Features -->
@@ -176,10 +180,10 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-md-3">
+            <div class="col-xs-3">
               <span>12 noon</span>
             </div>
-            <div class="col-md-9">
+            <div class="col-xs-9">
               <span>Symbol Training Institute</span>
             </div>
           </div>
