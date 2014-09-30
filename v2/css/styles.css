@@ -8,6 +8,8 @@ body a {
    color: #EE3E2C !important;
 }
 
+.action-link:after{content:' \25B6 \25B6 \25B6'; font-size: 12px;}
+
 h5 {
   font-weight: 600;
 }
@@ -65,7 +67,7 @@ body .btn-primary {
 
 body .container .jumbotron {
   border-radius: 0;
-  background: url("../img/feature_large.png") no-repeat center center;
+  background: url("../img/feature_large.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
