@@ -34,6 +34,10 @@ body .navbar-left li li a {
   font-size: 14px;
 }
 
+body .navbar-left li li a:hover {
+  text-decoration: underline;
+}
+
 .btn-login {
   background-color: #EE3E2C !important;
   color: #fff !important;
@@ -47,14 +51,12 @@ body .navbar-left li li a {
 
 body .navbar a {
   font-weight: 400;
-  text-transform: uppercase;
 }
 
 body h4 {
   border-top: solid 3px;
   padding-top: 5px;
   color: #EE3E2C;
-  text-transform: uppercase;
 }
 
 body .btn-primary {
@@ -65,16 +67,65 @@ body .btn-primary {
 
 body .container .jumbotron {
   border-radius: 0;
-  background: url("../img/feature_large.png") no-repeat center center;
+  background: url("../img/header/pianist.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 600px;
+  height: 440px;
 
   border-radius: 0;
   margin-bottom: 15px;
 
   padding: 0;
-  margin: 0;
+  margin: 0 -50px;
 }
+
+body .dropdown-menu {
+  border-top: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  border-radius: 0;
+  margin-left: -1px;
+
+}
+
+.navbar-left .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+  background-color: #005951 !important;
+  color: #fff;
+}
+
+.navbar-left .navbar-nav>li>a:hover {
+  background-color: !important;
+  color: #fff;
+}
+
+body .navbar-left li a:hover{
+  background-color: #005951 !important;
+}
+
+body .navbar-left li li a:hover{
+  background-color: #F0EEEB !important;
+}
+
+.form-control:focus {
+  box-shadow: rgba(238,62,44,.6);
+}
+
+.btn:focus, .btn:active,  {
+  box-shadow: rgba(238,62,44,.6);
+  outline-color: rgba(238,62,44,.6);
+}
+
+button:focus {outline:0 !important;}
+
+input {
+  border: 1px solid #ccc !important;
+}
+
+video {
+  margin: 0 -50px;
+  margin-bottom: -5px;
+}
+
+
