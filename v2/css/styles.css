@@ -48,6 +48,7 @@ body .navbar-left li li a:hover {
 }
 
 .btn-login {
+  background-color: #00594E !important;
   color: #fff !important;
   border-radius: 0;
 
