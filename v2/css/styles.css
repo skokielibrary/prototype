@@ -48,7 +48,6 @@ body .navbar-left li li a:hover {
 }
 
 .btn-login {
-  background-color: #EE3E2C !important;
   color: #fff !important;
   border-radius: 0;
 
@@ -82,7 +81,7 @@ body .container .jumbotron {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 440px;
+  height: 500px;
 
   border-radius: 0;
   margin-bottom: 15px;
@@ -91,13 +90,17 @@ body .container .jumbotron {
   margin: 0 -50px;
 }
 
-body .dropdown-menu {
-  border-top: none;
+.navbar-nav > li > .dropdown-menu {
+  border: none;
   box-shadow: none;
   -webkit-box-shadow: none;
   border-radius: 0;
-  margin-left: -1px;
+  margin-bottom: 0px;
+  background-color: #005951;
+}
 
+.navbar-nav > li > .dropdown-menu a{
+  color: #fff;
 }
 
 .jumptron-text-small {
@@ -109,17 +112,12 @@ body .dropdown-menu {
   color: #fff;
 }
 
-.navbar-left .navbar-nav>li>a:hover {
-  background-color: !important;
-  color: #fff;
-}
-
 body .navbar-left li a:hover{
   background-color: #005951;
 }
 
 body .navbar-left li li a:hover{
-  background-color: #F0EEEB;
+  text-decoration: underline;
 }
 
 .form-control:focus {
@@ -149,6 +147,7 @@ video {
   color: #fff;
   font-size: 16px !important;
   margin-right: 50px;
+  margin-top: 30px;
 }
 
 @media (max-width: 991px) {
@@ -164,7 +163,7 @@ video {
 
   body .container .jumbotron {
     margin: 0 -30px;
-    margin-top: 40px;
+    margin-top: 110px;
   }
 
   .jumbotron-text {
@@ -178,7 +177,8 @@ video {
 
   .input-group {
     margin: 0;
-    margin-top: -41px;
+    margin-top: -51px;
+    z-index: 0;
   }
 
   .navbar-left {
@@ -211,6 +211,14 @@ video {
     margin: 0 auto;
     margin-bottom: 15px;
   }
+
+  .main-navigation {
+    top: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 10
+  }
+
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -223,4 +231,18 @@ video {
   background-color: #005951;
 }
 
+@media (min-width: 768px) {
+  .dropup:hover .dropdown-menu {
+    display: block !important;
+  }
 
+  .dropup:hover {
+    background-color: #005951;
+  }
+}
+
+.nav {
+  z-index: 10;
+}
+
+.action-link:after{content:' \25B6 \25B6 \25B6'; font-size: 12px;}
