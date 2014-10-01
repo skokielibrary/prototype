@@ -5,7 +5,11 @@ body {
 }
 
 body a {
-   color: #EE3E2C !important;
+   color: #EE3E2C;
+}
+
+body a:hover {
+   color: #EE3E2C;
 }
 
 h5 {
@@ -22,16 +26,25 @@ body .navbar {
   margin-bottom: 0;
   border: none;
   background-color: transparent;
+  text-transform: uppercase;
+}
+
+.navbar-left {
+  margin-left: -30px;
 }
 
 body .navbar-left a {
-  color: #006A61 !important;
+  color: #006A61;
   font-size: 18px;
   font-weight: 400;
 }
 
 body .navbar-left li li a {
   font-size: 14px;
+}
+
+body .navbar-left li li a:hover {
+  text-decoration: underline;
 }
 
 .btn-login {
@@ -46,8 +59,7 @@ body .navbar-left li li a {
 }
 
 body .navbar a {
-  font-weight: 600;
-  text-transform: uppercase;
+  font-weight: 400;
 }
 
 body h4 {
@@ -65,16 +77,150 @@ body .btn-primary {
 
 body .container .jumbotron {
   border-radius: 0;
-  background: url("../img/feature_large.png") no-repeat center center;
+  background: url("../img/header/pianist.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 600px;
+  height: 440px;
 
   border-radius: 0;
   margin-bottom: 15px;
 
   padding: 0;
-  margin: 0;
+  margin: 0 -50px;
 }
+
+body .dropdown-menu {
+  border-top: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  border-radius: 0;
+  margin-left: -1px;
+
+}
+
+.jumptron-text-small {
+  display: none;
+}
+
+.navbar-left .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+  background-color: #005951 !important;
+  color: #fff;
+}
+
+.navbar-left .navbar-nav>li>a:hover {
+  background-color: !important;
+  color: #fff;
+}
+
+body .navbar-left li a:hover{
+  background-color: #005951;
+}
+
+body .navbar-left li li a:hover{
+  background-color: #F0EEEB;
+}
+
+.form-control:focus {
+  box-shadow: rgba(238,62,44,.6);
+}
+
+.btn:focus, .btn:active,  {
+  box-shadow: rgba(238,62,44,.6);
+  outline-color: rgba(238,62,44,.6);
+}
+
+button:focus {outline:0 !important;}
+
+input {
+  border: 1px solid #ccc !important;
+}
+
+video {
+  margin-bottom: -5px;
+}
+
+.input-group {
+  margin-top: 38px; margin-right: 50px; box-shadow: 2px 2px 2px 1px rgba(0,0,0,.2);
+}
+
+.jumbotron-text {
+  color: #fff;
+  font-size: 16px !important;
+  margin-right: 50px;
+}
+
+@media (max-width: 991px) {
+  body .container .jumbotron {
+    height: 240px;
+  }
+}
+
+@media (max-width: 768px) {
+  .large-logo {
+    display: none;
+  }
+
+  body .container .jumbotron {
+    margin: 0 -30px;
+    margin-top: 40px;
+  }
+
+  .jumbotron-text {
+    display: none;
+  }
+
+  .jumptron-text-small {
+    padding-top: 10px;
+    display: block
+  }
+
+  .input-group {
+    margin: 0;
+    margin-top: -41px;
+  }
+
+  .navbar-left {
+    margin-left: 0;
+  }
+
+  .navbar-right {
+    display: none;
+  }
+
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #fff;
+  }
+
+  .navbar-default .navbar-nav .open .dropdown-menu {
+    background-color: #005951;
+    margin-left: 0;
+  }
+
+  body .navbar-left li li a:hover {
+    color: #fff;
+  }
+
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #fff;
+  }
+
+  .img-div {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+  margin: 0 auto;
+  margin-top: 4px;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #005951;
+}
+
+
