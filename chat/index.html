@@ -4,21 +4,20 @@
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:200,300,400,500,600,700" rel="stylesheet" type="text/css">
     <style>
         body{overflow: hidden;}
-        .chat-widget{display: none; position: fixed; left: 10%; bottom: 70px; width: 300px; height: 400px; margin: auto;}
-        .widget-button{border: 0; padding: 1.5em 1em 2em 1em; font-size: 13px; cursor: pointer;}
-
-        #chat-button{position: fixed; bottom: -1em; left: 10%; color: #fff;}
+        .chat-widget{display: none; position: fixed; left: 10%; bottom: 44px; width: 300px; height: 400px; margin: auto; border: 1px solid #cbcbcb;}
+        .widget-button{border: 0; height: 40px; padding: 0 1.5em; line-height: 40px; font-size: 14px; cursor: pointer;}
+        .widget-button:hover{background-color: #888;}
+        #chat-button{position: fixed; bottom: 0; left: 10%; color: #fff;}
         .chat-available{background: #006A61;}
         .chat-unavailable{background: #ef3e2d;}
-        #chat-button:hover{bottom: -.5em; background-color: #333;}
     </style>
 </head>
 <body>
     <!-- Place this div in your web page where you want your chat widget to appear. -->
-    <iframe src="https://us.libraryh3lp.com/chat/resdesign@chat.libraryh3lp.com?skin=23350" class="chat-widget"></iframe>
+    <iframe src="https://us.libraryh3lp.com/chat/redesign@chat.libraryh3lp.com?skin=23350" class="chat-widget"></iframe>
     <button class="widget-button" id="chat-button">Checking chat status</button>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="http://us.libraryh3lp.com/presence/jid/vce/libraryh3lp.com/js" + new Date().getTime()></script>
+    <script src="http://us.libraryh3lp.com/presence/jid/redesign/chat.libraryh3lp.com/js" + new Date().getTime()></script>
     <script>
         var chat_messages = {"available": "We're available to chat", "unavailable": "Sorry, we can't chat now"}
 
