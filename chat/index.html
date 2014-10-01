@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:200,300,400,500,600,700" rel="stylesheet" type="text/css">
+    <style>
+        body{overflow: hidden;}
+        .chat-widget{display: none; position: fixed; top: 0; left: 0; bottom: 0; right: 0; width: 300px; height: 400px; margin: auto;}
+        .widget-button{border: 0; padding: 1.5em 1em 2em 1em; font-size: 13px; cursor: pointer;}
+
+        #chat-button{position: fixed; bottom: -1em; left: 10%; color: #fff;}
+        .chat-available{background: #006A61;}
+        .chat-unavailable{background: #ef3e2d;}
+        #chat-button:hover{bottom: -.5em; background-color: #333;}
+    </style>
+</head>
+<body>
+    <!-- Place this div in your web page where you want your chat widget to appear. -->
+    <iframe src="https://us.libraryh3lp.com/chat/resdesign@chat.libraryh3lp.com?skin=23350" class="chat-widget"></iframe>
+    <button class="widget-button" id="chat-button">Checking chat status</button>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://us.libraryh3lp.com/presence/jid/vce/libraryh3lp.com/js" + new Date().getTime()></script>
+    <script>
+        var chat_messages = {"available": "We're available to chat", "unavailable": "Sorry, we can't chat now"}
+
+        $(document).ready(function(){
+
+            console.log(jabber_resources[0].show);
+
+            if (jabber_resources[0].show === 'available' || jabber_resources[0].show === 'chat'){
+                $("#chat-button").text(chat_messages.available).addClass('chat-available');
+                $('#chat-button').click(function(){
+                    $('.chat-widget').toggle();
+                });
+            }
+            else{
+                $("#chat-button").text(chat_messages.unavailable).addClass('chat-unavailable')
+            }
+
+        });
+    </script>
+</body>
