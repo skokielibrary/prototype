@@ -82,7 +82,7 @@ body .container .jumbotron {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 440px;
+  height: 500px;
 
   border-radius: 0;
   margin-bottom: 15px;
@@ -241,5 +241,4 @@ video {
 .navbar-nav > li > .dropdown-menu a{
   color: #fff;
 }
-
 

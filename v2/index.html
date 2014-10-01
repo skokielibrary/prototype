@@ -450,15 +450,23 @@
         </div>
     </div>
   </div>
+
   <style>
-    .social{}
-    .chat{background-color: #006A61; color: #fff; padding: .5em 1em;}
-  </style>
+        .chat-widget{display: none; position: fixed; left: 10%; bottom: 44px; width: 300px; height: 400px; margin: auto; border: 1px solid #cbcbcb;}
+        .widget-button{border: 0; height: 50px; width: 300px; padding: 0 1.5em; line-height: 50px; font-size: 14px; cursor: pointer;}
+        .widget-button:hover{background-color: #00594E;}
+        #chat-button{position: fixed; bottom: 0; left: 10%; color: #fff;}
+        .chat-available{background: #006A61;}
+        .chat-unavailable{background: #ef3e2d;}
+        #chat-button span {position: absolute; right: 25px; top: 18px;}
+    </style>
+
   <div class="social">
       <div class="container">
         <div class="row">
             <div class="col-md-3">
-                <button class="chat">We're available to chat</button>
+                <iframe src="https://us.libraryh3lp.com/chat/redesign@chat.libraryh3lp.com?skin=23350" class="chat-widget"></iframe>
+                <button class="widget-button" id="chat-button">Checking chat status</button>
             </div>
             <div class="col-md-9" style="text-align: right;">
                 <p>CONNECT WITH US ON <a href="#">FACEBOOK</a>, <a href="#">TWITTER</a>, <a href="#">INSTAGRAM</a>, & <a href="#">YOUTUBE</a>.</p>
@@ -466,6 +474,38 @@
         </div>
       </div>
     </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://us.libraryh3lp.com/presence/jid/redesign/chat.libraryh3lp.com/js" + new Date().getTime()></script>
+    <script>
+        var chat_messages = {"available": "We're available to chat", "unavailable": "Sorry, we can't chat now", "exit": "Exit chat"};
+
+        var arrows = {"up": "<span class='glyphicon glyphicon-chevron-up'></span>", "down": "<span class='glyphicon glyphicon-chevron-down'></span>"}
+
+        $(document).ready(function(){
+
+            console.log(jabber_resources[0].show);
+
+            if (jabber_resources[0].show === 'available' || jabber_resources[0].show === 'chat'){
+                $("#chat-button").text(chat_messages.available).addClass('chat-available');
+                $( "#chat-button" ).append( arrows.up );
+                $('#chat-button').click(function(){
+                    $('.chat-widget').toggle();
+                    if ($("#chat-button").text() === chat_messages.exit) {
+                      $("#chat-button").text(chat_messages.available);
+                      $( "#chat-button" ).append( arrows.up );
+                    } else {
+                      $("#chat-button").text(chat_messages.exit);
+                      $( "#chat-button" ).append( arrows.down );
+                    }
+                });
+            }
+            else{
+                $("#chat-button").text(chat_messages.unavailable).addClass('chat-unavailable')
+            }
+
+        });
+    </script>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
