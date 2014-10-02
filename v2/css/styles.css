@@ -77,12 +77,12 @@ body .btn-primary {
 
 body .container .jumbotron {
   border-radius: 0;
-  background: url("../img/header/pianist.jpg") no-repeat center center;
+  background: url("../img/header/experimenters.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 500px;
+  height: 550px;
 
   border-radius: 0;
   margin-bottom: 15px;
