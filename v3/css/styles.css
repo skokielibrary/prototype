@@ -271,11 +271,12 @@ body .action-button:hover {
   color: #006067;
 }
 
-body .events a {
-  color: #594A41 !important;
-}
-
 .navbar-right a {
   color: #006067;
   font-weight: 400;
+}
+
+.navbar-nav > li > a {
+  padding-top: 40px;
+  padding-bottom: 40px
 }
