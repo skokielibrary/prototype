@@ -1871,7 +1871,7 @@ meta.foundation-mq-topbar {
       display: block;
       width: 100%;
       color: #005359;
-      padding-bottom: 5px;
+      padding-bottom: 10px;
       padding-left: 15px;
       font-family: 'Open Sans', sans-serif;
       font-size: 1.15rem;
@@ -2000,7 +2000,7 @@ meta.foundation-mq-topbar {
       }
       .top-bar-section .dropdown li a {
         font-weight: normal;
-        padding: 8px 15px; }
+        padding: 5px 15px; }
         .top-bar-section .dropdown li a.parent-link {
           font-weight: normal; }
       .top-bar-section .dropdown li.title h5, .top-bar-section .dropdown li.parent-link {
