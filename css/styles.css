@@ -279,10 +279,11 @@ margin: 0;
 
 /* chat widget */
 .chat-widget{
-  display: none; position: fixed; left: 40px; bottom: 0px; width: 300px; height: 400px; margin: auto; border: 1px solid #cbcbcb;
+  display: none; position: fixed; right: 4%; bottom: 39px; width: 300px; height: 400px; margin: auto; border: 1px solid #cbcbcb;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 3px 1px;
 }
 body .widget-button{
-  border: 0; height: 30px; width: 300px; padding: 0 1.5em; line-height: 30px; font-size: 14px; cursor: pointer; background-color: #f0eeeb; color: #594a41;
+  border: 0; height: 40px; width: 300px; padding: 0 1.5em; line-height: 40px; font-size: 14px; cursor: pointer; background-color: #f0eeeb; color: #594a41;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 3px 1px;
 }
 body .widget-button:hover {

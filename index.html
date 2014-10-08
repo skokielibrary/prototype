@@ -280,40 +280,32 @@
     </div>
   </div>
 
-  <script src="http://us.libraryh3lp.com/presence/jid/redesign/chat.libraryh3lp.com/js" + new Date().getTime()></script>
-  <script>
-      var chat_messages = {"available": "We're available to chat", "unavailable": "Sorry, we can't chat now", "exit": "Exit chat"};
-
-      var arrows = {"up": "<span class='glyphicon glyphicon-chevron-up'></span>", "down": "<span class='glyphicon glyphicon-chevron-down'></span>"}
-
-      $(document).ready(function(){
-
-          console.log(jabber_resources[0].show);
-
-          if (jabber_resources[0].show === 'available' || jabber_resources[0].show === 'chat'){
-              $("#chat-button").text(chat_messages.available).addClass('chat-available');
-              $( "#chat-button" ).append( arrows.up );
-              $('#chat-button').click(function(){
-                  $('.chat-widget').toggle();
-                  if ($("#chat-button").text() === chat_messages.exit) {
-                    $("#chat-button").text(chat_messages.available);
-                    $( "#chat-button" ).append( arrows.up );
-                  } else {
-                    $("#chat-button").text(chat_messages.exit);
-                    $( "#chat-button" ).append( arrows.down );
-                  }
-              });
-          }
-          else{
-              $("#chat-button").text(chat_messages.unavailable).addClass('chat-unavailable')
-          }
-
-      });
-  </script>
   <script src="js/vendor/jquery.js"></script>
   <script src="js/foundation.min.js"></script>
   <script>
     $(document).foundation();
   </script>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://us.libraryh3lp.com/presence/jid/redesign/chat.libraryh3lp.com/js" + new Date().getTime()></script>
+    <script>
+        var chat_messages = {"available": "Questions? Chat Now", "unavailable": "Sorry, we can't chat now"}
+
+        $(document).ready(function(){
+
+            console.log(jabber_resources[0].show);
+
+            if (jabber_resources[0].show === 'available' || jabber_resources[0].show === 'chat'){
+                $("#chat-button").text(chat_messages.available).addClass('chat-available');
+                $('#chat-button').click(function(){
+                    $('.chat-widget').toggle();
+                });
+            }
+            else{
+                $("#chat-button").text(chat_messages.unavailable).addClass('chat-unavailable')
+            }
+
+        });
+    </script>
 </body>
 </html>
