@@ -117,22 +117,17 @@
   <div class="fill-mustard">
     <div class="row">
       <div class="small-12 columns">
-        <a href="#" class="featurette-text action-link right">Celebrate Dia De Los Muertos at the library! REGISTER NOW</a>
+        <a href="#" class="featurette-text action-link right">Celebrate D&iacute;a De Los Muertos on November 1. LEARN MORE</a>
       </div>
     </div>
   </div>
 
   <!-- upcoming events, feature, another feature -->
   <div class="row bin">
-    <div class="large-4 medium-6 columns">
+    <div class="large-4 medium-4 columns">
       <a href="#"><h3>Upcoming Events</h3></a>
 
-      <div class="row">
-        <div class="small-12 columns event-list">
-          <span class="time">noon</span>
-          <a href="#" class="event-title">Symbol Training Institute</a>
-        </div>
-      </div>
+      <h4>Today</h4>
       <div class="row">
         <div class="small-12 columns event-list">
           <span class="time">1:30 pm</span>
@@ -166,44 +161,45 @@
         </div>
       </div>
 
-      <a href="#" class="button event-button">View our calendar</a>
+      <a href="#" class="button event-button">View calendar</a>
     </div>
 
-    <div class="large-4 medium-6 columns">
-      <a href="#"><h3>Featured Stuff</h3></a>
-      <img src="img/lily-born.png" class="full-width">
-      <p>During an unexpected wait at a car repair shop, my son Marquis was restless. I used Hoopla to stream Curious George and even had a minute for myself!</p>
-      <a href="#" class="default-link">Check it out</a>
+    <div class="large-4 medium-4 columns">
+      <a href="#"><h3>New at the library</h3></a>
+      <img src="img/code.jpg" class="full-width">
+      <p class="feature-text">Learn to code, make apps, and design websites with Treehouse, a premier online learning resource.</p>
+      <a href="#" class="action-link">Get started</a>
 
     </div>
-    <div class="large-4 medium-6 columns">
-      <a href="#"><h3>Yet another Feature</h3></a>
-      <img src="img/playdoh.png" class="full-width">
-      <p>Join us on September 21 as we celebrate the wonder that is play-doh at International Playdoh Day.</p>
-      <a href="#" class="default-link"> Sign Up!</a>
-
+    <div class="large-4 medium-4 columns">
+      <a href="#"><h3>Just for Kids</h3></a>
+      <img src="img/babyblock2.png" class="full-width">
+      <p class="feature-text">Help your child develop language and learning skills with our storytimes. We have registration-only and drop-in sessions.</p>
+      <a href="#" class="action-link">Browse storytimes</a>
     </div>
   </div>
 
   <!-- staff review, lists -->
   <div class="fill-offwhite bin">
     <div class="row">
-      <div class="large-3 medium-6 small-6 columns">
-        <img src="img/bookcover.jpg" class="book-cover">
+      <div class="large-8 medium-8 small-4 columns">
+        <div class="row">
+          <div class="small-3 medium-4 columns">
+            <img src="img/suddenlight.jpg" class="book-cover">
+          </div>
+          <div class="small-9 medium-8 columns">
+            <article>
+              <a href="#">
+                <h3 class="mustard-border">Staff Review</h3>
+              </a>
+              <h5>A Sudden Light</h5>
+              <p>Written by the author of The Art of Racing in the Rain, this atmospheric coming-of-age tale about family secrets, a decayed Pacific Northwest mansion, and a young man who sees ghosts is destined to be another book-club favorite.</p>
+              <a href="#"><h5 class="author">By Annabelle M</h5></a>
+            </article>
+          </div>
+        </div>
       </div>
-      <div class="large-3 medium-6 small-6 columns">
-        <article>
-          <a href="#"><h3 class="mustard-border">Take it or leave it</h3></a>
-          <h5>Staff Reviews</h5>
-          <p>Join us on September 21 as we celebrate the wonder that is play-doh at International Playdoh Day.</p>
-          <a href="#"><h5 class="author">By Annabelle M</h5></a>
-        </article>
-      </div>
-      <div class="large-3 medium-6 small-12 columns">
-        <a href="#"><h3 class="mustard-border">Something Important</h3></a>
-        <p>And the body copy goes here.</p>
-      </div>
-      <div class="large-3 medium-6 small-12 columns">
+      <div class="large-4 medium-4 small-12 columns">
         <ul class="lists">
           <li><a href="#">New Bestsellers</a></li>
           <li><a href="#">New DVDs</a></li>
@@ -270,18 +266,48 @@
         <img src="img/logo-stamp-white.svg">
       </div>
     </div>
-  </div>
-  <div class="fill-teal footer-bottom">
-    <div class="row">
-      <div class="medium-6 columns connect">
-        <p>Connect with us on <a href="http://www.facebook.com/skokielibrary">Facebook</a>, <a href="http://www.twitter.com/skokielibrary">Twitter</a>, &amp; <a href="http://www.youtube.com/skokielibrary">Youtube</a>.</p>
+
+    <div class="footer-bottom">
+      <div class="row">
+        <div class="small-12 columns connect">
+          <p>Connect with us on <a href="http://www.facebook.com/skokielibrary">Facebook</a>, <a href="http://www.twitter.com/skokielibrary">Twitter</a>, <a href="#">Instagram</a>, &amp; <a href="http://www.youtube.com/skokielibrary">YouTube</a>.</p>
+        </div>
+          <iframe src="https://us.libraryh3lp.com/chat/redesign@chat.libraryh3lp.com?skin=23350" class="chat-widget"></iframe>
+          <button class="widget-button" id="chat-button">Checking chat status</button>
       </div>
-        <a href="#" class="medium-3 columns questions">
-          Questions?
-        </a>
     </div>
   </div>
 
+  <script src="http://us.libraryh3lp.com/presence/jid/redesign/chat.libraryh3lp.com/js" + new Date().getTime()></script>
+  <script>
+      var chat_messages = {"available": "We're available to chat", "unavailable": "Sorry, we can't chat now", "exit": "Exit chat"};
+
+      var arrows = {"up": "<span class='glyphicon glyphicon-chevron-up'></span>", "down": "<span class='glyphicon glyphicon-chevron-down'></span>"}
+
+      $(document).ready(function(){
+
+          console.log(jabber_resources[0].show);
+
+          if (jabber_resources[0].show === 'available' || jabber_resources[0].show === 'chat'){
+              $("#chat-button").text(chat_messages.available).addClass('chat-available');
+              $( "#chat-button" ).append( arrows.up );
+              $('#chat-button').click(function(){
+                  $('.chat-widget').toggle();
+                  if ($("#chat-button").text() === chat_messages.exit) {
+                    $("#chat-button").text(chat_messages.available);
+                    $( "#chat-button" ).append( arrows.up );
+                  } else {
+                    $("#chat-button").text(chat_messages.exit);
+                    $( "#chat-button" ).append( arrows.down );
+                  }
+              });
+          }
+          else{
+              $("#chat-button").text(chat_messages.unavailable).addClass('chat-unavailable')
+          }
+
+      });
+  </script>
   <script src="js/vendor/jquery.js"></script>
   <script src="js/foundation.min.js"></script>
   <script>
