@@ -2084,10 +2084,10 @@ meta.foundation-mq-topbar {
         background: #005359;
         color: white; }
     .top-bar-section .has-dropdown > a {
-      padding-right: 30px !important; }
+      padding-right: 20px !important; }
       .top-bar-section .has-dropdown > a:after {
         content: "";
-        display: block;
+        display: none;
         width: 0;
         height: 0;
         border: inset 5px;
