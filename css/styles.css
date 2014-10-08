@@ -142,15 +142,24 @@ article h5.author {
 }
 .lists {
   list-style-type: none;
-  font-weight: 600;
+  font-weight: 400;
   text-transform: uppercase;
   border-top: 3px solid #E0C300;
   margin-top: 30px;
   padding-top: 5px;
-  font-size: 1.1rem;
   margin-left: 0; }
+.lists li {
+  padding-bottom: 5px;
+}
 .lists li a {
- color: #005359; }
+ font-weight: 400;
+  }
+.lists li:first-child {
+  font-weight: 600;
+  color: #005359;
+  padding-bottom: 10px;
+  font-size: 1.1rem}
+
 
 .quote {
 padding: 20px 0;}
@@ -241,7 +250,7 @@ margin: 0;
 }
 .footer img {
   width: 140px;
-  margin-top: -20px;
+  margin-top: -10px;
   float: right;
 }
 @media only screen and (max-width: 40em) {
@@ -277,7 +286,7 @@ body .widget-button{
   box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 3px 1px;
 }
 body .widget-button:hover {
-  background-color: #fffefe;
+  background-color: #f7f6f5;
   color: #594a41;
   height: 45px;
   line-height: 45px;
