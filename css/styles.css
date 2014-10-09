@@ -224,7 +224,8 @@ font-weight: 200;}
   top: 0;
   left: 20;
   padding: 20px 30px;
-  background-color: #e0c300;
+
+  background-color: rgba(224, 195, 0, 0.9);
   color: #fff;
 }
 .video-message p {
@@ -301,6 +302,7 @@ margin: 0;
 .chat-widget{
   display: none; position: fixed; right: 4%; bottom: 39px; width: 300px; height: 400px; margin: auto; border: 1px solid #cbcbcb;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 3px 1px;
+  z-index: 200;
 }
 body .widget-button{
   border: 0; height: 40px; width: 300px; padding: 0 1.5em; line-height: 40px; font-size: 14px; cursor: pointer; background-color: #f0eeeb; color: #594a41;
