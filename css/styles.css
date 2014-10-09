@@ -328,3 +328,24 @@ body .widget-button:focus, .widget-button:active {
 .chat-unavailable{background: #F0EEEB;}
 .chat-unavailable:hover{background-color: #F0EEEB;}
 #chat-button span {position: absolute; right: 10px; top: 15px;}
+
+
+
+.page-content h2 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  color: #EE3E2C;
+  text-transform: uppercase;
+}
+
+.page-content h3 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+dl dt {
+  font-weight: 400;
+}
+dl dd {
+  font-weight: 300;
+}
