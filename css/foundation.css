@@ -1635,7 +1635,7 @@ select {
     cursor: default; }
 
 .breadcrumbs {
-  margin-top: 20px;
+  margin-top: 15px;
   display: block;
   overflow: hidden;
   margin-left: 0;
@@ -1646,17 +1646,18 @@ select {
     font-size: 0.7rem;
     line-height: 0.7rem;
     text-transform: uppercase;
-    color: #005359; }
+    color: #b09e93; }
     .breadcrumbs > *:hover a, .breadcrumbs > *:focus a {
-      text-decoration: underline; }
+      text-decoration: underline;
+      color: #b09e93; }
     .breadcrumbs > * a {
-      color: #005359; }
+      color: #b09e93; }
     .breadcrumbs > *.current {
       cursor: default;
-      color: #EE3E2C; }
+      color: #004d52; }
       .breadcrumbs > *.current a {
         cursor: default;
-        color: #EE3E2C; }
+        color: #004d52; }
       .breadcrumbs > *.current:hover, .breadcrumbs > *.current:hover a, .breadcrumbs > *.current:focus, .breadcrumbs > *.current:focus a {
         text-decoration: none; }
     .breadcrumbs > *.unavailable {
@@ -2504,7 +2505,6 @@ ol,
 dl {
   font-size: 1rem;
   line-height: 1.6;
-  margin-bottom: 1.25rem;
   list-style-position: outside;
   font-family: inherit; }
 
