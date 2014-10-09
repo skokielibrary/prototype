@@ -59,6 +59,19 @@ h4 {
 .fill-red {
   background-color: #EE3E2C; }
 
+.detail-bar-bin {
+  display: none;
+}
+
+.detail-bar {
+  padding: 2px 0;
+  font-size: 12px;
+}
+
+.detail-bar a {
+  font-weight: 400;
+  text-transform: uppercase;
+}
 
 .featurette {
   background: url(../img/festival_sm.png) no-repeat center center;
@@ -91,7 +104,7 @@ h4 {
   background-color: #EE3E2C;
   font-size: 1.1rem; }
 
-@media only screen and (max-width: 40em) {
+@media only screen and (max-width: 40.063em) {
   .featurette {
     height: 220px;
   }
@@ -105,6 +118,11 @@ h4 {
   .dropdown {
     box-shadow: none;
   }
+
+  .detail-bar-bin {
+    display: block;
+  }
+
 }
 
 @media only screen and (max-width: 52em) {
@@ -114,7 +132,7 @@ h4 {
   }
 
   .top-bar-section ul li > a {
-    font-size: 14px;
+    font-size: 1px;
   }
 }
 
@@ -129,6 +147,10 @@ h4 {
 
   .main-search {
     padding: 1.4em;
+  }
+
+  .top-bar-section .dropdown li a {
+    font-size: 16px;
   }
 }
 
