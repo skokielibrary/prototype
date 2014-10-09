@@ -64,13 +64,13 @@ h4 {
 }
 
 .detail-bar {
-  padding: 2px 0;
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .detail-bar a {
-  font-weight: 400;
+  font-weight: 600;
   text-transform: uppercase;
+  padding: 5px 0;
 }
 
 .featurette {
@@ -118,11 +118,9 @@ h4 {
   .dropdown {
     box-shadow: none;
   }
-
   .detail-bar-bin {
     display: block;
   }
-
 }
 
 @media only screen and (max-width: 52em) {
