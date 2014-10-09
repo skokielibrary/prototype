@@ -2059,7 +2059,8 @@ meta.foundation-mq-topbar {
           color: #006067;
           display: block;
           padding: 5px 0;
-          font-weight: 600}
+          font-weight: 600;
+          font-size: 14px;}
           .top-bar-section .dropdown li.title h5 a:hover, .top-bar-section .dropdown li.parent-link a:hover {
             background: none; }
       .top-bar-section .dropdown li.has-form {

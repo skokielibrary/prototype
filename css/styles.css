@@ -47,7 +47,6 @@ h4 {
   margin-left: 0.9375em;
 }
 
-
 .fill-teal {
   background-color: #005359; }
 .fill-mustard {
@@ -60,7 +59,7 @@ h4 {
   background-color: #EE3E2C; }
 
 .detail-bar-bin {
-
+  display: none;
 }
 
 .detail-bar {
@@ -69,10 +68,20 @@ h4 {
 
 .detail-bar a {
   font-weight: 600;
-  text-transform: uppercase;
   padding-bottom: 5px;
-  padding-top: 6px;
+  padding-top: 5px;
   color: #594a41;
+}
+
+.my-account {
+  background-color: #EE3E2C;
+  padding: 10px 15px;
+  color: #fff;
+}
+
+.my-account:hover {
+  color: #fff;
+  text
 }
 
 .featurette {
@@ -123,6 +132,9 @@ h4 {
   .detail-bar-bin {
     display: block;
   }
+  .my-account {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 52em) {
@@ -132,7 +144,7 @@ h4 {
   }
 
   .top-bar-section ul li > a {
-    font-size: 1px;
+    font-size: 15px;
   }
 }
 
@@ -221,7 +233,8 @@ padding: 20px 0;}
 .quote p {
 font-size: 1.5rem;
 margin-bottom: 0;
-font-weight: 200;}
+font-weight: 200;
+margin-top: 25px;}
 .quote .link {
   font-size: 1.1rem;
   text-transform: uppercase;
@@ -278,7 +291,7 @@ margin: 0;
   margin-bottom: 5px;
 }
 .video-width {
-  max-width: 1200px;
+  max-width: 1280px;
 }
 
 @media screen and (max-width: 540px){
