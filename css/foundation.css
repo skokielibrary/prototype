@@ -1654,10 +1654,10 @@ select {
       color: #b09e93; }
     .breadcrumbs > *.current {
       cursor: default;
-      color: #004d52; }
+      color: #594a41; }
       .breadcrumbs > *.current a {
         cursor: default;
-        color: #004d52; }
+        color: #594a41; }
       .breadcrumbs > *.current:hover, .breadcrumbs > *.current:hover a, .breadcrumbs > *.current:focus, .breadcrumbs > *.current:focus a {
         text-decoration: none; }
     .breadcrumbs > *.unavailable {
@@ -1670,7 +1670,7 @@ select {
         color: #999999;
         cursor: default; }
     .breadcrumbs > *:before {
-      content: "/";
+      content: "\00BB";
       color: #aaaaaa;
       margin: 0 0.66667rem;
       position: relative;
@@ -2455,7 +2455,9 @@ h4 {
   font-size: 1.125rem; }
 
 h5 {
-  font-size: 1.125rem; }
+  font-size: 1rem;
+  text-transform: uppercase;
+}
 
 h6 {
   font-size: 1rem; }
