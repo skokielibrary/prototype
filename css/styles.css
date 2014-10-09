@@ -88,7 +88,7 @@ h4 {
   background-color: #EE3E2C;
   font-size: 1.1rem; }
 
-@media only screen and (max-width: 40.063em) {
+@media only screen and (max-width: 40em) {
   .featurette {
     height: 220px;
   }
@@ -118,11 +118,6 @@ h4 {
   }
   .show-for-small {
     display: none;
-  }
-
-  .top-bar-section ul li > .nav-item {
-    font-size: 1rem;
-    font-weight: 400;
   }
 }
 
