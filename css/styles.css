@@ -37,9 +37,14 @@ h4 {
 .dropdown {
   box-shadow: 0 0 3px 1px rgba(0,0,0,0.2);
 }
+.remove-padding {
 
+}
 .mustard-border {
   border-color: #E0C300
+}
+.svg-logo {
+  margin-left: 20px;
 }
 
 
@@ -139,6 +144,7 @@ article h5.author {
 }
 .feature-text {
   padding-top: 10px;
+  margin-bottom: .5rem;
 }
 .lists {
   list-style-type: none;
@@ -199,9 +205,6 @@ font-weight: 200;}
   max-height: 420px;
   overflow: hidden;
 }
-.video-bin video {
-  margin-bottom: 100px;
-}
 .video-message{
   position: absolute;
   top: 0;
@@ -218,7 +221,7 @@ margin: 0;
   margin-top: 10px;
   display: block;
   color: white;
-  float: right;
+  text-align: right;
 }
 .video-message > h3{
   text-transform: uppercase;
