@@ -290,10 +290,10 @@
   </script>
   <script src="http://us.libraryh3lp.com/presence/jid/redesign/chat.libraryh3lp.com/js" + new Date().getTime()></script>
   <script>
-      var chat_messages = {"available": "We're available to chat", "unavailable": "Sorry, we can't chat now", "exit": "Exit chat"};
+      var chat_messages = {"available": "Questions?", "unavailable": "Sorry, we can't chat now", "exit": "Exit chat"};
       $(document).ready(function(){
 
-          console.log(jabber_resources[0].show);
+          $("#chat-button").hide();
 
           if (jabber_resources[0].show === 'available' || jabber_resources[0].show === 'chat'){
               $("#chat-button").text(chat_messages.available).addClass('chat-available');
@@ -305,8 +305,10 @@
                     $("#chat-button").text(chat_messages.exit);
                   }
               });
+              $("#chat-button").show();
           }
           else{
+
               $("#chat-button").text(chat_messages.unavailable).addClass('chat-unavailable')
           }
 

@@ -131,12 +131,12 @@
     <div class="medium-12 columns">
       <h3>Schedule</h3>
     </div>
-    <div class="medium-8 columns">
+    <div class="medium-7 columns">
       <div class="fluidMedia" style="margin-top: 20px;">
         <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps/ms?ie=UTF8&amp;hl=en&amp;msa=0&amp;msid=100103197374987963472.00043ccc2be0d0c5f617b&amp;ll=42.040873,-87.738503&amp;spn=0.043181,0.041129&amp;om=1&amp;output=embed&amp;s=AARTsJrLVqBkuap26smsQbI77e_rYLD4QA"></iframe>
       </div>
     </div>
-    <div class="medium-4 columns">
+    <div class="medium-5 columns">
       <button class="download-button" style="margin-top: 20px;">Download Schedule</button>
     </div>
   </div>
@@ -269,10 +269,10 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src="http://us.libraryh3lp.com/presence/jid/redesign/chat.libraryh3lp.com/js" + new Date().getTime()></script>
   <script>
-      var chat_messages = {"available": "We're available to chat", "unavailable": "Sorry, we can't chat now", "exit": "Exit chat"};
+      var chat_messages = {"available": "Questions?", "unavailable": "Sorry, we can't chat now", "exit": "Exit chat"};
       $(document).ready(function(){
 
-          console.log(jabber_resources[0].show);
+          $("#chat-button").hide();
 
           if (jabber_resources[0].show === 'available' || jabber_resources[0].show === 'chat'){
               $("#chat-button").text(chat_messages.available).addClass('chat-available');
@@ -284,6 +284,7 @@
                     $("#chat-button").text(chat_messages.exit);
                   }
               });
+              $("#chat-button").show();
           }
           else{
               $("#chat-button").text(chat_messages.unavailable).addClass('chat-unavailable')
