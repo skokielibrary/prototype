@@ -77,6 +77,7 @@ h4 {
   background-color: #EE3E2C;
   padding: 10px 15px;
   color: #fff;
+  margin-right: 0.9375em;
 }
 
 .my-account:hover {
@@ -134,6 +135,10 @@ h4 {
   }
   .my-account {
     display: none;
+  }
+
+  body .widget-button {
+    width: 130px;
   }
 }
 
@@ -425,9 +430,18 @@ body .widget-button:focus, .widget-button:active {
   color: #005359;
 }
 
+.breadcrumbs {
+  margin-top: 40px;
+}
+
 .breadcrumbs > *:before {
   top: -1px;
   color: #b09e93 !important;
+  margin: 0 0.5rem;
+}
+
+.download-button {
+  text-transform: uppercase;
 }
 
 dl dt {
