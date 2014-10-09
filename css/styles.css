@@ -60,7 +60,7 @@ h4 {
   background-color: #EE3E2C; }
 
 .detail-bar-bin {
-  display: none;
+
 }
 
 .detail-bar {
@@ -70,7 +70,9 @@ h4 {
 .detail-bar a {
   font-weight: 600;
   text-transform: uppercase;
-  padding: 5px 0;
+  padding-bottom: 5px;
+  padding-top: 6px;
+  color: #594a41;
 }
 
 .featurette {
