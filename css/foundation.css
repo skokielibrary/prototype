@@ -1878,7 +1878,7 @@ meta.foundation-mq-topbar {
       padding-bottom: 10px;
       padding-left: 15px;
       font-family: 'Open Sans', sans-serif;
-      font-size: 1.1rem;
+      font-size: 1rem;
       font-weight: normal;
       text-transform: uppercase; }
       .top-bar-section ul li > a.button {
@@ -2088,7 +2088,7 @@ meta.foundation-mq-topbar {
         background: #005359;
         color: white; }
     .top-bar-section .has-dropdown > a {
-      padding-right: 20px !important; }
+      padding-right: 15px !important; }
       .top-bar-section .has-dropdown > a:after {
         content: "";
         display: none;

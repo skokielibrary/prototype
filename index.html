@@ -11,6 +11,7 @@
 </head>
 <body>
 
+
   <!-- site navigation -->
   <div class="contain-to-grid">
     <nav class="top-bar" data-topbar role="navigation">
@@ -27,9 +28,9 @@
 
       <section class="top-bar-section">
         <!-- Right Nav Section -->
-        <ul class="right">
+        <ul class="right right-nav-section">
           <li class="has-dropdown">
-            <a href="#">Events</a>
+            <a href="#" class="nav-item">Events</a>
             <ul class="dropdown">
               <li><a href="#">Kids</a></li>
               <li><a href="#">Teens</a></li>
@@ -42,7 +43,7 @@
             </ul>
           </li>
           <li class="has-dropdown">
-            <a href="#">Books, Movies, More</a>
+            <a href="#" class="nav-item">Books, Movies, More</a>
             <ul class="dropdown">
               <li><a href="#">New items</a></li>
               <li><a href="#">Staff recommendations</a></li>
@@ -54,7 +55,7 @@
             </ul>
           </li>
           <li class="has-dropdown">
-            <a href="#">Resources</a>
+            <a href="#" class="nav-item">Resources</a>
             <ul class="dropdown">
               <li><a href="#">Research a topic</a></li>
               <li><a href="#">Online training &amp; tutorials</a></li>
@@ -63,7 +64,7 @@
             </ul>
           </li>
           <li class="has-dropdown">
-            <a href="#">Services</a>
+            <a href="#" class="nav-item">Services</a>
             <ul class="dropdown">
               <li><a href="#">Bookmobile</a></li>
               <li><a href="#">Study &amp; meeting rooms</a></li>
@@ -78,7 +79,7 @@
             </ul>
           </li>
           <li class="has-dropdown">
-            <a href="#">About</a>
+            <a href="#" class="nav-item">About</a>
             <ul class="dropdown">
               <li><a href="#">Jobs</a></li>
               <li><a href="#">Volunteering</a></li>
@@ -167,6 +168,7 @@
     <div class="large-4 medium-4 columns">
       <a href="#"><h3>New at the library</h3></a>
       <img src="img/code.jpg" class="full-width">
+      <h4 class="feature-title">Treehouse</h4>
       <p class="feature-text">Learn to code, make apps, and design websites with Treehouse, a premier online learning resource.</p>
       <a href="#" class="action-link">Get started</a>
 
@@ -174,6 +176,7 @@
     <div class="large-4 medium-4 columns">
       <a href="#"><h3>Just for Kids</h3></a>
       <img src="img/babyblock2.png" class="full-width">
+      <h4 class="feature-title">Storytime</h4>
       <p class="feature-text">Help your child develop language and learning skills through storytime! We have sessions for babies, tots, and older kids throughout the week.</p>
       <a href="#" class="action-link">Browse storytimes</a>
     </div>
@@ -228,12 +231,13 @@
 
 
   <!-- Video -->
-
-  <div class="video-container" style="overflow: hidden; height: 360px;">
+  <div class="video-bin fill-offwhite">
     <div class="full-video" style="width: 100%; height: 100%; position: relative;">
-      <video style="width: 100%; " autoplay loop muted>
-        <source src="vid/hoopla_web.mp4" type="video/mp4">
-      </video>
+      <div class="row video-width">
+        <video style="width: 100%; " autoplay loop muted>
+          <source src="vid/hoopla_web.mp4" type="video/mp4">
+        </video>
+      </div>
       <div class="row">
         <div class="video-message">
           <h3>Have you tried Hoopla?</h3>
@@ -244,22 +248,6 @@
     </div>
   </div>
 
-  <!-- Video
-  <div class="row">
-    <div class="small-12 columns remove-padding">
-      <div class="video-bin">
-        <video style="max-width: 100%; " autoplay loop muted>
-          <source src="vid/hoopla_web.mp4" type="video/mp4">
-        </video>
-        <div class="video-message">
-            <h3>Have you tried Hoopla?</h3>
-            <p>Download and stream movies and more with your library card.</p>
-            <p><a href="#" class="action-link">Try it now</a></p>
-        </div>
-      </div>
-    </div>
-  </div>
-  -->
 
   <!-- footer -->
   <div class="fill-offwhite footer">
@@ -284,7 +272,6 @@
         <img src="img/logo-stamp-white.svg">
       </div>
     </div>
-
     <div class="footer-bottom">
       <div class="row">
         <div class="small-12 columns connect">
@@ -296,36 +283,37 @@
     </div>
   </div>
 
+
+  <!-- scripts -->
   <script src="js/vendor/jquery.js"></script>
   <script src="js/foundation.min.js"></script>
   <script>
     $(document).foundation();
   </script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="http://us.libraryh3lp.com/presence/jid/redesign/chat.libraryh3lp.com/js" + new Date().getTime()></script>
+  <script>
+      var chat_messages = {"available": "We're available to chat", "unavailable": "Sorry, we can't chat now", "exit": "Exit chat"};
+      $(document).ready(function(){
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="http://us.libraryh3lp.com/presence/jid/redesign/chat.libraryh3lp.com/js" + new Date().getTime()></script>
-    <script>
-        var chat_messages = {"available": "We're available to chat", "unavailable": "Sorry, we can't chat now", "exit": "Exit chat"};
-        $(document).ready(function(){
+          console.log(jabber_resources[0].show);
 
-            console.log(jabber_resources[0].show);
+          if (jabber_resources[0].show === 'available' || jabber_resources[0].show === 'chat'){
+              $("#chat-button").text(chat_messages.available).addClass('chat-available');
+              $('#chat-button').click(function(){
+                  $('.chat-widget').toggle();
+                  if ($("#chat-button").text() === chat_messages.exit) {
+                    $("#chat-button").text(chat_messages.available);
+                  } else {
+                    $("#chat-button").text(chat_messages.exit);
+                  }
+              });
+          }
+          else{
+              $("#chat-button").text(chat_messages.unavailable).addClass('chat-unavailable')
+          }
 
-            if (jabber_resources[0].show === 'available' || jabber_resources[0].show === 'chat'){
-                $("#chat-button").text(chat_messages.available).addClass('chat-available');
-                $('#chat-button').click(function(){
-                    $('.chat-widget').toggle();
-                    if ($("#chat-button").text() === chat_messages.exit) {
-                      $("#chat-button").text(chat_messages.available);
-                    } else {
-                      $("#chat-button").text(chat_messages.exit);
-                    }
-                });
-            }
-            else{
-                $("#chat-button").text(chat_messages.unavailable).addClass('chat-unavailable')
-            }
-
-        });
-    </script>
+      });
+  </script>
 </body>
 </html>
