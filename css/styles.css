@@ -180,6 +180,14 @@ h4 {
   float: left;
   width: 80px;
   overflow: hidden; }
+
+@media only screen and (max-width: 52em) {
+  .event-list .time {
+    float: none;
+    font-size: 90%;
+  }
+}
+
 .event-list .event-title {
   display: block;
   float: none;
