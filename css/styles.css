@@ -187,9 +187,10 @@ input:-ms-input-placeholder {
     font-size: 15px;
   }
 
-  .top-bar-section .dropdown li a {
-    font-size: 14px;
+  .dropdown li a {
+    font-size: 14px !important;
   }
+
 }
 
 
