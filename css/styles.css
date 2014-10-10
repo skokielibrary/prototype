@@ -415,17 +415,17 @@ margin: 0;
   z-index: 200;
 }
 body .widget-button{
-  display: none; border: 0; height: 24px; width: 26px; line-height: 24px; padding: 0; font-size: 12px; cursor: pointer; background-color: transparent; color: #fff; text-align: center; vertical-align: middle; z-index: 300;
+  display: none; border: 0; height: 48px; width: 300px; line-height: 24px; padding: 0; font-size: 12px; cursor: pointer; background-color: transparent; color: #333; text-align: right; padding-right: 15px; vertical-align: middle; z-index: 300;
 }
 body .widget-button:hover {
-  background-color: #333;
+  background-color: transparent;
 }
 body .widget-button:focus, .widget-button:active {
-  background-color: #333;
+  background-color: transparent;
 }
 #chat-button{
-  bottom: 10px;
-  right: 4.8%;
+  bottom: 0;
+  right: 4%;
   position: fixed;
   margin: 0;
 }

@@ -314,11 +314,11 @@
                   if ($("#chat-button").text() === chat_actions.open) {
                     $("#chat-button").text(chat_actions.close);
                     $('.chat-widget').animate({'bottom' : '0'});
-                    $('#chat-button').animate({'bottom': '364px'});
+                    $('#chat-button').animate({'bottom': '354px'});
                   } else {
                     $("#chat-button").text(chat_actions.open);
                     $('.chat-widget').animate({'bottom': '-352px'}, 'fast');
-                    $('#chat-button').animate({'bottom': '10px'}, 'fast');
+                    $('#chat-button').animate({'bottom': '0'}, 'fast');
                   }
               });
               $("#chat-button").show();
