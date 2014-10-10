@@ -1,3 +1,6 @@
+---
+---
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;}
@@ -89,7 +92,7 @@ h4 {
 }
 
 .featurette {
-  background: url(../img/festival_sm.jpg) no-repeat center center;
+  background: url({{ site.baseurl }}/img/festival_sm.jpg) no-repeat center center;
   height: 320px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
