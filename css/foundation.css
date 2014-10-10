@@ -44,7 +44,7 @@ body {
 
 body {
   background: white;
-  color: #594a41;
+  color: #706259;
   padding: 0;
   margin: 0;
   font-family: 'Open Sans', sans-serif;
@@ -1105,12 +1105,12 @@ button, .button {
   padding-bottom: 1.0625rem;
   padding-left: 2rem;
   font-size: 1rem;
-  background-color: #006067;
-  border-color: #004d52;
+  background-color: #00747F;
+  border-color: #00747F;
   color: white;
   transition: background-color 300ms ease-out; }
   button:hover, button:focus, .button:hover, .button:focus {
-    background-color: #004d52; }
+    background-color: #00747F; }
   button:hover, button:focus, .button:hover, .button:focus {
     color: white; }
   button.secondary, .button.secondary {
@@ -1186,18 +1186,18 @@ button, .button {
   button.round, .button.round {
     border-radius: 1000px; }
   button.disabled, button[disabled], .button.disabled, .button[disabled] {
-    background-color: #006067;
-    border-color: #004d52;
+    background-color: #00747F;
+    border-color: #00747F;
     color: white;
     cursor: default;
     opacity: 0.7;
     box-shadow: none; }
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-      background-color: #004d52; }
+      background-color: #00747F; }
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
       color: white; }
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-      background-color: #006067; }
+      background-color: #00747F; }
     button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .button[disabled].secondary {
       background-color: #f0eeeb;
       border-color: #c7c0b5;
@@ -1419,7 +1419,7 @@ textarea {
   font-family: inherit;
   border: 1px solid #cccccc;
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
-  color: #594a41
+  color: #706259
   display: block;
   font-size: 0.875rem;
   margin: 0 0 1rem 0;
@@ -1654,10 +1654,10 @@ select {
       color: #b09e93; }
     .breadcrumbs > *.current {
       cursor: default;
-      color: #594a41; }
+      color: #706259; }
       .breadcrumbs > *.current a {
         cursor: default;
-        color: #594a41; }
+        color: #706259; }
       .breadcrumbs > *.current:hover, .breadcrumbs > *.current:hover a, .breadcrumbs > *.current:focus, .breadcrumbs > *.current:focus a {
         text-decoration: none; }
     .breadcrumbs > *.unavailable {
@@ -1848,7 +1848,7 @@ meta.foundation-mq-topbar {
       margin: 0; }
       .top-bar .name h1 a {
         font-weight: normal;
-        color: #005359;
+        color: #00747F;
         width: 75%;
         display: block;
         padding: 0 15px; }
@@ -1873,7 +1873,7 @@ meta.foundation-mq-topbar {
         height: 34px;
         line-height: 33px;
         padding: 0 40px 0 15px;
-        color: #006067;
+        color: #00747F;
         position: relative; }
         .top-bar .toggle-topbar.menu-icon a span::after {
           content: "";
@@ -1883,19 +1883,19 @@ meta.foundation-mq-topbar {
           top: 50%;
           margin-top: -8px;
           right: 15px;
-          box-shadow: 0 0px 0 1px #006067, 0 7px 0 1px #006067, 0 14px 0 1px #006067;
+          box-shadow: 0 0px 0 1px #00747F, 0 7px 0 1px #00747F, 0 14px 0 1px #00747F;
           width: 16px; }
         .top-bar .toggle-topbar.menu-icon a span:hover:after {
-          box-shadow: 0 0px 0 1px #006067, 0 7px 0 1px #006067, 0 14px 0 1px #006067; }
+          box-shadow: 0 0px 0 1px #00747F, 0 7px 0 1px #00747F, 0 14px 0 1px #00747F; }
   .top-bar.expanded {
     height: auto;
     background: transparent; }
     .top-bar.expanded .title-area {
       background: #fff; }
     .top-bar.expanded .toggle-topbar a {
-      color: #006067; }
+      color: #00747F; }
       .top-bar.expanded .toggle-topbar a::after {
-        box-shadow: 0 10px 0 1px #006067, 0 16px 0 1px #006067, 0 22px 0 1px #006067; }
+        box-shadow: 0 10px 0 1px #00747F, 0 16px 0 1px #00747F, 0 22px 0 1px #00747F; }
 
 .top-bar-section {
   left: 0;
@@ -1919,7 +1919,7 @@ meta.foundation-mq-topbar {
     .top-bar-section ul li > a {
       display: block;
       width: 100%;
-      color: #005359;
+      color: #00747F;
       padding-bottom: 10px;
       padding-left: 15px;
       font-family: 'Open Sans', sans-serif;
@@ -1930,11 +1930,11 @@ meta.foundation-mq-topbar {
         font-size: 0.8125rem;
         padding-right: 15px;
         padding-left: 15px;
-        background-color: #006067;
-        border-color: #004d52;
+        background-color: #00747F;
+        border-color: #00747F;
         color: white; }
         .top-bar-section ul li > a.button:hover, .top-bar-section ul li > a.button:focus {
-          background-color: #004d52; }
+          background-color: #00747F; }
         .top-bar-section ul li > a.button:hover, .top-bar-section ul li > a.button:focus {
           color: white; }
       .top-bar-section ul li > a.button.secondary {
@@ -1962,11 +1962,11 @@ meta.foundation-mq-topbar {
       font-size: 0.8125rem;
       padding-right: 15px;
       padding-left: 15px;
-      background-color: #006067;
-      border-color: #004d52;
+      background-color: #00747F;
+      border-color: #00747F;
       color: white; }
       .top-bar-section ul li > button:hover, .top-bar-section ul li > button:focus {
-        background-color: #004d52; }
+        background-color: #00747F; }
       .top-bar-section ul li > button:hover, .top-bar-section ul li > button:focus {
         color: white; }
       .top-bar-section ul li > button.secondary {
@@ -1993,10 +1993,10 @@ meta.foundation-mq-topbar {
     .top-bar-section ul li:hover:not(.has-form) > a {
       text-decoration: underline; }
     .top-bar-section ul li.active > a {
-      background: #006067;
+      background: #00747F;
       color: white; }
       .top-bar-section ul li.active > a:hover {
-        background: #005359;
+        background: #00747F;
         color: white; }
   .top-bar-section .has-form {
     padding: 15px; }
@@ -2056,7 +2056,7 @@ meta.foundation-mq-topbar {
         margin-bottom: 10px;
         margin-top: 10px; }
         .top-bar-section .dropdown li.title h5 a, .top-bar-section .dropdown li.parent-link a {
-          color: #006067;
+          color: #00747F;
           display: block;
           padding: 5px 0;
           font-weight: 600;
@@ -2130,9 +2130,9 @@ meta.foundation-mq-topbar {
       padding: 0 15px;
       line-height: 45px;
       color: white;
-      background: #006067; }
+      background: #00747F; }
       .top-bar-section li.active:not(.has-form) a:not(.button):hover {
-        background: #005359;
+        background: #00747F;
         color: white; }
     .top-bar-section .has-dropdown > a {
       padding-right: 15px !important; }
@@ -2191,10 +2191,10 @@ meta.foundation-mq-topbar {
         white-space: nowrap;
         padding: 12px 15px;}
       .top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button) {
-        color: #005359;
+        color: #00747F;
         line-height: 30px;}
       .top-bar-section .dropdown li:not(.has-form):not(.active):hover > a:not(.button) {
-        color: #005359;
+        color: #00747F;
         background-color: white;}
       .top-bar-section .dropdown li label {
         white-space: nowrap;
@@ -2229,7 +2229,7 @@ meta.foundation-mq-topbar {
     background: #272727;
     color: white; }
   .no-js .top-bar-section ul li:active > a {
-    background: #006067;
+    background: #00747F;
     color: white; }
   .no-js .top-bar-section .has-dropdown:hover > .dropdown {
     display: block;
@@ -2404,7 +2404,7 @@ td {
 
 /* Default Link Styles */
 a {
-  color: #006067;
+  color: #00747F;
   text-decoration: none;
   line-height: inherit; }
   a:hover, a:focus {
@@ -2434,7 +2434,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Open Sans', sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #594a41;
+  color: #706259;
   text-rendering: optimizeLegibility;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
@@ -2561,7 +2561,7 @@ abbr,
 acronym {
   text-transform: uppercase;
   font-size: 90%;
-  color: #594a41;
+  color: #706259;
   cursor: help; }
 
 abbr {
