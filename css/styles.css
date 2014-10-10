@@ -52,7 +52,7 @@ h4 {
 .fill-mustard {
   background-color: #E0C300; }
 .fill-offwhite {
-  background-color: #f7f6f5; }
+  background-color: #F0EEEB; }
 .fill-lighter {
   background-color: #f7f6f5; }
 .fill-red {
@@ -303,7 +303,7 @@ margin: 0;
 }
 
 @media screen and (max-width: 540px){
-  .video-message{position: static; margin-top: -6px; margin-bottom: 6px;}
+  .video-message{position: static; margin-top: -6px;}
 }
 
 
