@@ -1,0 +1,31 @@
+<script src="{{ site.baseurl }}/js/vendor/jquery.js"></script>
+<script src="{{ site.baseurl }}/js/foundation.min.js"></script>
+<script>
+  $(document).foundation();
+</script>
+<script src="http://us.libraryh3lp.com/presence/jid/redesign/chat.libraryh3lp.com/js" + new Date().getTime()></script>
+<script>
+    var chat_actions = {"open": "▲", "close": "✕"};
+    $(document).ready(function(){
+
+        $('#search-query').focus();
+
+        if (jabber_resources[0].show === 'available' || jabber_resources[0].show === 'chat'){
+            $('#chat-button').show();
+            $('.chat-widget').show();
+            $("#chat-button").text(chat_actions.open).addClass('chat-available');
+            $('#chat-button').click(function(){
+                if ($("#chat-button").text() === chat_actions.open) {
+                  $("#chat-button").text(chat_actions.close);
+                  $('.chat-widget').animate({'bottom' : '0'});
+                  $('#chat-button').animate({'bottom': '354px'});
+                } else {
+                  $("#chat-button").text(chat_actions.open);
+                  $('.chat-widget').animate({'bottom': '-352px'}, 'fast');
+                  $('#chat-button').animate({'bottom': '0'}, 'fast');
+                }
+            });
+            $("#chat-button").show();
+        }
+    });
+</script>
