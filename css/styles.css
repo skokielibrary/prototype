@@ -413,10 +413,14 @@ margin-top: 25px;}
   z-index: 200;
 }
 body .widget-button{
-  display: none; border: 0; height: 48px; width: 300px; line-height: 24px; padding: 0; font-size: 12px; cursor: pointer; background-color: transparent; color: #333; text-align: right; padding-right: 15px; vertical-align: middle; z-index: 300;
+  display: none; border: 0; height: 48px; width: 300px; line-height: 24px; padding: 0; font-size: 16px; cursor: pointer; background-color: transparent; color: #999; text-align: right; padding-right: 15px; font-weight: 800; vertical-align: middle; z-index: 300;
 }
 body .widget-button:hover {
   background-color: transparent;
+  color: #333;
+}
+body .widget-button:focus {
+  color: #333;
 }
 body .widget-button:focus, .widget-button:active {
   background-color: transparent;
