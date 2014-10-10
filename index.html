@@ -277,8 +277,8 @@
         <div class="small-12 columns connect">
           <p>Connect with us on <a href="http://www.facebook.com/skokielibrary">Facebook</a>, <a href="http://www.twitter.com/skokielibrary">Twitter</a>, <a href="#">Instagram</a>, &amp; <a href="http://www.youtube.com/skokielibrary">YouTube</a>.</p>
         </div>
-          <iframe src="https://us.libraryh3lp.com/chat/redesign@chat.libraryh3lp.com?skin=23350" class="chat-widget"></iframe>
-          <button class="widget-button" id="chat-button">Checking chat status<span class='arrow-up'>&#65514</span></button>
+          <iframe src="https://us.libraryh3lp.com/mobile/redesign@chat.libraryh3lp.com?skin=23350" class="chat-widget"></iframe>
+          <button class="widget-button" id="chat-button"></button>
       </div>
     </div>
   </div>
@@ -290,27 +290,26 @@
   <script>
     $(document).foundation();
   </script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src="http://us.libraryh3lp.com/presence/jid/redesign/chat.libraryh3lp.com/js" + new Date().getTime()></script>
   <script>
-      var chat_messages = {"available": "We're available to chat", "unavailable": "Sorry, we can't chat now", "exit": "Exit chat"};
+      var chat_actions = {"open": "▲", "close": "✕"};
       $(document).ready(function(){
 
-          console.log(jabber_resources[0].show);
-
           if (jabber_resources[0].show === 'available' || jabber_resources[0].show === 'chat'){
-              $("#chat-button").text(chat_messages.available).addClass('chat-available');
+              $('#chat-button').show();
+              $('.chat-widget').show();
+              $("#chat-button").text(chat_actions.open).addClass('chat-available');
               $('#chat-button').click(function(){
-                  $('.chat-widget').toggle();
-                  if ($("#chat-button").text() === chat_messages.exit) {
-                    $("#chat-button").text(chat_messages.available);
+                  if ($("#chat-button").text() === chat_actions.open) {
+                    $("#chat-button").text(chat_actions.close);
+                    $('.chat-widget').animate({'bottom' : '0'});
+                    $('#chat-button').animate({'bottom': '364px'});
                   } else {
-                    $("#chat-button").text(chat_messages.exit);
+                    $("#chat-button").text(chat_actions.open);
+                    $('.chat-widget').animate({'bottom': '-352px'}, 'fast');
+                    $('#chat-button').animate({'bottom': '10px'}, 'fast');
                   }
               });
-          }
-          else{
-              $("#chat-button").text(chat_messages.unavailable).addClass('chat-unavailable')
           }
 
       });
