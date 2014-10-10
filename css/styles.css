@@ -95,14 +95,12 @@ h4 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-.featurette-text {
+.featurette-text a {
   color: #fff;
-  font-size: 1.1rem;
+  font-size: 1.15rem;
   margin: 0;
   padding: 10px 0;
   font-weight: 400; }
-.featurette-text:hover {
-  color: #fff; }
 
 
 .main-search {
