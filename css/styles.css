@@ -188,6 +188,29 @@ h4 {
   }
 }
 
+.first-arrow {
+  margin-left: 5px;
+}
+.arrow-right {
+  width: 0;
+  height: 0;
+  padding-left: 4px;
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  border-left: 8px solid #fff;
+  display: inline-block;
+}
+.arrow-right-teal {
+  width: 0;
+  height: 0;
+  padding-left: 4px;
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-left: 7px solid #004d52;
+  display: inline-block;
+  margin-bottom: -1px;
+}
+
 .event-list .event-title {
   display: block;
   float: none;
