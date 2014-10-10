@@ -113,7 +113,7 @@
 
     <!-- breadcrumbs -->
     <div class="row">
-      <div class="small-9 columns">
+      <div class="small-12 columns">
         <ul class="breadcrumbs">
           <li><a href="#">Home</a></li>
           <li><a href="#">Services</a></li>
@@ -124,7 +124,7 @@
 
     <div class="post row">
 
-      <div class="large-9 columns">
+      <div class="large-8 columns">
         <header class="post-header">
           <h1 class="post-title">Accessibility</h1>
         </header>
@@ -208,11 +208,11 @@
                   if ($("#chat-button").text() === chat_actions.open) {
                     $("#chat-button").text(chat_actions.close);
                     $('.chat-widget').animate({'bottom' : '0'});
-                    $('#chat-button').animate({'bottom': '364px'});
+                    $('#chat-button').animate({'bottom': '354px'});
                   } else {
                     $("#chat-button").text(chat_actions.open);
                     $('.chat-widget').animate({'bottom': '-352px'}, 'fast');
-                    //$('#chat-button').animate({'bottom': 'px'}, 'fast');
+                    $('#chat-button').animate({'bottom': '0'}, 'fast');
                   }
               });
               $("#chat-button").show();
