@@ -5,27 +5,41 @@
 </script>
 <script src="http://us.libraryh3lp.com/presence/jid/redesign/chat.libraryh3lp.com/js" + new Date().getTime()></script>
 <script>
-    var chat_actions = {"open": "▲", "close": "✕"};
     $(document).ready(function(){
 
         $('#search-query').focus();
 
-        if (jabber_resources[0].show === 'available' || jabber_resources[0].show === 'chat'){
-            $('#chat-button').show();
-            $('.chat-widget').show();
-            $("#chat-button").text(chat_actions.open).addClass('chat-available');
-            $('#chat-button').click(function(){
-                if ($("#chat-button").text() === chat_actions.open) {
-                  $("#chat-button").text(chat_actions.close);
-                  $('.chat-widget').animate({'bottom' : '0'});
-                  $('#chat-button').animate({'bottom': '354px'});
-                } else {
-                  $("#chat-button").text(chat_actions.open);
-                  $('.chat-widget').animate({'bottom': '-352px'}, 'fast');
-                  $('#chat-button').animate({'bottom': '0'}, 'fast');
+        var current = new Date().getTime();
+        var presence_url = 'http://us.libraryh3lp.com/presence/jid/redesign/chat.libraryh3lp.com/js';
+
+        var initialize_chat = function(){
+            $.getScript(presence_url, function(){
+                if (jabber_resources[0].show === 'available' || jabber_resources[0].show === 'chat'){
+                    if ( $('#library-chat-widget').is(':hidden') ){
+                        $('#library-chat-button').show().addClass('chat-closed');
+                        $('#library-chat-widget').show();
+
+                        $('#library-chat-button').click(function(){
+                            if ($(this).hasClass('chat-closed')) {
+                              $('#library-chat-widget').animate({'bottom' : '0', 'width': '300px'});
+                              $('#library-chat-button').animate({'bottom': '354px'});
+                            } else {
+                              $('#library-chat-widget').animate({'bottom': '-352px', 'width': '210px'}, 'fast');
+                              $('#library-chat-button').animate({'bottom': '0'}, 'fast');
+                            }
+
+                            $(this).toggleClass('chat-closed').toggleClass('chat-opened');
+                        });
+                    }
+                }
+                else{
+                    $('#library-chat-button').hide();
+                    $('#library-chat-widget').hide();
                 }
             });
-            $("#chat-button").show();
         }
+
+        initialize_chat();
+        window.setInterval(initialize_chat, 120000);
     });
 </script>
