@@ -15,22 +15,20 @@
         var initialize_chat = function(){
             $.getScript(presence_url, function(){
                 if (jabber_resources[0].show === 'available' || jabber_resources[0].show === 'chat'){
-                    if ( $('#library-chat-widget').is(':hidden') ){
-                        $('#library-chat-button').show().addClass('chat-closed');
-                        $('#library-chat-widget').show();
+                    $('#library-chat-button').show().addClass('chat-closed');
+                    $('#library-chat-widget').show();
 
-                        $('#library-chat-button').click(function(){
-                            if ($(this).hasClass('chat-closed')) {
-                              $('#library-chat-widget').animate({'bottom' : '0', 'width': '300px'});
-                              $('#library-chat-button').animate({'bottom': '354px'});
-                            } else {
-                              $('#library-chat-widget').animate({'bottom': '-352px', 'width': '210px'}, 'fast');
-                              $('#library-chat-button').animate({'bottom': '0'}, 'fast');
-                            }
+                    $('#library-chat-button').click(function(){
+                        if ($(this).hasClass('chat-closed')) {
+                          $('#library-chat-widget').animate({'bottom' : '0', 'width': '300px'});
+                          $('#library-chat-button').animate({'bottom': '354px'});
+                        } else {
+                          $('#library-chat-widget').animate({'bottom': '-352px', 'width': '210px'}, 'fast');
+                          $('#library-chat-button').animate({'bottom': '0'}, 'fast');
+                        }
 
-                            $(this).toggleClass('chat-closed').toggleClass('chat-opened');
-                        });
-                    }
+                        $(this).toggleClass('chat-closed').toggleClass('chat-opened');
+                    });
                 }
                 else{
                     $('#library-chat-button').hide();
