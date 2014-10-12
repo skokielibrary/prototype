@@ -423,7 +423,7 @@ margin-top: 25px;}
 .footer ul {
   list-style-type: none;
   margin-left: 0;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .footer li {
   font-weight: 400;
@@ -439,7 +439,8 @@ margin-top: 25px;}
 }
 @media only screen and (max-width: 40em) {
   .footer img {
-    float: left;
+    margin-top: -30px;
+    margin-bottom: -30px;
   }
 }
 .footer-bottom {
@@ -447,6 +448,11 @@ margin-top: 25px;}
 }
 .footer-bottom .connect, .footer-bottom .questions {
   padding: 20px;
+}
+@media only screen and (max-width: 40em) {
+  .footer .connect {
+    margin-bottom: 20px;
+  }
 }
 .footer-bottom p {
   margin: 0;
