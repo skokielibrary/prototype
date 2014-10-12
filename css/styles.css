@@ -108,7 +108,11 @@ h4 {
   font-size: 1.15rem;
   margin: 0;
   font-weight: 400;
-  padding-bottom: 5px;}
+  padding-bottom: 5px;
+}
+@media only screen and (max-width: 40.063em) {
+  .featurette-text a { padding-bottom: 0; }
+}
 
 .featurette-text .copy {
   padding-top: 15px;}
