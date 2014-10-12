@@ -550,7 +550,12 @@ body .chat-widget-button:focus, .widget-button:active {
 }
 
 .breadcrumbs {
-  margin-top: 40px;
+  margin-top: 0;
+}
+@media only screen and (max-width: 40.063em) {
+  .breadcrumbs {
+    margin-top: 30px;
+  }
 }
 
 .breadcrumbs > *:before {
