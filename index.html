@@ -150,15 +150,16 @@ layout: base
 <div class="video-bin fill-grey">
   <div class="full-video" style="width: 100%; height: 100%; position: relative;">
     <div class="row video-width">
-      <video loop autoplay muted style="width:100%; height:100%" poster="{{ site.baseurl }}/img/hoopla_preview.png">
-        <source src="{{ site.baseurl }}/vid/hoopla_web.mp4" type="video/mp4">
-        <source src="{{ site.baseurl }}/vid/hoopla_web.webm" type="video/webm">
-        <source src="{{ site.baseurl }}/vid/hoopla_web.mov" type="video/mov">
-      </video>
+
       <video src="{{ site.baseurl }}/vid/hoopla_web.mov"
-             controls
-             autoplay
-             height="270" width="480">
+            poster="{{ site.baseurl }}/img/hoopla_preview.png"
+            loop
+            autoplay
+            muted
+            style="width:100%; height:100%">
+
+            <source src="{{ site.baseurl }}/vid/hoopla_web.mp4" type="video/mp4">
+            <source src="{{ site.baseurl }}/vid/hoopla_web.webm" type="video/webm">
       </video>
     </div>
   </div>
