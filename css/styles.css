@@ -359,6 +359,18 @@ margin-top: 25px;}
 }
 .video-width {
   max-width: 1280px;
+  background: url({{ site.baseurl }}/img/hoopla_preview.jpg) no-repeat center center;
+  height: 460px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+@media only screen and (max-width: 52em) {
+  .video-width {
+    height: auto;
+    margin-bottom: -10px;
+  }
 }
 .video-message{
   margin-top: 15px;
