@@ -353,15 +353,6 @@ margin-top: 25px;}
 
 
 /* video */
-
-video {
-  background:transparent url('{{ site.baseurl }}/img/hoopla_preview.jpg') no-repeat 0 0;
-   -webkit-background-size:cover;
-   -moz-background-size:cover;
-   -o-background-size:cover;
-   background-size:cover;
-}
-
 .video-bin {
   max-height: 460px;
   overflow: hidden;
