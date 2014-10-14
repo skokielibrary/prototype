@@ -581,6 +581,10 @@ body .chat-widget-button:focus, .widget-button:active {
   margin-top: 0;
 }
 
+.post-content ul {
+  padding-left: 1rem;
+}
+
 .page-content p a:hover {
   background-color: #f7f6f5;
   text-decoration: underline;
