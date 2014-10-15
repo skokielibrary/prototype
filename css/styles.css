@@ -72,8 +72,8 @@ h4 {
 }
 .detail-bar a {
   font-weight: 600;
-  padding-bottom: 5px;
-  padding-top: 5px;
+  padding-bottom: 8px;
+  padding-top: 8px;
   color: #706259;
 }
 
@@ -126,6 +126,11 @@ h4 {
   margin-top: 115px;
   padding: 0.9375em;
   background-color: rgba(0,116,127,0.5);
+}
+@media only screen and (max-width: 40.063em) {
+  .main-search {
+    margin: 0 -0.9375em;
+  }
 }
 .main-search input, .main-search .button {
   margin: 0; }
@@ -616,3 +621,43 @@ dl dt {
 dl dd {
   font-weight: 300;
 }
+
+
+/* events */
+.filter-by-age {
+  background-color: #fff;
+  width: 100%;
+  margin-left: 0;
+  margin-bottom: 20px;
+}
+.filter-by-age:before {
+  content: "FILTER BY AGE:";
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.filter-by-age li {
+  display: inline-block;
+  padding: 7px 10px;
+}
+li.kids a, li.teens a, li.adults a, li.family a, li.all-ages a  {
+  padding: 2px 5px;
+  color: #fff;
+}
+li.kids a { background-color: #D60073; }
+li.teens a { background-color: #E0C300; }
+li.adults a { background-color: #00747F; }
+li.family a { background-color: #F7931D; }
+li.all-ages a { background-color: purple; }
+
+.event .event-time {
+}
+.event .event-title {
+  font-weight: 600;
+  display: block;
+}
+.event .color-block {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+}
+

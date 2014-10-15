@@ -2123,7 +2123,7 @@ meta.foundation-mq-topbar {
       color: white; }
     .top-bar-section li:not(.has-form) a:not(.button) {
       padding: 0 5px;
-      line-height: 45px; }
+      line-height: 50px; }
       .top-bar-section li:not(.has-form) a:not(.button):hover {
         text-decoration: underline; }
     .top-bar-section li.active:not(.has-form) a:not(.button) {

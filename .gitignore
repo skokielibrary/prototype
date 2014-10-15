@@ -12,3 +12,5 @@ _site/
 config.codekit
 
 config.codekit
+
+*.pdf
