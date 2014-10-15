@@ -26,7 +26,8 @@ layout: base
           <li class="teens"><a href="#" id="teen-filter">Teens</a></li>
           <li class="adults"><a href="#" id="adult-filter">Adults</a></li>
           <li class="family"><a href="#" id="family-filter">Family</a></li>
-          <li class="all-ages"><a href="#" id="all-ages">All Ages</a></li>
+          <li class="all-ages"><a href="#" id="all-ages-filter">All Ages</a></li>
+          <li class="show-all"><a href="#" id="show-all-filter">Show All</a></li>
         </ul>
       </div>
     </div>
@@ -281,6 +282,10 @@ layout: base
         filterEvents('all-ages-event');
       };
 
+      document.getElementById("show-all-filter").onclick = function(){
+        showAll();
+      };
+
       function filterEvents(filter) {
         // hide all events
         var events = document.getElementsByClassName('event'), i;
@@ -291,6 +296,14 @@ layout: base
         var filter_events = document.getElementsByClassName(filter), i;
         for (var i = 0; i < filter_events.length; i ++) {
           filter_events[i].style.display = 'block';
+        }
+      }
+
+      // show all events
+      function showAll() {
+        var events = document.getElementsByClassName('event'), i;
+        for (var i = 0; i < events.length; i ++) {
+          events[i].style.display = 'block';
         }
       }
 
