@@ -50,6 +50,8 @@ h4 {
   margin-left: 0.9375em;
 }
 
+.fill-white {
+  background-color: #fff; }
 .fill-teal {
   background-color: #00747F; }
 .fill-mustard {
@@ -624,25 +626,34 @@ dl dd {
 
 
 /* events */
-.filter-by-age {
+.filters {
   background-color: #fff;
   width: 100%;
   margin-left: 0;
   margin-bottom: 20px;
 }
-.filter-by-age:before {
+.filters:before {
   content: "FILTER BY AGE:";
   padding-left: 10px;
   padding-right: 10px;
 }
-.filter-by-age li {
+.filters li {
   display: inline-block;
-  padding: 7px 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 10px;
 }
 li.kids a, li.teens a, li.adults a, li.family a, li.all-ages a  {
   padding: 2px 5px;
   color: #fff;
 }
+li.storytime a {
+  padding: 2px 5px;
+  color: #706259;
+  background-color: #fff;
+  border: solid 1px rgba(112, 98, 89, 0.3);
+}
+
 li.kids a { background-color: #D60073; }
 li.teens a { background-color: #E0C300; }
 li.adults a { background-color: #00747F; }
@@ -650,13 +661,18 @@ li.family a { background-color: #F7931D; }
 li.all-ages a { background-color: purple; }
 
 .event {
-  margin-top: 10px;
-  margin-bottom: 10px;
   padding-bottom: 20px;
-  padding-top: 10px;
+  padding-top: 20px;
   border-bottom: solid 1px rgba(112, 98,  89, 0.2);
   height: 100%;
 }
+.fill-white .event {
+  border: none;
+}
+.event.no-border {
+  border: none;
+}
+
 .event .event-title {
   font-weight: 600;
   display: block;
@@ -675,17 +691,24 @@ li.all-ages a { background-color: purple; }
 .color-block.all-ages { background-color: purple; }
 
 .event p {
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 .event .register {
+  text-transform: uppercase;
+  font-size: 15px;
   padding: 5px 10px;
   margin-bottom: 0;
+  margin-top: 10px;
   background-color: #fffefe;
   border: solid 1px rgba(112, 98,  89, 0.2);
-  color: #706259;
+  color: #00747F;
 }
 .event .register:hover {
-  border: solid 1px rgba(112, 98,  89, 0.6);
+  border: solid 1px rgba(112, 98,  89, 0.4);
   background-color: #fff;
+  text-decoration: underline;
+}
+.register .arrows {
+  color: #706259;
 }
 
