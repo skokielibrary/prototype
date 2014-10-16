@@ -49,7 +49,7 @@ layout: base
       </div>
       <div class="large-3 columns">
         <div class="go-to-date">
-          <input type="text" placeholder="GO TO DATE">
+          <input type="date" placeholder="GO TO DATE">
         </div>
       </div>
       <div class="large-3 columns">
@@ -318,6 +318,15 @@ layout: base
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script>
+
+
+    $( document ).ready(function() {
+
+      $.getJSON('http://artemis.skokielibrary.info/evanced-feed/index.php?callback=?', function(data) {
+          console.log(data);
+      });
+
+    });
 
 
   </script>

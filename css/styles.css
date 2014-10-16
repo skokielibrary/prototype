@@ -643,6 +643,13 @@ dl dd {
   padding-bottom: 7px;
   padding-right: 10px;
 }
+.filter-by-category {
+  background-color: #fff;
+}
+.filter-by-category:hover {
+  cursor: pointer;
+  background-color: #fff;
+}
 li.kids a, li.teens a, li.adults a, li.family a, li.all-ages a  {
   padding: 2px 5px;
   color: #fff;
