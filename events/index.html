@@ -21,7 +21,7 @@ layout: base
         <header class="post-header">
           <h1 class="post-title">Events</h1>
         </header>
-        <ul class="filter-by-age">
+        <ul class="filters">
           <li class="kids"><a href="#" id="kid-filter">Kids</a></li>
           <li class="teens"><a href="#" id="teen-filter">Teens</a></li>
           <li class="adults"><a href="#" id="adult-filter">Adults</a></li>
@@ -36,11 +36,15 @@ layout: base
       <div class="large-6 columns">
         <div class="search-by-keyword">
           <input type="text" placeholder="SEARCH BY KEYWORD" style="margin-right: 50px;">
+
           <!--
+          <button>
           <svg width="26" height="26" class="search-image">
-            <image xlink:href="{{ site.baseurl }}/img/search-button.svg" src="svg.png" width="26" height="26" style="width:50px;"/>
+            <image xlink:href="{{ site.baseurl }}/img/search-button.svg" src="svg.png" width="26" height="26" style="width:50px;"/></image>
           </svg>
+          </button>
           -->
+
         </div>
       </div>
       <div class="large-3 columns">
@@ -51,10 +55,14 @@ layout: base
       <div class="large-3 columns">
         <select class="filter-by-category">
           <option>FILTER BY CATEGORY</option>
-          <option>Option 1</option>
-          <option>Option 1</option>
-          <option>Option 1</option>
-          <option>Option 1</option>
+          <option>Book/Author</option>
+          <option>Business</option>
+          <option>Class/Workshop</option>
+          <option>Community Group</option>
+          <option>Community Service</option>
+          <option>Computer Class</option>
+          <option>Exhibit</option>
+          <option>Games/Crafts</option>
         </select>
       </div>
     </div>
@@ -66,15 +74,20 @@ layout: base
         </div>
       </div>
 
-      <div class="row event kid-event">
-        <div class="large-2 medium-2 columns">
-          <span class="event-time"><span class="color-block kids"></span>9:30 am</span>
-        </div>
-        <div class="large-3 medium-3 columns">
-          <span class="event-title">Book Babies Storytime</span><span class="event-age-group">Ages 0-23 months</span>
-        </div>
-        <div class="large-7 medium-7 columns">
-          <p>This drop-in lap-sit storytime features stimulating stories, songs, and rhymes for babies up to 12 months old and their caregivers. Older siblings are welcome. After the program, stay for Together Time to enjoy some coffee and chat with other grown-ups while the children enjoy hands-on activities.</p>
+        <div class="row event kid-event ">
+          <div class="large-2 medium-2 columns">
+            <span class="event-time">
+            <span class="color-block kids">
+            </span>9:30 am</span>
+          </div>
+          <div class="large-3 medium-3 columns">
+            <span class="event-title">Book Babies Storytime</span>
+            <span class="category storytime">Storytime</span>
+            <span class="category kids">Kids</span>
+          </div>
+          <div class="large-7 medium-7 columns">
+            <p>This drop-in lap-sit storytime features stimulating stories, songs, and rhymes for babies up to 12 months old and their caregivers. Older siblings are welcome. After the program, stay for Together Time to enjoy some coffee and chat with other grown-ups while the children enjoy hands-on activities.</p>
+          </div>
         </div>
       </div>
 
@@ -83,11 +96,12 @@ layout: base
           <span class="event-time kids"><span class="color-block kids"></span>9:30 am</span>
         </div>
         <div class="large-3 medium-3 columns">
-          <span class="event-title">Together Time</span><span class="event-age-group">Ages 0-12 months</span>
+          <span class="event-title">Together Time</span>
+          <span class="category storytime">Storytime</span>
+          <span class="category kids">Kids</span>
         </div>
         <div class="large-7 medium-7 columns">
           <p>Enjoy a cup of coffee and chat with other parents and caregivers while your child socializes and explores hands-on activities.</p>
-          <button class="register right">Register &#8594;</button>
         </div>
       </div>
 
@@ -96,11 +110,10 @@ layout: base
           <span class="event-time kids"><span class="color-block kids"></span>10:30 am</span>
         </div>
         <div class="large-3 medium-3 columns">
-          <span class="event-title">Wonderful Ones Storytime</span><span class="event-age-group">Age 1</span>
+          <span class="event-title">Wonderful Ones Storytime</span><span class="category">Age 1</span>
         </div>
         <div class="large-7 medium-7 columns">
           <p>Drop in with your one-year-old for fun stories, rhymes, and music.</p>
-          <button class="register right">Register &#8594;</button>
         </div>
       </div>
 
@@ -109,35 +122,38 @@ layout: base
           <span class="event-time kids"><span class="color-block adults"></span>1:30pm</span>
         </div>
         <div class="large-3 medium-3 columns">
-          <span class="event-title">Meet with CJE Senior Life</span><span class="event-age-group">Adults</span>
+          <span class="event-title">Meet with CJE Senior Life</span><span class="category">Adults</span>
         </div>
         <div class="large-7 medium-7 columns">
           <p>This drop-in lap-sit storytime features stimulating stories, songs, and rhymes for babies up to 12 months old and their caregivers. Older siblings are welcome. After the program, stay for Together Time to enjoy some coffee and chat with other grown-ups while the children enjoy hands-on activities.</p>
-          <button class="register right">Register &#8594;</button>
+          <button class="register right">Register<i class="first-arrow  arrow-teal"></i><i class="arrow-teal"></i><i class="arrow-teal"></i></button>
         </div>
       </div>
 
-      <div class="row event kid-event">
+      <div class="row event kid-event no-border">
         <div class="large-2 medium-2 columns">
           <span class="event-time kids"><span class="color-block kids"></span>1:30pm</span>
         </div>
         <div class="large-3 medium-3 columns">
-          <span class="event-title">Preschool Storytime</span><span class="event-age-group">3-4 year olds</span>
+          <span class="event-title">Preschool Storytime</span><span class="category">3-4 year olds</span>
         </div>
         <div class="large-7 medium-7 columns">
           <p>Preschoolers enjoy a variety of stories, songs, fingerplays, action rhymes, and other activities aimed at building a love of language, books, and reading.</p>
         </div>
       </div>
 
-      <div class="row event adult-event">
-        <div class="large-2 medium-2 columns">
-          <span class="event-time kids"><span class="color-block adults"></span>2:00pm</span>
-        </div>
-        <div class="large-3 medium-3 columns">
-          <span class="event-title">Advanced Photoshop Elements</span><span class="event-age-group">Adults</span>
-        </div>
-        <div class="large-7 medium-7 columns">
-          <p>Take your Photoshop Elements skills to the next level. In this advanced class, learn to enhance your digital photos using layers, cloning, and content aware fill. Sample images can be provided, but you are highly encouraged to bring your own photos to work with. It is recommended that you take the beginner Photoshop Elements class before registering for this class. Class is hands-on, taught on Apple computers.</p>
+      <div class="fill-white">
+        <div class="row event adult-event">
+          <div class="large-2 medium-2 columns">
+            <span class="event-time kids"><span class="color-block adults"></span>2:00pm</span>
+          </div>
+          <div class="large-3 medium-3 columns">
+            <span class="event-title">Advanced Photoshop Elements</span><span class="category">Adults</span>
+          </div>
+          <div class="large-7 medium-7 columns">
+            <p>Take your Photoshop Elements skills to the next level. In this advanced class, learn to enhance your digital photos using layers, cloning, and content aware fill. Sample images can be provided, but you are highly encouraged to bring your own photos to work with. It is recommended that you take the beginner Photoshop Elements class before registering for this class. Class is hands-on, taught on Apple computers.</p>
+            <button class="register right">Register<i class="first-arrow  arrow-teal"></i><i class="arrow-teal"></i><i class="arrow-teal"></i></button>
+          </div>
         </div>
       </div>
 
@@ -146,7 +162,7 @@ layout: base
           <span class="event-time kids"><span class="color-block adults"></span>2:00pm</span>
         </div>
         <div class="large-3 medium-3 columns">
-          <span class="event-title">Talking Books Discussion Group</span><span class="event-age-group">Adults</span>
+          <span class="event-title">Talking Books Discussion Group</span><span class="category">Adults</span>
         </div>
         <div class="large-7 medium-7 columns">
           <p>People with visual impairments are invited to take part in this monthly Talking Books program. Library staff mail the Talking Books cassettes from the Library of Congress to everyone signed up for the discussion.</p>
@@ -158,7 +174,7 @@ layout: base
           <span class="event-time kids"><span class="color-block teens"></span>5:30pm</span>
         </div>
         <div class="large-3 medium-3 columns">
-          <span class="event-title">Minecraft Mania</span><span class="event-age-group">Grades 6-8</span>
+          <span class="event-title">Minecraft Mania</span><span class="category">Grades 6-8</span>
         </div>
         <div class="large-7 medium-7 columns">
           <p>Minecraft is the game everyone is playing. Let's get together, punch some dirt, and explore a world without limits. No account? No problem--use one of ours. Class size is limited.</p>
@@ -170,7 +186,7 @@ layout: base
           <span class="event-time kids"><span class="color-block adults"></span>6:30 pm</span>
         </div>
         <div class="large-3 medium-3 columns">
-          <span class="event-title">ESL Cafe</span><span class="event-age-group"></span>
+          <span class="event-title">ESL Cafe</span><span class="category"></span>
         </div>
         <div class="large-7 medium-7 columns">
           <p>If you are new to English or just want to practice talking in a relaxed space, drop in for conversation with members of the community. Teachers from the ORT Institute will be facilitating conversations.</p>
@@ -182,7 +198,7 @@ layout: base
           <span class="event-time kids"><span class="color-block family"></span>7:00 pm</span>
         </div>
         <div class="large-3 medium-3 columns">
-          <span class="event-title">Pajama Storytime</span><span class="event-age-group">Children ages 2-7</span>
+          <span class="event-title">Pajama Storytime</span><span class="category">Children ages 2-7</span>
         </div>
         <div class="large-7 medium-7 columns">
           <p>Children ages 2 to 7 and their caregivers are invited to join us under the library stars for our favorite stories. Pajamas are optional, but fun is mandatory!</p>
@@ -190,75 +206,18 @@ layout: base
       </div>
 
 
-      <div class="row event adult-event">
+      <div class="row event adult-event no-border">
         <div class="large-2 medium-2 columns">
           <span class="event-time kids"><span class="color-block adults"></span>7:00 pm</span>
         </div>
         <div class="large-3 medium-3 columns">
-          <span class="event-title">You Can't Google This</span><span class="event-age-group"></span>
+          <span class="event-title">You Can't Google This</span><span class="category"></span>
         </div>
         <div class="large-7 medium-7 columns">
           <p>Learn to find information that "you can't Google," including learning a language online, getting a diagram to help repair your car, finding a recipe that was in the Chicago Tribune years ago, reading today’s newspapers from around the country or the world, taking practice exams, uncovering documents to fill in your family tree, getting lists of foreclosed properties, obtaining sample business plans, and more. Class is lecture-based.</p>
-          <button class="register right">Registration Required &#8594;</button>
+          <button class="register right">Register<i class="first-arrow  arrow-teal"></i><i class="arrow-teal"></i><i class="arrow-teal"></i></button>
         </div>
       </div>
-    </div>
-
-    <div class="day">
-      <div class="row">
-        <div class="large-12 columns">
-          <h2>Thursday, October 23</h2>
-        </div>
-      </div>
-
-      <div class="row event kid-event">
-        <div class="large-2 medium-2 columns">
-          <span class="event-time"><span class="color-block kids"></span>9:30 am</span>
-        </div>
-        <div class="large-3 medium-3 columns">
-          <span class="event-title">Book Babies Storytime</span><span class="event-age-group">Ages 0-23 months</span>
-        </div>
-        <div class="large-7 medium-7 columns">
-          <p>This drop-in lap-sit storytime features stimulating stories, songs, and rhymes for babies up to 12 months old and their caregivers. Older siblings are welcome. After the program, stay for Together Time to enjoy some coffee and chat with other grown-ups while the children enjoy hands-on activities.</p>
-        </div>
-      </div>
-
-      <div class="row event kid-event">
-        <div class="large-2 medium-2 columns">
-          <span class="event-time"><span class="color-block kids"></span>9:30 am</span>
-        </div>
-        <div class="large-3 medium-3 columns">
-          <span class="event-title">Book Babies Storytime</span><span class="event-age-group">Ages 0-23 months</span>
-        </div>
-        <div class="large-7 medium-7 columns">
-          <p>This drop-in lap-sit storytime features stimulating stories, songs, and rhymes for babies up to 12 months old and their caregivers. Older siblings are welcome. After the program, stay for Together Time to enjoy some coffee and chat with other grown-ups while the children enjoy hands-on activities.</p>
-        </div>
-      </div>
-
-      <div class="row event kid-event">
-        <div class="large-2 medium-2 columns">
-          <span class="event-time"><span class="color-block kids"></span>9:30 am</span>
-        </div>
-        <div class="large-3 medium-3 columns">
-          <span class="event-title">Book Babies Storytime</span><span class="event-age-group">Ages 0-23 months</span>
-        </div>
-        <div class="large-7 medium-7 columns">
-          <p>This drop-in lap-sit storytime features stimulating stories, songs, and rhymes for babies up to 12 months old and their caregivers. Older siblings are welcome. After the program, stay for Together Time to enjoy some coffee and chat with other grown-ups while the children enjoy hands-on activities.</p>
-        </div>
-      </div>
-
-      <div class="row event kid-event">
-        <div class="large-2 medium-2 columns">
-          <span class="event-time"><span class="color-block kids"></span>9:30 am</span>
-        </div>
-        <div class="large-3 medium-3 columns">
-          <span class="event-title">Book Babies Storytime</span><span class="event-age-group">Ages 0-23 months</span>
-        </div>
-        <div class="large-7 medium-7 columns">
-          <p>This drop-in lap-sit storytime features stimulating stories, songs, and rhymes for babies up to 12 months old and their caregivers. Older siblings are welcome. After the program, stay for Together Time to enjoy some coffee and chat with other grown-ups while the children enjoy hands-on activities.</p>
-        </div>
-      </div>
-
     </div>
 
   </div>
@@ -307,5 +266,15 @@ layout: base
         }
       }
 
+  </script>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script>
+
 
   </script>
+
+
+
+
+
