@@ -677,6 +677,21 @@ li.all-ages a { background-color: purple; }
   font-weight: 600;
   display: block;
 }
+
+.event .categories {
+  list-style-type: none;
+  margin-left: 0;
+}
+.categories li {
+  display: inline-block;
+}
+.categories li:after {
+  content: ", ";
+}
+.categories li:last-child:after {
+  content: "";
+}
+
 .event .color-block {
   display: inline-block;
   height: 18px;
