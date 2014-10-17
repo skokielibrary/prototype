@@ -10,6 +10,54 @@
   $(document).foundation();
 </script>
 <script src="http://us.libraryh3lp.com/presence/jid/redesign/chat.libraryh3lp.com/js" + new Date().getTime()></script>
+{% if page.title == 'Events' %}
+<script src="{{ site.baseurl }}/js/vendor/handlebars-v2.0.0.js"></script>
+<script>
+
+    // Catch filter onclicks
+    document.getElementById("kid-filter").onclick = function(){
+      filterEvents('kid-event');
+    };
+    document.getElementById("adult-filter").onclick = function(){
+      filterEvents('adult-event');
+    };
+    document.getElementById("teen-filter").onclick = function(){
+      filterEvents('teen-event');
+    };
+    document.getElementById("family-filter").onclick = function(){
+      filterEvents('family-event');
+    };
+    document.getElementById("all-ages-filter").onclick = function(){
+      filterEvents('all-ages-event');
+    };
+
+    document.getElementById("show-all-filter").onclick = function(){
+      showAll();
+    };
+
+    function filterEvents(filter) {
+      // hide all events
+      var events = document.getElementsByClassName('event'), i;
+      for (var i = 0; i < events.length; i ++) {
+        events[i].style.display = 'none';
+      }
+      // show events filtered
+      var filter_events = document.getElementsByClassName(filter), i;
+      for (var i = 0; i < filter_events.length; i ++) {
+        filter_events[i].style.display = 'block';
+      }
+    }
+
+    // show all events
+    function showAll() {
+      var events = document.getElementsByClassName('event'), i;
+      for (var i = 0; i < events.length; i ++) {
+        events[i].style.display = 'block';
+      }
+    }
+
+</script>
+{% endif %}
 <script>
     $(document).ready(function(){
 
@@ -45,5 +93,26 @@
 
         initialize_chat();
         window.setInterval(initialize_chat, 120000);
+
+        var cal = []
+        var cal_dates = [];
+
+        $.getJSON('http://localhost/tools/feed/?jsoncallback=?', function(data){
+
+                $.each(data.item, function(i){
+                    var item = data.item[i];
+                    if ( cal_dates.indexOf(item.date1) === -1 ){
+                        cal_dates.push(item.date1);
+                        cal[item.date1] = [];
+
+                    }
+                    cal[item.date1].push(item);
+                });
+
+                for ( i in cal_dates ){
+                    console.log(cal_dates[i], cal[cal_dates[i]]);
+                }
+        });
+
     });
 </script>
