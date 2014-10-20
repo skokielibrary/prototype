@@ -12,6 +12,7 @@
 <script src="http://us.libraryh3lp.com/presence/jid/redesign/chat.libraryh3lp.com/js" + new Date().getTime()></script>
 {% if page.title == 'Events' %}
 <script src="{{ site.baseurl }}/js/vendor/handlebars-v2.0.0.js"></script>
+<script src="{{ site.baseurl }}/js/vendor/moment.js"></script>
 <script>
 
     // Catch filter onclicks
@@ -64,7 +65,7 @@
         $('#search-query').focus();
 
         var current = new Date().getTime();
-        var presence_url = 'http://us.libraryh3lp.com/presence/jid/redesign/chat.libraryh3lp.com/js';
+        //var presence_url = 'http://us.libraryh3lp.com/presence/jid/redesign/chat.libraryh3lp.com/js';
 
         var initialize_chat = function(){
             $.getScript(presence_url, function(){
@@ -91,27 +92,60 @@
             });
         }
 
-        initialize_chat();
-        window.setInterval(initialize_chat, 120000);
+        //initialize_chat();
+        //window.setInterval(initialize_chat, 120000);
 
-        var cal = []
-        var cal_dates = [];
+        var calendar = {};
+        var days = [];
 
         $.getJSON('http://localhost/tools/feed/?jsoncallback=?', function(data){
 
                 $.each(data.item, function(i){
                     var item = data.item[i];
-                    if ( cal_dates.indexOf(item.date1) === -1 ){
-                        cal_dates.push(item.date1);
-                        cal[item.date1] = [];
-
+                    if ( days.indexOf(item.date1) === -1 ) {
+                        days.push(item.date1);
+                        calendar[item.date1] = {"date" : item.date1, "events" : []};
                     }
-                    cal[item.date1].push(item);
+                    calendar[item.date1].events.push(item);
                 });
 
-                for ( i in cal_dates ){
-                    console.log(cal_dates[i], cal[cal_dates[i]]);
-                }
+                //console.log(calendar)
+                //console.log(days);
+                //console.log(JSON.stringify(calendar))
+
+                $.each(days, function(i){
+                    var source   = $("#event-template").html();
+                    var template = Handlebars.compile(source);
+                    var context = calendar[days[i]];
+                    //console.log(JSON.stringify(context))
+                    var html = template(context);
+                    $('#events-list').append(html);
+                });
+
+
+        });
+
+        Handlebars.registerHelper('to_lower_case', function(str) {
+          return str.toLowerCase();
+        });
+
+        Handlebars.registerHelper('format_date', function(str) {
+          return moment(str).format("dddd, MMMM DD");
+        });
+
+        Handlebars.registerHelper('make_button', function() {
+            var link = Handlebars.escapeExpression(this.link);
+          if (this.signup === "1" || this.signup === "2"){
+              return new Handlebars.SafeString(
+                '<a href="' + link + '" class="register right">Register<i class="first-arrow arrow-teal"></i><i class="arrow-teal"></i><i class="arrow-teal"></i></a>'
+                );
+          }
+        });
+
+        Handlebars.registerHelper('featured_event', function() {
+            if (this.featuredevent === "1"){
+                return "featured-event"
+            }
         });
 
     });

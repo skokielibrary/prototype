@@ -631,16 +631,17 @@ dl dd {
   width: 100%;
   margin-left: 0;
   margin-bottom: 20px;
+  padding-left: 10px;
 }
 .filters:before {
-  content: "FILTER BY AGE:";
-  padding-left: 10px;
+  content: "BY AGE:";
+  padding-left: 0;
   padding-right: 10px;
 }
 .filters li {
   display: inline-block;
-  padding-top: 7px;
-  padding-bottom: 7px;
+  padding-top: 6px;
+  padding-bottom: 5px;
   padding-right: 10px;
 }
 .filter-by-category {
@@ -650,10 +651,13 @@ dl dd {
   cursor: pointer;
   background-color: #fff;
 }
-li.kids a, li.teens a, li.adults a, li.family a, li.all-ages a  {
+li.kids a, li.teens a, li.adults a, li.family a, li.all-ages a{
   padding: 2px 5px;
   color: #fff;
 }
+
+li.show-all a {display: inline-block; height: 26px; width: 26px; border-radius: 50%; background-color: #eee; text-align: center;}
+
 li.storytime a {
   padding: 2px 5px;
   color: #706259;
@@ -673,6 +677,9 @@ li.all-ages a { background-color: purple; }
   border-bottom: solid 1px rgba(112, 98,  89, 0.2);
   height: 100%;
 }
+
+.event:last-child{border-bottom: 0;}
+
 .fill-white .event {
   border: none;
 }
@@ -683,6 +690,7 @@ li.all-ages a { background-color: purple; }
 .event .event-title {
   font-weight: 600;
   display: block;
+  color: #706259;
 }
 
 .event .categories {
@@ -715,6 +723,7 @@ li.all-ages a { background-color: purple; }
 .event p {
   margin-bottom: 0px;
 }
+
 .event .register {
   text-transform: uppercase;
   font-size: 15px;
@@ -733,4 +742,3 @@ li.all-ages a { background-color: purple; }
 .register .arrows {
   color: #706259;
 }
-
