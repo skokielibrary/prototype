@@ -429,6 +429,7 @@ margin-top: 25px;}
   text-align: center;
   padding-bottom: 10px;
   margin-top: 30px;
+  color: white;
 }
 .subscribe-bin input {
   margin: 0;
@@ -436,6 +437,7 @@ margin-top: 25px;}
 }
 .subscribe-bin .button {
   margin: 0;
+  background-color: #EE3E2C
 }
 @media only screen and (min-width: 64.063em) {
   .subscribe-bin h4 {
