@@ -680,6 +680,8 @@ li.all-ages a { background-color: purple; }
 
 .event:last-child{border-bottom: 0;}
 
+.featured-event{background-color: #fff;}
+
 .fill-white .event {
   border: none;
 }

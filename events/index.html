@@ -86,20 +86,22 @@ layout: base
         </div>
       </div>
       {{#each events}}
-      <div class="row event {{to_lower_case agegroup1}}-event {{featured_event}}">
-        <div class="large-2 medium-2 columns">
-          <span class="event-time {{to_lower_case agegroup1}}"><span class="color-block {{to_lower_case agegroup1}}"></span> {{time}}</span>
-        </div>
-        <div class="large-3 medium-3 columns">
-          <a href="{{link}}" class="event-title">{{{title}}}</a>
-          <ul class="categories">
-            <li>{{prieventtype}}</li>
-          </ul>
-        </div>
-        <div class="large-7 medium-7 columns">
-          <p class="event-description">{{{description}}}</p>
-          {{make_button}}
-        </div>
+      <div class="event {{to_lower_case agegroup1}}-event {{featured_event}}">
+          <div class="row">
+            <div class="large-2 medium-2 columns">
+              <span class="event-time {{to_lower_case agegroup1}}"><span class="color-block {{to_lower_case agegroup1}}"></span> {{time}}</span>
+            </div>
+            <div class="large-3 medium-3 columns">
+              <a href="{{link}}" class="event-title">{{{title}}}</a>
+              <ul class="categories">
+                <li>{{prieventtype}}</li>
+              </ul>
+            </div>
+            <div class="large-7 medium-7 columns">
+              <p class="event-description">{{{description}}}</p>
+              {{make_button}}
+            </div>
+          </div>
       </div>
     {{/each}}
 {% endraw %}
