@@ -672,10 +672,14 @@ li.family a { background-color: #F7931D; }
 li.all-ages a { background-color: purple; }
 
 .event {
+
+  height: 100%;
+}
+
+.event > .row{
   padding-bottom: 20px;
   padding-top: 20px;
   border-bottom: solid 1px rgba(112, 98,  89, 0.2);
-  height: 100%;
 }
 
 .event:last-child{border-bottom: 0;}

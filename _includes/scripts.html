@@ -98,20 +98,25 @@
         var calendar = {};
         var days = [];
 
-        $.getJSON('http://localhost/tools/feed/?jsoncallback=?', function(data){
+        $.getJSON('{{ site.baseurl }}/data/events.json', function(data){
 
-                $.each(data.item, function(i){
-                    var item = data.item[i];
-                    if ( days.indexOf(item.date1) === -1 ) {
-                        days.push(item.date1);
-                        calendar[item.date1] = {"date" : item.date1, "events" : []};
+            console.log(data)
+            var events = data.event;
+
+            console.log(events)
+
+                $.each(events.item, function(i){
+                    var item = events.item[i];
+                    console.log(item)
+                    if ( days.indexOf(item.date1[0]) === -1 ) {
+                        days.push(item.date1[0]);
+                        calendar[item.date1[0]] = {"date" : item.date1[0], "events" : []};
                     }
-                    calendar[item.date1].events.push(item);
+                    calendar[item.date1[0]].events.push(item);
                 });
 
-                //console.log(calendar)
-                //console.log(days);
-                //console.log(JSON.stringify(calendar))
+                console.log(calendar)
+                console.log(days)
 
                 $.each(days, function(i){
                     var source   = $("#event-template").html();
@@ -126,7 +131,7 @@
         });
 
         Handlebars.registerHelper('to_lower_case', function(str) {
-          return str.toLowerCase();
+          return str[0].toLowerCase();
         });
 
         Handlebars.registerHelper('format_date', function(str) {
@@ -134,8 +139,8 @@
         });
 
         Handlebars.registerHelper('make_button', function() {
-            var link = Handlebars.escapeExpression(this.link);
-          if (this.signup === "1" || this.signup === "2"){
+            var link = Handlebars.escapeExpression(this.link[0]);
+          if (this.signup[0] === "1" || this.signup[0] === "2"){
               return new Handlebars.SafeString(
                 '<a href="' + link + '" class="register right">Register<i class="first-arrow arrow-teal"></i><i class="arrow-teal"></i><i class="arrow-teal"></i></a>'
                 );
@@ -143,7 +148,7 @@
         });
 
         Handlebars.registerHelper('featured_event', function() {
-            if (this.featuredevent === "1"){
+            if (this.featuredevent[0] === "1"){
                 return "featured-event"
             }
         });
