@@ -725,8 +725,8 @@ li.all-ages a { background-color: purple; }
 .color-block.kids { background-color: #D60073; }
 .color-block.teens { background-color: #E0C300; }
 .color-block.adults { background-color: #00747F; }
-.color-block.family { background-color: #F7931D; }
-.color-block.all-ages { background-color: purple; }
+.color-block.families { background-color: #F7931D; }
+.color-block.ages { background-color: purple; }
 
 .event p {
   margin-bottom: 0px;
