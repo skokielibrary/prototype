@@ -1,0 +1,26 @@
+{
+  "name": "prototype",
+  "version": "1.4.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+      "gulp-download": "~0.0.1",
+      "gulp-rename": "~1.2.0",
+      "gulp": "~3.8.8",
+      "gulp-xml2json": "~0.1.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/skokielibrary/prototype.git"
+  },
+  "author": "Skokie Public Library",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skokielibrary/prototype/issues"
+  },
+  "homepage": "https://github.com/skokielibrary/prototype"
+}

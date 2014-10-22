@@ -10,13 +10,62 @@
   $(document).foundation();
 </script>
 <script src="http://us.libraryh3lp.com/presence/jid/redesign/chat.libraryh3lp.com/js" + new Date().getTime()></script>
+{% if page.title == 'Events' %}
+<script src="{{ site.baseurl }}/js/vendor/handlebars-v2.0.0.js"></script>
+<script src="{{ site.baseurl }}/js/vendor/moment.js"></script>
+<script>
+
+    // Catch filter onclicks
+    document.getElementById("kid-filter").onclick = function(){
+      filterEvents('kids-event');
+    };
+    document.getElementById("adult-filter").onclick = function(){
+      filterEvents('adults-event');
+    };
+    document.getElementById("teen-filter").onclick = function(){
+      filterEvents('teens-event');
+    };
+    document.getElementById("family-filter").onclick = function(){
+      filterEvents('family-event');
+    };
+    document.getElementById("all-ages-filter").onclick = function(){
+      filterEvents('all-ages-event');
+    };
+
+    document.getElementById("show-all-filter").onclick = function(){
+      showAll();
+    };
+
+    function filterEvents(filter) {
+      // hide all events
+      var events = document.getElementsByClassName('event'), i;
+      for (var i = 0; i < events.length; i ++) {
+        events[i].style.display = 'none';
+      }
+      // show events filtered
+      var filter_events = document.getElementsByClassName(filter), i;
+      for (var i = 0; i < filter_events.length; i ++) {
+        filter_events[i].style.display = 'block';
+      }
+    }
+
+    // show all events
+    function showAll() {
+      var events = document.getElementsByClassName('event'), i;
+      for (var i = 0; i < events.length; i ++) {
+        events[i].style.display = 'block';
+      }
+    }
+
+</script>
+{% endif %}
 <script>
     $(document).ready(function(){
 
         $('#search-query').focus();
 
         var current = new Date().getTime();
-        var presence_url = 'http://us.libraryh3lp.com/presence/jid/redesign/chat.libraryh3lp.com/js';
+        //var presence_url = 'http://us.libraryh3lp.com/presence/jid/redesign/chat.libraryh3lp.com/js';
 
         var initialize_chat = function(){
             $.getScript(presence_url, function(){
@@ -43,7 +92,66 @@
             });
         }
 
-        initialize_chat();
-        window.setInterval(initialize_chat, 120000);
+        //initialize_chat();
+        //window.setInterval(initialize_chat, 120000);
+
+        var calendar = {};
+        var days = [];
+
+        $.getJSON('{{ site.baseurl }}/data/events.json', function(data){
+
+            console.log(data)
+            var events = data.event;
+
+            console.log(events)
+
+                $.each(events.item, function(i){
+                    var item = events.item[i];
+                    console.log(item)
+                    if ( days.indexOf(item.date1[0]) === -1 ) {
+                        days.push(item.date1[0]);
+                        calendar[item.date1[0]] = {"date" : item.date1[0], "events" : []};
+                    }
+                    calendar[item.date1[0]].events.push(item);
+                });
+
+                console.log(calendar)
+                console.log(days)
+
+                $.each(days, function(i){
+                    var source   = $("#event-template").html();
+                    var template = Handlebars.compile(source);
+                    var context = calendar[days[i]];
+                    //console.log(JSON.stringify(context))
+                    var html = template(context);
+                    $('#events-list').append(html);
+                });
+
+
+        });
+
+        Handlebars.registerHelper('to_lower_case', function(str) {
+          return str[0].toLowerCase();
+        });
+
+        Handlebars.registerHelper('format_date', function(str) {
+          return moment(str).format("dddd, MMMM DD");
+        });
+
+        Handlebars.registerHelper('make_button', function() {
+            var link = Handlebars.escapeExpression(this.link[0]);
+          if (this.signup[0] === "1" || this.signup[0] === "2"){
+              return new Handlebars.SafeString(
+                '<a href="' + link + '" class="register right">Register<i class="first-arrow arrow-teal"></i><i class="arrow-teal"></i><i class="arrow-teal"></i></a>'
+                );
+          }
+        });
+
+        Handlebars.registerHelper('featured_event', function() {
+            if (this.featuredevent[0] === "1"){
+                return "featured-event"
+            }
+        });
+
     });
 </script>
