@@ -23,10 +23,11 @@ layout: base
         </header>
         </div>
     </div>
+
     <div class="row fill-white" style="padding-top: 10px;">
-        <div class="large-6 small-12 columns">
+        <div class="large-8 small-12 columns">
             <ul class="filters">
-            <li class="show-all"><a href="#" id="show-all-filter">&times;</a></li>
+              <li class="show-all"><a href="#" id="show-all-filter">&times;</a></li>
               <li class="kids"><a href="#" id="kid-filter">Kids</a></li>
               <li class="teens"><a href="#" id="teen-filter">Teens</a></li>
               <li class="adults"><a href="#" id="adult-filter">Adults</a></li>
@@ -34,29 +35,41 @@ layout: base
               <li class="all-ages"><a href="#" id="all-ages-filter">All Ages</a></li>
             </ul>
         </div>
-        <div class="large-3 small-6 columns">
-            <select class="filter-by-category">
-              <option>BY CATEGORY</option>
-              <option>Book/Author</option>
-              <!--<option>Business</option>-->
-              <option>Class/Workshop</option>
-              <!--<option>Community Group</option>-->
-              <option>Community Service</option>
-              <option>Computer Class</option>
-              <option>Exhibit</option>
-              <option>Games/Crafts</option>
-              <option>Library Closing</option>
-              <!--<option>Literacy/Citizenship</option>-->
-              <option>Movie</option>
-              <option>Performance</option>
-              <option>Reading Club</option>
-              <option>Special Event</option>
-              <option>Storytime</option>
-            </select>
+        <div class="large-4 small-12 columns">
+            <button class="calendar right">Calendar</button>
+            <button class="list-view right">List View</button>
         </div>
-        <div class="large-3 small-6 columns">
+        <div class="large-4 small-6 columns">
           <div class="go-to-date">
-            <input type="text" placeholder="GO TO DATE">
+            <label>By Keyword:</label>
+            <input type="text" placeholder="Search">
+          </div>
+        </div>
+        <div class="large-4 small-6 columns">
+          <label>By Category:</label>
+          <select class="filter-by-category">
+            <option>Select</option>
+            <option>Book/Author</option>
+            <!--<option>Business</option>-->
+            <option>Class/Workshop</option>
+            <!--<option>Community Group</option>-->
+            <option>Community Service</option>
+            <option>Computer Class</option>
+            <option>Exhibit</option>
+            <option>Games/Crafts</option>
+            <option>Library Closing</option>
+            <!--<option>Literacy/Citizenship</option>-->
+            <option>Movie</option>
+            <option>Performance</option>
+            <option>Reading Club</option>
+            <option>Special Event</option>
+            <option>Storytime</option>
+          </select>
+        </div>
+        <div class="large-4 small-6 columns">
+          <div class="go-to-date">
+            <label>Go to Date:</label>
+            <input type="text" placeholder="Friday, October 24">
           </div>
         </div>
     </div>

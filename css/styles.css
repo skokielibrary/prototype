@@ -632,8 +632,7 @@ dl dd {
   background-color: #fff;
   width: 100%;
   margin-left: 0;
-  margin-bottom: 20px;
-  padding-left: 10px;
+  margin-bottom: 10px;
 }
 .filters:before {
   content: "BY AGE:";
@@ -642,7 +641,7 @@ dl dd {
 }
 .filters li {
   display: inline-block;
-  padding-top: 6px;
+  padding-top: 4px;
   padding-bottom: 5px;
   padding-right: 10px;
 }
@@ -652,6 +651,9 @@ dl dd {
 .filter-by-category:hover {
   cursor: pointer;
   background-color: #fff;
+}
+.filter-by-category:before {
+  content: "By Category:"
 }
 li.kids a, li.teens a, li.adults a, li.family a, li.all-ages a{
   padding: 2px 5px;
@@ -749,4 +751,28 @@ li.all-ages a { background-color: purple; }
 }
 .register .arrows {
   color: #706259;
+}
+
+label {
+  color: #706259;
+  text-transform: uppercase;
+}
+
+button:hover {
+  text-decoration: underline;
+}
+.list-view, .calendar {
+  padding: 5px 10px;
+  margin-right: 10px;
+}
+.calendar {
+  border: solid 1px rgba(112, 98, 89, 0.2);
+  background-color: #fff;
+  color: #00747F;
+}
+.calendar:hover {
+  border: solid 1px rgba(112, 98, 89, 0.4);
+  background-color: #fff;
+  color: #00747F;
+
 }
