@@ -234,6 +234,7 @@ input:-ms-input-placeholder {
 @media only screen and (min-width: 40.063em) {
   .top-bar-section ul {
     padding-top: 0;
+    margin-right: 0.8em;
   }
   .show-for-small {
     display: none;
