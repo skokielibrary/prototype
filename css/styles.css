@@ -781,9 +781,11 @@ button:hover {
   padding: 2px 5px;
   background-color: #D60073;
   color: #fff;
+  font-size: 85%;
 }
 
 .default-tag {
+  font-size: 85%;
   margin-right: 5px;
   padding: 2px 5px;
   background-color: #fff;
