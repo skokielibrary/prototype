@@ -95,6 +95,10 @@ h4 {
   color: #fff;
 }
 
+.catalog-search {
+  padding: 10px 15px;
+}
+
 .featurette {
   background: url({{ site.baseurl }}/img/festival_sm.jpg) no-repeat center center;
   height: 320px;

@@ -9,7 +9,17 @@ layout: base
     <div class="row">
       <div class="small-12 medium-10 columns small-centered">
         <div class="main-search">
-          <input type="text" id="search-query" placeholder="Search for books, movies, &amp; more">
+          <form name="SearchSite" action="http://encore.skokielibrary.info/iii/encore/Home,$Search.form.sdirect" target="_blank" method="get" class="home_search" id="SearchForm" onclick="_gaq.push(['_trackEvent', 'Catalog', 'Opening page search', 'Encore quick search', , 'true']);" _lpchecked="1">
+            <input type="text" name="target" id="search-query" size="36" class="home_search" placeholder="Search for books, movies, &amp; more">
+            <input name="formids" value="target" type="hidden">
+            <input name="lang" value="eng" type="hidden">
+            <input name="suite" value="def" type="hidden">
+            <input name="reservedids" value="lang,suite" type="hidden">
+            <input name="submitmode" value="" type="hidden">
+            <input name="submitname" value="" type="hidden">
+            <input type="image" src="/s_search/images/go.jpg" alt="GO button" align="baseline">
+          </form>
+          <!--<input type="text" id="search-query" placeholder="Search for books, movies, &amp; more">-->
             <select>
               <option>Catalog</option>
               <option>Website</option>
@@ -97,6 +107,25 @@ layout: base
   </div>
 </div>
 
+
+<!-- block quote with avatar -->
+<div class="fill-red">
+  <div class="row quote">
+    <div class="large-2 medium-3 small-12 columns">
+      <img src="img/shauna_web_sm.jpg" class="avatar">
+    </div>
+    <div class="large-10 medium-9 small-12 columns">
+      <div class="msg-left">
+        <p>When kids feel like they can be teachers, it's really powerful. Minecraft lets them do that. It's pure creativity for kids.</p>
+      </div>
+      <div class="msg-right">
+        <a href="#">Read More<i class="first-arrow  arrow"></i><i class="arrow"></i><i class="arrow"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 <!-- staff review, lists -->
 <div class="fill-offwhite bin">
   <div class="row">
@@ -126,23 +155,6 @@ layout: base
         <li><a href="#">New Kids Books</a></li>
         <li><a href="#">More new releases</a></li>
       </ul>
-    </div>
-  </div>
-</div>
-
-<!-- block quote with avatar -->
-<div class="fill-red">
-  <div class="row quote">
-    <div class="large-2 medium-3 small-12 columns">
-      <img src="img/shauna_web_sm.jpg" class="avatar">
-    </div>
-    <div class="large-10 medium-9 small-12 columns">
-      <div class="msg-left">
-        <p>When kids feel like they can be teachers, it's really powerful. Minecraft lets them do that. It's pure creativity for kids.</p>
-      </div>
-      <div class="msg-right">
-        <a href="#">Read More<i class="first-arrow  arrow"></i><i class="arrow"></i><i class="arrow"></i></a>
-      </div>
     </div>
   </div>
 </div>

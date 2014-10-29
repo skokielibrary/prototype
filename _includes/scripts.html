@@ -10,6 +10,13 @@
   $(document).foundation();
 </script>
 <script src="http://us.libraryh3lp.com/presence/jid/redesign/chat.libraryh3lp.com/js" + new Date().getTime()></script>
+
+{% if page.title == 'Prototype' %}
+<script>
+  $('.catalog-search').hide();
+</script>
+{% endif %}
+
 {% if page.title == 'Events' %}
 <script src="{{ site.baseurl }}/js/vendor/handlebars-v2.0.0.js"></script>
 <script src="{{ site.baseurl }}/js/vendor/moment.js"></script>
@@ -67,7 +74,7 @@
         $('#search-query').focus();
 
         var current = new Date().getTime();
-        //var presence_url = 'http://us.libraryh3lp.com/presence/jid/redesign/chat.libraryh3lp.com/js';
+        var presence_url = 'http://us.libraryh3lp.com/presence/jid/redesign/chat.libraryh3lp.com/js';
 
         var initialize_chat = function(){
             $.getScript(presence_url, function(){
@@ -92,24 +99,24 @@
                     $('#library-chat-widget').hide();
                 }
             });
-        }
+        };
 
-        //initialize_chat();
-        //window.setInterval(initialize_chat, 120000);
+        initialize_chat();
+        window.setInterval(initialize_chat, 120000);
 
         var calendar = {};
         var days = [];
 
         $.getJSON('{{ site.baseurl }}/data/events.json', function(data){
 
-            console.log(data)
+            console.log(data);
             var events = data.event;
 
-            console.log(events)
+            console.log(events);
 
                 $.each(events.item, function(i){
                     var item = events.item[i];
-                    console.log(item)
+                    console.log(item);
                     if ( days.indexOf(item.date1[0]) === -1 ) {
                         days.push(item.date1[0]);
                         calendar[item.date1[0]] = {"date" : item.date1[0], "events" : []};
@@ -117,8 +124,8 @@
                     calendar[item.date1[0]].events.push(item);
                 });
 
-                console.log(calendar)
-                console.log(days)
+                console.log(calendar);
+                console.log(days);
 
                 $.each(days, function(i){
                     var source   = $("#event-template").html();
