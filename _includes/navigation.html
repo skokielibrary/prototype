@@ -12,8 +12,10 @@
     </ul>
 
     <style>
-    .top-bar-section .right li .dropdown {
-      left: 0;
+    @media only screen and (min-width: 40.063em) {
+      .top-bar-section .right li .dropdown {
+        left: 0;
+      }
     }
 
     .top-bar-section .has-dropdown > .dropdown, .top-bar-section .has-dropdown.not-click:hover > .dropdown {
@@ -23,8 +25,13 @@
 
     @media only screen and (max-width: 40.063em) {
       .top-bar-section .right li .dropdown {
-        right: 0 !important;
+        right: 0;
       }
+    }
+
+    .top-bar-section ul ul {
+      padding-top: 5px;
+      padding-bottom: 10px;
     }
 
     .mega-menu span {

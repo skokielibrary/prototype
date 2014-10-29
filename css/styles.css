@@ -212,6 +212,9 @@ input:-ms-input-placeholder {
   .my-account {
     display: none;
   }
+  .catalog-search {
+    display: none;
+  }
 
   body .widget-button {
     width: 130px;
