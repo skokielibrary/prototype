@@ -2135,7 +2135,7 @@ meta.foundation-mq-topbar {
         background: #00747F;
         color: white; }
     .top-bar-section .has-dropdown > a {
-      padding-right: 15px !important; }
+      }
       .top-bar-section .has-dropdown > a:after {
         content: "";
         display: none;
@@ -2163,7 +2163,7 @@ meta.foundation-mq-topbar {
       width: auto;
       overflow: visible;
       clip: auto;
-      padding: 15px;
+      padding: 10px;
       position: absolute !important; }
     .top-bar-section .has-dropdown > a:focus + .dropdown {
       display: block;

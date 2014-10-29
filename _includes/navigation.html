@@ -1,88 +1,282 @@
 <div class="contain-to-grid">
-  <nav class="top-bar" data-topbar role="navigation">
+<nav class="top-bar" data-topbar="" role="navigation">
     <ul class="title-area">
       <li class="name">
-        <a href="{{ site.baseurl }}/">
+        <a href="/prototype/">
           <svg width="126" height="50" class="svg-logo">
-            <image xlink:href="{{ site.baseurl }}/img/logo.svg" src="img/logo.png" width="126" height="50" /></image>
+            <image xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/prototype/img/logo.svg" src="img/logo.png" width="126" height="50"></image>
           </svg>
         </a>
       </li>
       <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
     </ul>
 
-    <section class="top-bar-section">
-      <!-- Right Nav Section -->
-      <ul class="right right-nav-section">
-        <li class="has-dropdown">
-          <a href="{{ site.baseurl }}/events" class="nav-item">Events</a>
-          <ul class="dropdown">
-            <li><a href="#">Kids</a></li>
-            <li><a href="#">Teens</a></li>
-            <li><a href="#">Adults</a></li>
-            <li><a href="#">Technology classes</a></li>
-            <li><a href="#">Movie schedule</a></li>
-            <li><a href="#">Performances</a></li>
-            <li><a href="#">Book discussions</a></li>
-            <li><a href="#">Exhibits</a></li>
-            <li><a href="#">Author visits</a></li>
-            <li><a href="#">Propose a program</a></li>
-          </ul>
-        </li>
-        <li class="has-dropdown">
-          <a href="#" class="nav-item">Books, Movies, More</a>
-          <ul class="dropdown">
-            <li><a href="#">Books</a></li>
-            <li><a href="#">Movies</a></li>
-            <li><a href="{{ site.baseurl }}/books-movies-more/ebooks-downloads">eBooks &amp; downloads</a></li>
-            <li><a href="#">Bookmatch</a></li>
-            <li><a href="#">Local authors</a></li>
-            <li><a href="#">New &amp; coming soon</a></li>
-            <li><a href="{{ site.baseurl }}/books-movies-more/cant-find-item">Can't find an item?</a></li>
-          </ul>
-        </li>
-        <li class="has-dropdown">
-          <a href="{{ site.baseurl }}/resources" class="nav-item">Resources</a>
-          <ul class="dropdown">
-            <li><a href="{{ site.baseurl }}/resources">Research a topic</a></li>
-            <li><a href="#">Online training &amp; tutorials</a></li>
-            <li><a href="#">Homework help</a></li>
-            <li><a href="#">Local history</a></li>
-          </ul>
-        </li>
-        <li class="has-dropdown">
-          <a href="#" class="nav-item">Services</a>
-          <ul class="dropdown">
-            <li><a href="#">Parents</a></li>
-            <li><a href="{{ site.baseurl }}/services/teachers-schools">Teachers &amp; schools</a></li>
-            <li><a href="{{ site.baseurl }}/services/job-seekers">Job seekers</a></li>
-            <li><a href="#">Businesses</a></li>
-            <li><a href="{{ site.baseurl }}/services/bookmobile">Bookmobile</a></li>
-            <li><a href="#">Study &amp; meeting rooms</a></li>
-            <li><a href="{{ site.baseurl }}/services/computers-technology">Computers &amp; technology</a></li>
-            <li><a href="#">Digital Media lab</a></li>
-            <li><a href="#">BOOM box</a></li>
-            <li><a href="{{ site.baseurl }}/services/accessibility">Accessibility</a></li>
+    <style>
+    .top-bar-section .right li .dropdown {
+      left: 0;
+    }
 
-          </ul>
-        </li>
-        <li class="has-dropdown">
-          <a href="#" class="nav-item">About</a>
-          <ul class="dropdown">
-            <li><a href="#">Jobs</a></li>
-            <li><a href="#">Volunteering</a></li>
-            <li><a href="{{ site.baseurl }}/about/library-cards">Library cards</a></li>
-            <li><a href="{{ site.baseurl }}/about/borrowing-fees">Borrowing &amp; fees</a></li>
-            <li><a href="#">Policies</a></li>
-            <li><a href="#">Staff</a></li>
-            <li><a href="#">Board</a></li>
-            <li><a href="#">History &amp; art</a></li>
-            <li><a href="#">Contact us</a></li>
-          </ul>
-        </li>
-      </ul>
+    .top-bar-section .has-dropdown > .dropdown, .top-bar-section .has-dropdown.not-click:hover > .dropdown {
+      width: 550px;
+      margin-top: -5px;
+    }
+
+    @media only screen and (max-width: 40.063em) {
+      .top-bar-section .right li .dropdown {
+        right: 0 !important;
+      }
+    }
+
+    .mega-menu span {
+      text-transform: uppercase;
+      font-size: 0.7em;
+    }
+
+    .mega-menu a, .menu-extra {
+      font-size: 14px !important;
+      white-space: normal !important;
+      line-height: 18px !important;
+      padding: 5px 0 !important;
+      text-transform: uppercase;
+
+    }
+
+    .border-extra {
+      display: block;
+      margin-top: 20px;
+      margin-bottom: 0;
+      border-top: solid 1px #e7e3e1;
+    }
+
+    .nav-item {
+      margin-left: 10px;
+    }
+
+    /*
+    .nav-item {
+      line-height: 18px !important;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+      padding-bottom: 3px !important;
+      margin-left: 20px;
+    }
+
+
+    .nav-item:hover {
+      text-decoration: none !important;
+      border-bottom: solid 3px #00747F !important;
+    }*/
+    </style>
+
+
+  <section class="top-bar-section">
+    <!-- Right Nav Section -->
+    <ul class="right right-nav-section">
+      <li class="has-dropdown not-click">
+        <a href="{{ site.baseurl }}/events" class="nav-item">Events</a>
+        <ul class="dropdown mega-menu">
+          <div class="row">
+            <div class="columns medium-4">
+              <li>
+              <span>Events For</span>
+              <ul>
+                <li><a href="">Kids</a></li>
+                <li><a href="">Teens</a></li>
+                <li><a href="">Adults</a></li>
+                <li><a href="">Job Seekers</a></li>
+              </ul>
+            </li>
+            </div>
+            <div class="columns medium-4">
+              <li>
+                <span>Classes &amp; Schedules</span>
+                <ul>
+                  <li><a href="#">Technology &amp; Classes</a></li>
+                  <li><a href="#">Movie Schedule</a></li>
+                  <li><a href="#">Performances</a></li>
+                  <li><a href="#">Author Visits</a></li>
+                  <li><a href="#">Exhibits</a></li>
+                </ul>
+              </li>
+            </div>
+            <div class="columns medium-4">
+              <li>
+                <span>Download</span>
+                <ul>
+                  <li><a href="#">Newsletter</a></li>
+                  <li><a href="#">Hullabaloo</a></li>
+                  <li><a href="#">Adult Thing</a></li>
+                </ul>
+              </li>
+            </div>
+          </div>
+          <div class="row">
+            <div class="columns medium-12">
+              <a ref="#" class="menu-extra border-extra">Propose A Program</a>
+            </div>
+          </div>
+        </ul> <!-- end of mega dropdown -->
+      </li>
+      <li class="has-dropdown not-click">
+        <a href="#" class="nav-item">Books, Movies, More</a>
+        <ul class="dropdown mega-menu" style="margin-left: -78px;">
+          <div class="row">
+            <div class="columns medium-4">
+              <li>
+              <span>Find it</span>
+              <ul>
+                <li><a href="">Books</a></li>
+                <li><a href="">Movies</a></li>
+                <li><a href="{{ site.baseurl }}/books-movies-more/ebooks-downloads">EBooks &amp; Downloads</a></li>
+                <li><a href="">New &amp; Upcoming</a></li>
+              </ul>
+            </li>
+            </div>
+            <div class="columns medium-4">
+              <li>
+                <span>Recommendations</span>
+                <ul>
+                  <li><a href="#">Staff Recommendations</a></li>
+                  <li><a href="#">BookMatch</a></li>
+                </ul>
+              </li>
+            </div>
+            <div class="columns medium-4">
+              <li>
+                <span>More</span>
+                <ul>
+                  <li><a href="#">Local Authors</a></li>
+                </ul>
+              </li>
+            </div>
+          </div>
+          <div class="row">
+            <div class="columns medium-12">
+              <a ref="{{ site.baseurl }}/books-movies-more/cant-find-item" class="menu-extra border-extra">Can't find an item?</a>
+            </div>
+          </div>
+        </ul> <!-- end of mega dropdown -->
+      </li>
+      <li class="has-dropdown not-click">
+        <a href="{{ site.baseurl }}/resources" class="nav-item">Resources</a>
+        <ul class="dropdown mega-menu" style="margin-left: -270px;">
+          <div class="row">
+            <div class="columns medium-4">
+              <li>
+              <span>Research</span>
+              <ul>
+                <li><a href="{{ site.baseurl }}/resources">Research a topic</a></li>
+                <li><a href="">Consumer</a></li>
+                <li><a href="">Business</a></li>
+                <li><a href="">Career</a></li>
+              </ul>
+            </li>
+            </div>
+            <div class="columns medium-4">
+              <li>
+                <span>Learn &amp; Explore</span>
+                <ul>
+                  <li><a href="#">Online Trianing &amp; Tutorials</a></li>
+                  <li><a href="#">Homework Help</a></li>
+                  <li><a href="#">Local History</a></li>
+                </ul>
+              </li>
+            </div>
+            <div class="columns medium-4">
+            </div>
+          </div>
+          <div class="row">
+            <div class="columns medium-12">
+              <a ref="#" class="menu-extra border-extra">Our Favorites</a>
+            </div>
+          </div>
+        </ul> <!-- end of mega dropdown -->
+      </li>
+      <li class="has-dropdown not-click">
+        <a href="{{ site.baseurl }}/#" class="nav-item">Services</a>
+        <ul class="dropdown mega-menu" style="margin-left: -380px;">
+          <div class="row">
+            <div class="columns medium-4">
+              <li>
+              <span>Services For</span>
+              <ul>
+                <li><a href="">Parents</a></li>
+                <li><a href="{{ site.baseurl }}/services/teachers-schools">Teachers &amp; Schools</a></li>
+                <li><a href="">Business</a></li>
+                <li><a href="{{ site.baseurl }}/services/job-seekers">Job Seekers</a></li>
+              </ul>
+            </li>
+            </div>
+            <div class="columns medium-4">
+              <li>
+                <span>In the library</span>
+                <ul>
+                  <li><a href="#">Study &amp; Meeting rooms</a></li>
+                  <li><a href="{{ site.baseurl }}/services/computers-technology">Computer &amp; Technology Help</a></li>
+                  <li><a href="{{ site.baseurl }}/services/accessibility">Accessibility</a></li>
+                </ul>
+              </li>
+            </div>
+            <div class="columns medium-4">
+              <li>
+                <span>In the community</span>
+                <ul>
+                  <li><a href="{{ site.baseurl }}/services/bookmobile">Bookmobile</a></li>
+                </ul>
+              </li>
+            </div>
+          </div>
+           <div class="row">
+            <div class="columns medium-12">
+              <a ref="#" class="menu-extra border-extra">Book a study room</a>
+            </div>
+          </div>
+        </ul> <!-- end of mega dropdown -->
+      </li>
+      <li class="has-dropdown not-click">
+        <a href="{{ site.baseurl }}/#" class="nav-item">About</a>
+        <ul class="dropdown mega-menu" style="margin-left: -470px;">
+          <div class="row">
+            <div class="columns medium-4">
+              <li>
+              <span>Get Involved</span>
+              <ul>
+                <li><a href="">Jobs</a></li>
+                <li><a href="">Volunteering</a></li>
+              </ul>
+            </li>
+            </div>
+            <div class="columns medium-4">
+              <li>
+                <span>Using the library</span>
+                <ul>
+                  <li><a href="LIBRARY CARDS">Library Cards</a></li>
+                  <li><a href="{{ site.baseurl }}/about/borrowing-fees">Borrowing &amp; Fees</a></li>
+                  <li><a href="#">Policies</a></li>
+                </ul>
+              </li>
+            </div>
+            <div class="columns medium-4">
+              <li>
+                <span>About Us</span>
+                <ul>
+                  <li><a href="#">Staff</a></li>
+                  <li><a href="#">Board</a></li>
+                  <li><a href="#">History &amp; Art</a></li>
+                </ul>
+              </li>
+            </div>
+          </div>
+          <div class="row">
+            <div class="columns medium-12">
+              <a ref="#" class="menu-extra border-extra">Have Questions?</a>
+            </div>
+          </div>
+        </ul> <!-- end of mega dropdown -->
+      </li>
+    </ul>
     </section>
-  </nav>
+    </nav>
 
   <div class="my-account-bin">
     <a href="#" class="right my-account alert button">My Account</a>
