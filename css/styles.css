@@ -789,13 +789,26 @@ button:hover {
   color: #00747F;
 }
 
-.kids-tag, .default-tag  {
+.kids-tag, .default-tag, .research-filters li  {
   font-size: 85%;
   margin-right: 2px;
   padding: 2px 5px;
   background-color: #fff;
   border: solid 1px rgba(112, 98, 89, 0.2);
 }
+
+.research-filters {
+  list-style-type: none;
+}
+.research-filters li {
+  margin-top: 10px;
+  display: inline-block;
+}
+.research-filters li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .resources h3 {
   display: inline-block;
   margin-right: 10px;
