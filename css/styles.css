@@ -361,10 +361,16 @@ padding: 20px 0;}
 .quote p, .quote a {
   color: #fff;}
 .quote p {
-font-size: 1.5rem;
-margin-bottom: 0;
-font-weight: 200;
-margin-top: 25px;}
+  font-size: 1.5rem;
+  margin-bottom: 0;
+  font-weight: 200;
+  margin-top: 10px;
+}
+.quote span {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 0.8em;
+}
 .quote a {
   font-size: 16px;
   display: inline-block;
