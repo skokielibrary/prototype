@@ -789,7 +789,6 @@ button:hover {
 .calendar {
   background-color: #fff;
   color: #00747F;
-  border-left: none;
 }
 .calendar:hover, .calendar:focus {
   background-color: #fff;

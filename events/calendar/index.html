@@ -71,7 +71,7 @@ layout: base
       <div class="medium-4 small-6 columns">
         <div class="go-to-date">
           <label>Go to Date:</label>
-          <input type="text" placeholder="Friday, October 24">
+          <input type="text" placeholder="Thursday, November 1">
         </div>
       </div>
       <div class="medium-4 small-12 columns">
@@ -127,13 +127,13 @@ layout: base
     .day li .event-title {
       display: block;
       margin-top: 0.7em;
-      font-size: 0.9em;
-      font-weight: 600;
+      font-size: 0.85em;
       border-top: solid 3px #baafa8;
       padding-bottom: 0;
       margin-bottom: 0;
       line-height: 1.2em;
       padding-top: 0.2em;
+      color: #706259;
     }
 
     .day li.kids-event .event-title{
@@ -150,12 +150,28 @@ layout: base
     }
 
 
+    li.past {
+      background: #f7f6f5
+    }
+    li.today {
+
+    }
+
+
     .day li .event-title:hover {
       text-decoration: underline;
       cursor: pointer;
     }
     .day li span {
+      font-size: 0.75em;
+    }
+
+    .day li .register {
+      display: inline-block;
       font-size: 0.8em;
+      padding: 2px 4px;
+      background-color: #f7f6f5;
+      margin-bottom: 0.4em
     }
 
     #event-calendar {
@@ -178,34 +194,34 @@ layout: base
     <li>Sunday</li>
   </ul>
   <ul class="small-block-grid-7 week">
-    <li>
+    <li class="past">
       <ul class="day">
         <li>29</li>
         <li class="kids-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21499" class="event-title">Let's See a Puppet Show: Session Two</a><span>1:30 PM</span></li>
         <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21428" class="event-title">ESL Cafe</a><span>6:30 PM</span></li>
-        <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21192" class="event-title">Video Editing for Beginners</a><span>7:00 PM</span></li>
+        <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21192" class="event-title">Video Editing for Beginners</a><span>7:00 PM</span><a href="" class="register">Register<i class="first-arrow arrow-teal"></i><i class="arrow-teal"></i><i class="arrow-teal"></i></a></li>
       </ul>
     </li>
-    <li>
+    <li class="past">
       <ul class="day">
         <li>30</li>
         <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21356" class="event-title">iPad  Get Appy</a><span>2:00 PM</span></li>
         <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21209" class="event-title">Intermediate Microsoft Excel 2010 </a><span>7:00 PM</span></li>
       </ul>
     </li>
-    <li>
+    <li class="past">
       <ul class="day">
         <li>31</li>
         <li class="kids-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21432" class="event-title">Halloween Stories and Parade</a><span>1:00 PM</span></li>
         <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=17425" class="event-title">Ghostbusters</a><span>1:30 PM</span></li>
       </ul>
     </li>
-    <li>
+    <li class="today">
       <ul class="day">
         <li>1</li>
-        <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=23080" class="event-title">Health Care Navigator</a><span>9:15 AM</span></li>
+        <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=23080" class="event-title">Health Care Navigator</a><span>9:15 AM</span><a href="" class="register">Register<i class="first-arrow arrow-teal"></i><i class="arrow-teal"></i><i class="arrow-teal"></i></a></li>
         <li class="all ages-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21164" class="event-title">Celebrate the Day of the Dead/el Dia de los Muertos</a><span>2:00 PM</span></li>
-        <li class="teens-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21284" class="event-title">Biomolecular Modeling: Proteins <span style="color: red;"> Canceled </span></a><span>2:00 PM</span></li>
+        <li class="teens-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21284" class="event-title">Biomolecular Modeling: Proteins <span style="color: red;"> Canceled </span></a><span>2:00 PM</span><a href="" class="register">Register<i class="first-arrow arrow-teal"></i><i class="arrow-teal"></i><i class="arrow-teal"></i></a></li>
       </ul>
     </li>
     <li>
@@ -222,7 +238,7 @@ layout: base
         <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21389" class="event-title">Touching Up Old Photos</a><span>3:00 PM</span></li>
         <li class="kids-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21514" class="event-title">Lego Club</a><span>4:00 PM</span></li>
         <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21634" class="event-title">Community Conversation</a><span>6:00 PM</span></li>
-        <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21194" class="event-title">Protect Your Computer Online</a><span>6:30 PM</span></li>
+        <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21194" class="event-title">Protect Your Computer Online</a><span>6:30 PM</span><a href="" class="register">Register<i class="first-arrow arrow-teal"></i><i class="arrow-teal"></i><i class="arrow-teal"></i></a></li>
         <li class="kids-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21200" class="event-title">Team Codebots</a><span>6:30 PM</span></li>
         <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=18211" class="event-title">World Film Night: The Lunchbox</a><span>7:00 PM</span></li>
         <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21360" class="event-title">LinkedIn for Advanced Users</a><span>7:00 PM</span></li>
@@ -232,8 +248,8 @@ layout: base
       <ul class="day">
         <li>4</li>
         <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21221" class="event-title">Green Screen for Movies</a><span>1:30 PM</span></li>
-        <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=22629" class="event-title">Oakton Community College</a><span>4:00 PM</span></li>
-        <li class="teens-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21449" class="event-title">Junior High Council</a><span>5:00 PM</span></li>
+        <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=22629" class="event-title">Oakton Community College</a><span>4:00 PM</span><a href="" class="register">Register<i class="first-arrow arrow-teal"></i><i class="arrow-teal"></i><i class="arrow-teal"></i></a></li>
+        <li class="teens-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21449" class="event-title">Junior High Council</a><span>5:00 PM</span><a href="" class="register">Register<i class="first-arrow arrow-teal"></i><i class="arrow-teal"></i><i class="arrow-teal"></i></a></li>
         <li class="all ages-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21670" class="event-title">Knit and Purl Drop In</a><span>5:00 PM</span></li>
         <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=23126" class="event-title">Health Care Navigator</a><span>6:00 PM</span></li>
         <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21195" class="event-title">Skype for Beginners</a><span>7:00 PM</span></li>
@@ -245,9 +261,9 @@ layout: base
     <li>
       <ul class="day">
         <li>29</li>
-        <li class="kids-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21499" class="event-title">Let's See a Puppet Show: Session Two</a><span>1:30 PM</span></li>
+        <li class="kids-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21499" class="event-title">Let's See a Puppet Show: Session Two</a><span>1:30 PM</span><a href="" class="register">Register<i class="first-arrow arrow-teal"></i><i class="arrow-teal"></i><i class="arrow-teal"></i></a></li>
         <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21428" class="event-title">ESL Cafe</a><span>6:30 PM</span></li>
-        <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21192" class="event-title">Video Editing for Beginners</a><span>7:00 PM</span></li>
+        <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21192" class="event-title">Video Editing for Beginners</a><span>7:00 PM</span><a href="" class="register">Register<i class="first-arrow arrow-teal"></i><i class="arrow-teal"></i><i class="arrow-teal"></i></a></li>
       </ul>
     </li>
     <li>
@@ -261,7 +277,7 @@ layout: base
       <ul class="day">
         <li>31</li>
         <li class="kids-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21432" class="event-title">Halloween Stories and Parade</a><span>1:00 PM</span></li>
-        <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=17425" class="event-title">Ghostbusters</a><span>1:30 PM</span></li>
+        <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=17425" class="event-title">Ghostbusters</a><span>1:30 PM</span><a href="" class="register">Register<i class="first-arrow arrow-teal"></i><i class="arrow-teal"></i><i class="arrow-teal"></i></a></li>
       </ul>
     </li>
     <li>
@@ -287,7 +303,7 @@ layout: base
         <li class="kids-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21514" class="event-title">Lego Club</a><span>4:00 PM</span></li>
         <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21634" class="event-title">Community Conversation</a><span>6:00 PM</span></li>
         <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21194" class="event-title">Protect Your Computer Online</a><span>6:30 PM</span></li>
-        <li class="kids-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21200" class="event-title">Team Codebots</a><span>6:30 PM</span></li>
+        <li class="kids-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21200" class="event-title">Team Codebots</a><span>6:30 PM</span><a href="" class="register">Register<i class="first-arrow arrow-teal"></i><i class="arrow-teal"></i><i class="arrow-teal"></i></a></li>
         <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=18211" class="event-title">World Film Night: The Lunchbox</a><span>7:00 PM</span></li>
         <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21360" class="event-title">LinkedIn for Advanced Users</a><span>7:00 PM</span></li>
       </ul>
