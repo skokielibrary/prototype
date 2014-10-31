@@ -35,8 +35,8 @@ layout: base
           </ul>
       </div>
       <div class="medium-4 small-12 columns">
-          <button class="calendar right">Calendar</button>
-          <button class="list-view right">List View</button>
+          <a href="{{ site.baseurl }}/events/calendar"><button class="calendar right">Calendar</button></a>
+          <a href="{{ site.baseurl }}/events/"><button class="list-view right active">List View</button></a>
       </div>
     </div>
     <div class="row fill-white" style="padding-top: 10px;">
@@ -120,5 +120,5 @@ layout: base
     {{/each}}
 {% endraw %}
 </script>
-    <div id="events-list"></div>
+    <div id="events-list" class="calendar-view"></div>
   </div>

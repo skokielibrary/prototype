@@ -1,0 +1,365 @@
+---
+title: Events
+layout: base
+---
+
+  <!-- page content -->
+  <div class="page-content fill-lighter">
+
+    <!-- breadcrumbs -->
+    <div class="row">
+      <div class="small-12 columns">
+        <ul class="breadcrumbs">
+          <li><a href="{{ site.baseurl }}/">Home</a></li>
+          <li><a href="#" class="current">Events</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="large-12 columns">
+        <header class="post-header">
+          <h1 class="post-title">Events</h1>
+        </header>
+        </div>
+    </div>
+
+    <div class="row fill-white" style="padding-top: 10px;">
+      <div class="medium-8 small-12 columns">
+          <ul class="filters">
+            <li class="show-all"><a href="#" id="show-all-filter">&times;</a></li>
+            <li class="kids"><a href="#" id="kid-filter">Kids</a></li>
+            <li class="teens"><a href="#" id="teen-filter">Teens</a></li>
+            <li class="adults"><a href="#" id="adult-filter">Adults</a></li>
+            <li class="family"><a href="#" id="family-filter">Family</a></li>
+          </ul>
+      </div>
+
+      <style>
+      .list-view {
+        border-left: solid 1px rgba(112, 98, 89, 0.2);
+      }
+      </style>
+
+      <div class="medium-4 small-12 columns">
+          <a href="{{ site.baseurl }}/events/calendar"><button class="list-view right">Calendar</button></a>
+          <a href="{{ site.baseurl }}/events/"><button class="calendar right active">List View</button></a>
+      </div>
+    </div>
+    <div class="row fill-white" style="padding-top: 10px;">
+      <div class="medium-4 small-6 columns">
+        <label>By Category:</label>
+        <select class="filter-by-category">
+          <option>Select</option>
+          <option>Book/Author</option>
+          <!--<option>Business</option>-->
+          <option>Class/Workshop</option>
+          <!--<option>Community Group</option>-->
+          <option>Community Service</option>
+          <option>Computer Class</option>
+          <option>Exhibit</option>
+          <option>Games/Crafts</option>
+          <option>Library Closing</option>
+          <!--<option>Literacy/Citizenship</option>-->
+          <option>Movie</option>
+          <option>Performance</option>
+          <option>Reading Club</option>
+          <option>Special Event</option>
+          <option>Storytime</option>
+        </select>
+      </div>
+      <div class="medium-4 small-6 columns">
+        <div class="go-to-date">
+          <label>Go to Date:</label>
+          <input type="text" placeholder="Friday, October 24">
+        </div>
+      </div>
+      <div class="medium-4 small-12 columns">
+        <div class="go-to-date">
+          <label>By Keyword:</label>
+          <input type="text" placeholder="Search">
+        </div>
+      </div>
+    </div>
+
+    <style>
+
+      html, body{
+      height:100%;
+    }
+
+    .days {
+      margin-top: 1.2em;
+      padding-bottom: 0.5em !important;
+
+      border-bottom: solid 3px #baafa8;
+    }
+
+    .days li {
+      padding-bottom: 0;
+    }
+
+    .week ul {
+      list-style: none;
+      margin: 0;
+    }
+
+    .week >li {
+      border-left: solid 1px #d9d4cf;
+      border-bottom: solid 1px #d9d4cf;
+      height: 100%;
+      background-color: #fffefe;
+    }
+
+    .week >li:last-child {
+            border-right: solid 1px #d9d4cf;
+    }
+
+    .day {
+      height: 620px;
+    }
+
+    .day li:first-child {
+      font-weight: 600;
+      color: #8c7b70;
+    }
+
+    .day li .event-title {
+      display: block;
+      margin-top: 0.7em;
+      font-size: 0.9em;
+      font-weight: 600;
+      border-top: solid 3px #baafa8;
+      padding-bottom: 0;
+      margin-bottom: 0;
+      line-height: 1.2em;
+      padding-top: 0.2em;
+    }
+
+    .day li.kids-event .event-title{
+      border-top: solid 3px #D60073;
+    }
+    .day li.teens-event .event-title{
+      border-top: solid 3px #E0C300;
+    }
+    .day li.adults-event .event-title{
+      border-top: solid 3px #00747F;
+    }
+    .day li.family-event .event-title{
+      border-top: solid 3px #F7931D;
+    }
+
+
+    .day li .event-title:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+    .day li span {
+      font-size: 0.8em;
+    }
+
+    #event-calendar {
+      margin-bottom: 2em;
+    }
+    </style>
+
+    <div class="row">
+
+
+  <div id="event-calendar" class="columns">
+
+  <ul class="small-block-grid-7 days">
+    <li>Monday</li>
+    <li>Tuesday</li>
+    <li>Wednesday</li>
+    <li>Thursday</li>
+    <li>Friday</li>
+    <li>Saturday</li>
+    <li>Sunday</li>
+  </ul>
+  <ul class="small-block-grid-7 week">
+    <li>
+      <ul class="day">
+        <li>29</li>
+        <li class="kids-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21499" class="event-title">Let's See a Puppet Show: Session Two</a><span>1:30 PM</span></li>
+        <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21428" class="event-title">ESL Cafe</a><span>6:30 PM</span></li>
+        <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21192" class="event-title">Video Editing for Beginners</a><span>7:00 PM</span></li>
+      </ul>
+    </li>
+    <li>
+      <ul class="day">
+        <li>30</li>
+        <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21356" class="event-title">iPad  Get Appy</a><span>2:00 PM</span></li>
+        <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21209" class="event-title">Intermediate Microsoft Excel 2010 </a><span>7:00 PM</span></li>
+      </ul>
+    </li>
+    <li>
+      <ul class="day">
+        <li>31</li>
+        <li class="kids-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21432" class="event-title">Halloween Stories and Parade</a><span>1:00 PM</span></li>
+        <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=17425" class="event-title">Ghostbusters</a><span>1:30 PM</span></li>
+      </ul>
+    </li>
+    <li>
+      <ul class="day">
+        <li>1</li>
+        <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=23080" class="event-title">Health Care Navigator</a><span>9:15 AM</span></li>
+        <li class="all ages-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21164" class="event-title">Celebrate the Day of the Dead/el Dia de los Muertos</a><span>2:00 PM</span></li>
+        <li class="teens-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21284" class="event-title">Biomolecular Modeling: Proteins <span style="color: red;"> Canceled </span></a><span>2:00 PM</span></li>
+      </ul>
+    </li>
+    <li>
+      <ul class="day">
+        <li>2</li>
+        <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=23096" class="event-title">Health Care Navigator</a><span>12:15 PM</span></li>
+        <li class="all ages-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=20134" class="event-title">Young Steinway Concert: Rebecca Moy, Violin, and Alice Zhang, Piano</a><span>3:00 PM</span></li>
+      </ul>
+    </li>
+    <li>
+      <ul class="day">
+        <li>3</li>
+        <li class="families-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21352" class="event-title">Baby Signs: Family Sign, Say, and Play </a><span>10:30 AM</span></li>
+        <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21389" class="event-title">Touching Up Old Photos</a><span>3:00 PM</span></li>
+        <li class="kids-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21514" class="event-title">Lego Club</a><span>4:00 PM</span></li>
+        <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21634" class="event-title">Community Conversation</a><span>6:00 PM</span></li>
+        <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21194" class="event-title">Protect Your Computer Online</a><span>6:30 PM</span></li>
+        <li class="kids-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21200" class="event-title">Team Codebots</a><span>6:30 PM</span></li>
+        <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=18211" class="event-title">World Film Night: The Lunchbox</a><span>7:00 PM</span></li>
+        <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21360" class="event-title">LinkedIn for Advanced Users</a><span>7:00 PM</span></li>
+      </ul>
+    </li>
+    <li>
+      <ul class="day">
+        <li>4</li>
+        <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21221" class="event-title">Green Screen for Movies</a><span>1:30 PM</span></li>
+        <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=22629" class="event-title">Oakton Community College</a><span>4:00 PM</span></li>
+        <li class="teens-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21449" class="event-title">Junior High Council</a><span>5:00 PM</span></li>
+        <li class="all ages-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21670" class="event-title">Knit and Purl Drop In</a><span>5:00 PM</span></li>
+        <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=23126" class="event-title">Health Care Navigator</a><span>6:00 PM</span></li>
+        <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21195" class="event-title">Skype for Beginners</a><span>7:00 PM</span></li>
+        <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21554" class="event-title">Conducting an Effective Job Search </a><span>7:00 PM</span></li>
+      </ul>
+    </li>
+  </ul>
+  <ul class="small-block-grid-7 week">
+    <li>
+      <ul class="day">
+        <li>29</li>
+        <li class="kids-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21499" class="event-title">Let's See a Puppet Show: Session Two</a><span>1:30 PM</span></li>
+        <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21428" class="event-title">ESL Cafe</a><span>6:30 PM</span></li>
+        <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21192" class="event-title">Video Editing for Beginners</a><span>7:00 PM</span></li>
+      </ul>
+    </li>
+    <li>
+      <ul class="day">
+        <li>30</li>
+        <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21356" class="event-title">iPad  Get Appy</a><span>2:00 PM</span></li>
+        <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21209" class="event-title">Intermediate Microsoft Excel 2010 </a><span>7:00 PM</span></li>
+      </ul>
+    </li>
+    <li>
+      <ul class="day">
+        <li>31</li>
+        <li class="kids-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21432" class="event-title">Halloween Stories and Parade</a><span>1:00 PM</span></li>
+        <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=17425" class="event-title">Ghostbusters</a><span>1:30 PM</span></li>
+      </ul>
+    </li>
+    <li>
+      <ul class="day">
+        <li>1</li>
+        <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=23080" class="event-title">Health Care Navigator</a><span>9:15 AM</span></li>
+        <li class="all ages-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21164" class="event-title">Celebrate the Day of the Dead/el Dia de los Muertos</a><span>2:00 PM</span></li>
+        <li class="teens-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21284" class="event-title">Biomolecular Modeling: Proteins <span style="color: red;"> Canceled </span></a><span>2:00 PM</span></li>
+      </ul>
+    </li>
+    <li>
+      <ul class="day">
+        <li>2</li>
+        <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=23096" class="event-title">Health Care Navigator</a><span>12:15 PM</span></li>
+        <li class="all ages-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=20134" class="event-title">Young Steinway Concert: Rebecca Moy, Violin, and Alice Zhang, Piano</a><span>3:00 PM</span></li>
+      </ul>
+    </li>
+    <li>
+      <ul class="day">
+        <li>3</li>
+        <li class="families-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21352" class="event-title">Baby Signs: Family Sign, Say, and Play </a><span>10:30 AM</span></li>
+        <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21389" class="event-title">Touching Up Old Photos</a><span>3:00 PM</span></li>
+        <li class="kids-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21514" class="event-title">Lego Club</a><span>4:00 PM</span></li>
+        <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21634" class="event-title">Community Conversation</a><span>6:00 PM</span></li>
+        <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21194" class="event-title">Protect Your Computer Online</a><span>6:30 PM</span></li>
+        <li class="kids-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21200" class="event-title">Team Codebots</a><span>6:30 PM</span></li>
+        <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=18211" class="event-title">World Film Night: The Lunchbox</a><span>7:00 PM</span></li>
+        <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21360" class="event-title">LinkedIn for Advanced Users</a><span>7:00 PM</span></li>
+      </ul>
+    </li>
+    <li>
+      <ul class="day">
+        <li>4</li>
+        <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21221" class="event-title">Green Screen for Movies</a><span>1:30 PM</span></li>
+        <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=22629" class="event-title">Oakton Community College</a><span>4:00 PM</span></li>
+        <li class="teens-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21449" class="event-title">Junior High Council</a><span>5:00 PM</span></li>
+        <li class="all ages-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21670" class="event-title">Knit and Purl Drop In</a><span>5:00 PM</span></li>
+        <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=23126" class="event-title">Health Care Navigator</a><span>6:00 PM</span></li>
+        <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21195" class="event-title">Skype for Beginners</a><span>7:00 PM</span></li>
+        <li class="adults-event"><a href="http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21554" class="event-title">Conducting an Effective Job Search </a><span>7:00 PM</span></li>
+      </ul>
+    </li>
+  </ul>
+
+</div>
+
+<!--
+<script id="event-calendar-template" type="text/x-handlebars-template">
+{% raw %}
+  <ul class="small-block-grid-7 week" >
+    <li>
+      <ul class="day">
+        <li>{{format_date date}}</li>
+        {{#each events}}
+        <li class="{{to_lower_case agegroup1}}-event"><a href="{{link}}" class="event-title">{{{title}}}</a><span>{{time}}</span></li>
+        {{/each}}
+      </ul>
+    </li>
+  </ul>
+{% endraw %}
+</script>
+-->
+
+<div id="event-calendar">
+
+</div>
+
+
+<script id="event-template" type="text/x-handlebars-template">
+{% raw %}
+    <div class="day {{agegroup1}}-event">
+      <div class="row">
+        <div class="small-block-grid-2">
+          <h2>{{format_date date}}</h2>
+        </div>
+      </div>
+      {{#each events}}
+      <div class="event {{to_lower_case agegroup1}}-event {{featured_event}}">
+          <div class="row">
+            <div class="large-2 medium-2 columns">
+              <span class="event-time {{to_lower_case agegroup1}}"><span class="color-block {{to_lower_case agegroup1}}"></span> {{time}}</span>
+            </div>
+            <div class="large-3 medium-3 columns">
+              <a href="{{link}}" class="event-title">{{{title}}}</a>
+              <ul class="categories">
+                <li>{{prieventtype}}</li>
+              </ul>
+            </div>
+            <div class="large-7 medium-7 columns">
+              <p class="event-description">{{{description}}}</p>
+              {{make_button}}
+            </div>
+          </div>
+      </div>
+    {{/each}}
+{% endraw %}
+</script>
+<!--<div id="events-list"></div>-->
+
+
+</div>

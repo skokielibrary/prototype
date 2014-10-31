@@ -137,6 +137,15 @@
                     $('#events-list').append(html);
                 });
 
+                $.each(days, function(i){
+                    var source   = $("#event-calendar-template").html();
+                    var template = Handlebars.compile(source);
+                    var context = calendar[days[i]];
+                    //console.log(JSON.stringify(context))
+                    var html = template(context);
+                    $('#event-calendar').append(html);
+                });
+
 
         });
 
