@@ -594,6 +594,7 @@ body .chat-widget-button:focus, .widget-button:active {
 }
 
 .page-content h3 {
+  color: #706259;
   border-top: none;
   margin-top: 20px;
   text-transform: none;
