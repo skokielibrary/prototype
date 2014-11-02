@@ -29,4 +29,21 @@ layout: base
       {{ content }}
     </div>
   </div>
+  <style>
+    .page-contact{background-color: #fff;}
+    .page-contact .avatar{float: left; width: 80px; height: 80px; margin: 1em 1em 1em 0;}
+    .page-contact h4{margin-bottom: 2px; text-transform: none; color: #EE3E2C;}
+    .page-contact p{margin-top: 0; }
+  </style>
 </div>
+{% if page.contact %}
+<div class="page-contact">
+  <div class="row">
+    <div class="small-12 columns">
+      <img src="{{ site.baseurl }}/img/{{ page.contact_pic }}" class="avatar">
+      <h4>Questions</h4>
+      <p>Get in touch with {{ page.contact }} at <span class="contact-details">{{ page.contact_phone }} or <a href="mailto:{{ page.contact_email }}">{{ page.contact_email }}</a></span>.</p>
+    </div>
+  </div>
+</div>
+{% endif %}
