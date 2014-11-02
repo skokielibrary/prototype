@@ -55,7 +55,7 @@ h4 {
 .fill-teal {
   background-color: #00747F; }
 .fill-mustard {
-  background-color: #E0C300; }
+  background-color: #EFC050; }
 .fill-offwhite {
   background-color: #F0EEEB; }
 .fill-lighter {
@@ -100,7 +100,7 @@ h4 {
 }
 
 .featurette {
-  background: url({{ site.baseurl }}/img/festival_sm.jpg) no-repeat center center;
+  background: url({{ site.baseurl }}/img/1411-nanowrimo-header2.jpg) no-repeat center center;
   height: 320px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -110,7 +110,7 @@ h4 {
   margin-bottom: 30px;
 }
 .featurette-text a {
-  color: #fff;
+  color: #3b332f;
   font-size: 1.15rem;
   margin: 0;
   font-weight: 400;
@@ -300,6 +300,9 @@ input:-ms-input-placeholder {
   border-left: 7px solid #00747F;
   display: inline-block;
   margin-bottom: -1px;
+}
+.arrow-brown{
+  border-left: 8px solid #3b332f;
 }
 
 .event-list .event-title {
