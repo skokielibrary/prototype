@@ -1,455 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?><event>
 <item>
-<title>Let's See a Puppet Show: Session Two</title>
-<date>Wednesday, October 29, 2014</date>
-<time>1:30 PM</time>
-<enddate></enddate>
-<description>Join the Youth Services Staff as they share some stories through puppets! The first show will be based on the story &lt;i&gt; Children Make Terrible Pets &lt;/i&gt; by Peter Brown and the second performance will be based on the book &lt;i&gt; Art &lt;/i&gt; by Patrick McDonnell. Children ages 2 through 6 are welcome to come enjoy this visual form of storytelling through music, drama, and art.</description>
-<location>Radmacher Meeting Room</location>
-<library>Skokie Public Library</library>
-<link>http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21499</link>
-<id>21499</id>
-<recordtype>0</recordtype>
-<RCID>0</RCID>
-<date1>2014/10/29</date1>
-<date2>201410291330Let's See a Puppet Show: Session Two</date2>
-<enddate1></enddate1>
-<length>30</length>
-<status></status>
-<endtime>2:00 PM</endtime>
-<prieventtype>Storytime</prieventtype>
-<eventtypes>Storytime, , </eventtypes>
-<eventtype1>Storytime</eventtype1>
-<eventtype2></eventtype2>
-<eventtype3></eventtype3>
-<agegroups>Kids</agegroups>
-<agegroup1>Kids</agegroup1>
-<agegroup2></agegroup2>
-<agegroup3></agegroup3>
-<otherinfo>For children ages 2 through 6. Registration is not required. </otherinfo>
-<featuredevent>0</featuredevent>
-<presenter>Skokie Library Staff </presenter>
-<signup>0</signup>
-<signupstarts></signupstarts>
-<signupends></signupends>
-<contactname>Youth Services Staff</contactname>
-<contactphone>847-324-3149</contactphone>
-<contactemail>events@skokielibrary.info</contactemail>
-<linktext></linktext>
-<linkaddress></linkaddress>
-<imagepath></imagepath>
-<imagetext></imagetext>
-<imageheight></imageheight>
-<imagewidth></imagewidth>
-<lastupdated>2014-07-23T16:50:19Z</lastupdated>
-<extratag></extratag>
-</item>
-<item>
-<title>ESL Cafe</title>
-<date>Wednesday, October 29, 2014</date>
-<time>6:30 PM</time>
-<enddate></enddate>
-<description>If you are new to English or just want to practice talking in a relaxed space, drop in for conversation with members of the community. Teachers from the ORT Institute will be facilitating conversations.</description>
-<location>Writers' Nook</location>
-<library>Skokie Public Library</library>
-<link>http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21428</link>
-<id>21428</id>
-<recordtype>2</recordtype>
-<RCID>1222</RCID>
-<date1>2014/10/29</date1>
-<date2>201410291830ESL Cafe</date2>
-<enddate1></enddate1>
-<length>90</length>
-<status></status>
-<endtime>8:00 PM</endtime>
-<prieventtype>Class/Workshop</prieventtype>
-<eventtypes>Class/Workshop, , </eventtypes>
-<eventtype1>Class/Workshop</eventtype1>
-<eventtype2></eventtype2>
-<eventtype3></eventtype3>
-<agegroups>Adults</agegroups>
-<agegroup1>Adults</agegroup1>
-<agegroup2></agegroup2>
-<agegroup3></agegroup3>
-<otherinfo></otherinfo>
-<featuredevent>0</featuredevent>
-<presenter>ORT Institute</presenter>
-<signup>0</signup>
-<signupstarts></signupstarts>
-<signupends></signupends>
-<contactname></contactname>
-<contactphone>847-673-7774</contactphone>
-<contactemail>events@skokielibrary.info</contactemail>
-<linktext></linktext>
-<linkaddress></linkaddress>
-<imagepath></imagepath>
-<imagetext></imagetext>
-<imageheight></imageheight>
-<imagewidth></imagewidth>
-<lastupdated>2014-07-16T09:48:09Z</lastupdated>
-<extratag></extratag>
-</item>
-<item>
-<title>Video Editing for Beginners</title>
-<date>Wednesday, October 29, 2014</date>
-<time>7:00 PM</time>
-<enddate></enddate>
-<description>Make your home movies look beautiful. This presentation includes importing footage, editing content, adding special effects, and producing to DVD or the Internet. </description>
-<location>Radmacher Meeting Room</location>
-<library>Skokie Public Library</library>
-<link>http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21192</link>
-<id>21192</id>
-<recordtype>0</recordtype>
-<RCID>0</RCID>
-<date1>2014/10/29</date1>
-<date2>201410291900Video Editing for Beginners</date2>
-<enddate1></enddate1>
-<length>90</length>
-<status></status>
-<endtime>8:30 PM</endtime>
-<prieventtype>Computer Class</prieventtype>
-<eventtypes>Computer Class, , </eventtypes>
-<eventtype1>Computer Class</eventtype1>
-<eventtype2></eventtype2>
-<eventtype3></eventtype3>
-<agegroups>Adults</agegroups>
-<agegroup1>Adults</agegroup1>
-<agegroup2></agegroup2>
-<agegroup3></agegroup3>
-<otherinfo>Registration is required. </otherinfo>
-<featuredevent>0</featuredevent>
-<presenter>Skokie Library Staff</presenter>
-<signup>1</signup>
-<signupstarts>9/2/2014 9:00 AM</signupstarts>
-<signupends>10/28/2014 9:00 PM</signupends>
-<contactname></contactname>
-<contactphone>847-673-7774</contactphone>
-<contactemail>events@skokielibrary.info</contactemail>
-<linktext>Computer Classes</linktext>
-<linkaddress>http://www.skokielibrary.info/s_programs/pr_computer/index.asp</linkaddress>
-<imagepath></imagepath>
-<imagetext></imagetext>
-<imageheight></imageheight>
-<imagewidth></imagewidth>
-<lastupdated>2014-07-21T09:52:36Z</lastupdated>
-<extratag></extratag>
-</item>
-<item>
-<title>iPad &#150; Get Appy</title>
-<date>Thursday, October 30, 2014</date>
-<time>2:00 PM</time>
-<enddate></enddate>
-<description>In this hands-on class we&#146;ll review what an app is and how to download one. We&#146;ll also review the library&#146;s Overdrive and 3M apps for checking out eBooks and eAudiobooks. Basic iPad knowledge is a necessary. Bring your own iPad or use one of ours.</description>
-<location>Book Discussion Room</location>
-<library>Skokie Public Library</library>
-<link>http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21356</link>
-<id>21356</id>
-<recordtype>0</recordtype>
-<RCID>0</RCID>
-<date1>2014/10/30</date1>
-<date2>201410301400iPad &#150; Get Appy</date2>
-<enddate1></enddate1>
-<length>90</length>
-<status></status>
-<endtime>3:30 PM</endtime>
-<prieventtype>Computer Class</prieventtype>
-<eventtypes>Computer Class, , </eventtypes>
-<eventtype1>Computer Class</eventtype1>
-<eventtype2></eventtype2>
-<eventtype3></eventtype3>
-<agegroups>Adults</agegroups>
-<agegroup1>Adults</agegroup1>
-<agegroup2></agegroup2>
-<agegroup3></agegroup3>
-<otherinfo>Registration is required. </otherinfo>
-<featuredevent>0</featuredevent>
-<presenter>Skokie Library Staff</presenter>
-<signup>2</signup>
-<signupstarts>9/2/2014 9:00 AM</signupstarts>
-<signupends>10/29/2014 9:00 PM</signupends>
-<contactname></contactname>
-<contactphone>847-673-7774</contactphone>
-<contactemail>events@skokielibrary.info</contactemail>
-<linktext>Computer Classes</linktext>
-<linkaddress>http://www.skokie.lib.il.us/s_programs/pr_computer/index.asp</linkaddress>
-<imagepath></imagepath>
-<imagetext></imagetext>
-<imageheight></imageheight>
-<imagewidth></imagewidth>
-<lastupdated>2014-07-21T10:22:56Z</lastupdated>
-<extratag></extratag>
-</item>
-<item>
-<title>Intermediate Microsoft Excel 2010 </title>
-<date>Thursday, October 30, 2014</date>
-<time>7:00 PM</time>
-<enddate></enddate>
-<description>This hands-on class introduces creating and using tables, reference cells, conditional formatting, and formulas. You will also learn the basics of working with multiple spreadsheets, data lists, and more.  It is highly recommended that you take the Beginner Microsoft Excel 2010 class before registering for this class.</description>
-<location>Computer Classroom</location>
-<library>Skokie Public Library</library>
-<link>http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21209</link>
-<id>21209</id>
-<recordtype>0</recordtype>
-<RCID>0</RCID>
-<date1>2014/10/30</date1>
-<date2>201410301900Intermediate Microsoft Excel 2010 </date2>
-<enddate1></enddate1>
-<length>90</length>
-<status></status>
-<endtime>8:30 PM</endtime>
-<prieventtype>Computer Class</prieventtype>
-<eventtypes>Computer Class, , </eventtypes>
-<eventtype1>Computer Class</eventtype1>
-<eventtype2></eventtype2>
-<eventtype3></eventtype3>
-<agegroups>Adults</agegroups>
-<agegroup1>Adults</agegroup1>
-<agegroup2></agegroup2>
-<agegroup3></agegroup3>
-<otherinfo>Registration is required. If you attend any three Microsoft Office classes you will receive a Skokie Public Library Certificate of Learning for Microsoft Office 2010. </otherinfo>
-<featuredevent>0</featuredevent>
-<presenter>Skokie Library Staff</presenter>
-<signup>1</signup>
-<signupstarts>9/2/2014 9:00 AM</signupstarts>
-<signupends>10/29/2014 9:00 PM</signupends>
-<contactname></contactname>
-<contactphone>847-673-7774</contactphone>
-<contactemail>events@skokielibrary.info</contactemail>
-<linktext>Computer Classes</linktext>
-<linkaddress>http://www.skokielibrary.info/s_programs/pr_computer/index.asp</linkaddress>
-<imagepath></imagepath>
-<imagetext></imagetext>
-<imageheight></imageheight>
-<imagewidth></imagewidth>
-<lastupdated>2014-09-27T12:37:33Z</lastupdated>
-<extratag></extratag>
-</item>
-<item>
-<title>Halloween Stories and Parade</title>
-<date>Friday, October 31, 2014</date>
-<time>1:00 PM</time>
-<enddate></enddate>
-<description>Come decked out in your costume to hear some fun stories, followed by a Halloween costume parade in the Library. </description>
-<location>Radmacher Meeting Room</location>
-<library>Skokie Public Library</library>
-<link>http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21432</link>
-<id>21432</id>
-<recordtype>0</recordtype>
-<RCID>0</RCID>
-<date1>2014/10/31</date1>
-<date2>201410311300Halloween Stories and Parade</date2>
-<enddate1></enddate1>
-<length>60</length>
-<status></status>
-<endtime>2:00 PM</endtime>
-<prieventtype>Storytime</prieventtype>
-<eventtypes>Storytime, , </eventtypes>
-<eventtype1>Storytime</eventtype1>
-<eventtype2></eventtype2>
-<eventtype3></eventtype3>
-<agegroups>Kids</agegroups>
-<agegroup1>Kids</agegroup1>
-<agegroup2></agegroup2>
-<agegroup3></agegroup3>
-<otherinfo>For ages 2 to 6. Registration begins October 1.</otherinfo>
-<featuredevent>1</featuredevent>
-<presenter></presenter>
-<signup>1</signup>
-<signupstarts>10/1/2014 9:00 AM</signupstarts>
-<signupends>10/30/2014 9:00 PM</signupends>
-<contactname>Youth Services Staff</contactname>
-<contactphone>847-324-3149</contactphone>
-<contactemail>events@skokielibrary.info</contactemail>
-<linktext></linktext>
-<linkaddress></linkaddress>
-<imagepath></imagepath>
-<imagetext></imagetext>
-<imageheight></imageheight>
-<imagewidth></imagewidth>
-<lastupdated>2014-10-21T09:31:49Z</lastupdated>
-<extratag></extratag>
-</item>
-<item>
-<title>Ghostbusters</title>
-<date>Friday, October 31, 2014</date>
-<time>1:30 PM</time>
-<enddate></enddate>
-<description>Three oddball parapsychologists set up shop in an old firehouse, calling themselves the Ghostbusters. They trap ghosts, spirits, and other ghouls across New York City while discovering an untold dimension. Filled with wisecracks, a femme fatale, and an unwittingly dorky villain, this 1980s classic stars Bill Murray, Dan Aykroyd, Sigourney Weaver, Harold Ramis, and Rick Moranis. &lt;br /&gt;Released: 1984&lt;br /&gt;Running Time: 105 minutes&lt;br /&gt;Rated: PG for adult content&lt;br /&gt;Genre: Supernatural Comedy</description>
-<location>Petty Auditorium</location>
-<library>Skokie Public Library</library>
-<link>http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=17425</link>
-<id>17425</id>
-<recordtype>0</recordtype>
-<RCID>0</RCID>
-<date1>2014/10/31</date1>
-<date2>201410311330Ghostbusters</date2>
-<enddate1></enddate1>
-<length>120</length>
-<status></status>
-<endtime>3:30 PM</endtime>
-<prieventtype>Movie</prieventtype>
-<eventtypes>Movie, , </eventtypes>
-<eventtype1>Movie</eventtype1>
-<eventtype2></eventtype2>
-<eventtype3></eventtype3>
-<agegroups>Adults</agegroups>
-<agegroup1>Adults</agegroup1>
-<agegroup2></agegroup2>
-<agegroup3></agegroup3>
-<otherinfo></otherinfo>
-<featuredevent>0</featuredevent>
-<presenter></presenter>
-<signup>0</signup>
-<signupstarts></signupstarts>
-<signupends></signupends>
-<contactname></contactname>
-<contactphone></contactphone>
-<contactemail></contactemail>
-<linktext></linktext>
-<linkaddress></linkaddress>
-<imagepath></imagepath>
-<imagetext></imagetext>
-<imageheight></imageheight>
-<imagewidth></imagewidth>
-<lastupdated>2014-09-12T10:53:45Z</lastupdated>
-<extratag></extratag>
-</item>
-<item>
-<title>Health Care Navigator</title>
-<date>Saturday, November 01, 2014</date>
-<time>9:15 AM</time>
-<enddate></enddate>
-<description>Trained health care navigators from Connections in Evanston will be available to answer questions about health insurance options available through the Affordable Care Act. Stop by or make an individual appointment by calling 847-673-7774.</description>
-<location>Community Engagement</location>
-<library>Skokie Public Library</library>
-<link>http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=23080</link>
-<id>23080</id>
-<recordtype>2</recordtype>
-<RCID>1347</RCID>
-<date1>2014/11/01</date1>
-<date2>201411010915Health Care Navigator</date2>
-<enddate1></enddate1>
-<length>510</length>
-<status></status>
-<endtime>5:45 PM</endtime>
-<prieventtype>Community Service</prieventtype>
-<eventtypes>Community Service, , </eventtypes>
-<eventtype1>Community Service</eventtype1>
-<eventtype2></eventtype2>
-<eventtype3></eventtype3>
-<agegroups>Adults</agegroups>
-<agegroup1>Adults</agegroup1>
-<agegroup2></agegroup2>
-<agegroup3></agegroup3>
-<otherinfo></otherinfo>
-<featuredevent>0</featuredevent>
-<presenter></presenter>
-<signup>0</signup>
-<signupstarts></signupstarts>
-<signupends></signupends>
-<contactname></contactname>
-<contactphone></contactphone>
-<contactemail></contactemail>
-<linktext></linktext>
-<linkaddress></linkaddress>
-<imagepath></imagepath>
-<imagetext></imagetext>
-<imageheight></imageheight>
-<imagewidth></imagewidth>
-<lastupdated>2014-10-28T08:27:31Z</lastupdated>
-<extratag></extratag>
-</item>
-<item>
-<title>Celebrate the Day of the Dead/el Dia de los Muertos</title>
-<date>Saturday, November 01, 2014</date>
-<time>2:00 PM</time>
-<enddate></enddate>
-<description>Dia de los Muertos (or Day of the Dead) is a holiday dedicated to celebrating and remembering friends and family members who have passed away. The celebration will include music, face painting, food, and bilingual stories. We will begin our celebration with a performance inside the Petty Auditorium at 2 pm. You are also invited to bring photos and objects to contribute to the public altar on display October 29-November 5. </description>
-<location>Radmacher Meeting Room</location>
-<library>Skokie Public Library</library>
-<link>http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21164</link>
-<id>21164</id>
-<recordtype>0</recordtype>
-<RCID>0</RCID>
-<date1>2014/11/01</date1>
-<date2>201411011400Celebrate the Day of the Dead/el Dia de los Muertos</date2>
-<enddate1></enddate1>
-<length>120</length>
-<status></status>
-<endtime>4:00 PM</endtime>
-<prieventtype>Special Event</prieventtype>
-<eventtypes>Special Event, , </eventtypes>
-<eventtype1>Special Event</eventtype1>
-<eventtype2></eventtype2>
-<eventtype3></eventtype3>
-<agegroups>All Ages, Families, Kids</agegroups>
-<agegroup1>All Ages</agegroup1>
-<agegroup2>Families</agegroup2>
-<agegroup3>Kids</agegroup3>
-<otherinfo>Cosponsored by Latinos in Skokie.</otherinfo>
-<featuredevent>1</featuredevent>
-<presenter></presenter>
-<signup>0</signup>
-<signupstarts></signupstarts>
-<signupends></signupends>
-<contactname></contactname>
-<contactphone>847-673-7774</contactphone>
-<contactemail>events@skokielibrary.info</contactemail>
-<linktext></linktext>
-<linkaddress></linkaddress>
-<imagepath></imagepath>
-<imagetext></imagetext>
-<imageheight></imageheight>
-<imagewidth></imagewidth>
-<lastupdated>2014-10-22T12:17:59Z</lastupdated>
-<extratag></extratag>
-</item>
-<item>
-<title>Biomolecular Modeling: Proteins &lt;span style="color: red;"&gt; Canceled &lt;/span&gt;</title>
-<date>Saturday, November 01, 2014</date>
-<time>2:00 PM</time>
-<enddate></enddate>
-<description>&lt;span style="color: red;"&gt; Cancelled due to low registration. &lt;/span&gt; Proteins are complex molecular machines that are involved in nearly all cellular functions. Each protein has a specific shape (structure) that enables it to carry out its specific job (function). You will explore the structure of proteins and the chemical interactions that drive each protein to fold into its specific structure. This event is made possible through a partnership with Northwestern University&#146;s Center for Biomolecular Modeling.</description>
-<location>High School Lounge</location>
-<library>Skokie Public Library</library>
-<link>http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21284</link>
-<id>21284</id>
-<recordtype>0</recordtype>
-<RCID>0</RCID>
-<date1>2014/11/01</date1>
-<date2>201411011400Biomolecular Modeling: Proteins &lt;span style="color: red;"&gt; Canceled &lt;/span&gt;</date2>
-<enddate1></enddate1>
-<length>90</length>
-<status></status>
-<endtime>3:30 PM</endtime>
-<prieventtype>Class/Workshop</prieventtype>
-<eventtypes>Class/Workshop, , </eventtypes>
-<eventtype1>Class/Workshop</eventtype1>
-<eventtype2></eventtype2>
-<eventtype3></eventtype3>
-<agegroups>Teens, Kids</agegroups>
-<agegroup1>Teens</agegroup1>
-<agegroup2>Kids</agegroup2>
-<agegroup3></agegroup3>
-<otherinfo></otherinfo>
-<featuredevent>0</featuredevent>
-<presenter>Northwestern University</presenter>
-<signup>0</signup>
-<signupstarts></signupstarts>
-<signupends></signupends>
-<contactname></contactname>
-<contactphone>847-673-7774</contactphone>
-<contactemail>events@skokielibrary.info</contactemail>
-<linktext></linktext>
-<linkaddress></linkaddress>
-<imagepath></imagepath>
-<imagetext></imagetext>
-<imageheight></imageheight>
-<imagewidth></imagewidth>
-<lastupdated>2014-10-23T14:33:54Z</lastupdated>
-<extratag></extratag>
-</item>
-<item>
 <title>Health Care Navigator</title>
 <date>Sunday, November 02, 2014</date>
 <time>12:15 PM</time>
@@ -517,10 +67,10 @@
 <eventtype1>Performance</eventtype1>
 <eventtype2></eventtype2>
 <eventtype3></eventtype3>
-<agegroups>All Ages</agegroups>
-<agegroup1>All Ages</agegroup1>
-<agegroup2></agegroup2>
-<agegroup3></agegroup3>
+<agegroups>Families, Adults, Kids</agegroups>
+<agegroup1>Families</agegroup1>
+<agegroup2>Adults</agegroup2>
+<agegroup3>Kids</agegroup3>
 <otherinfo></otherinfo>
 <featuredevent>1</featuredevent>
 <presenter></presenter>
@@ -536,7 +86,7 @@
 <imagetext></imagetext>
 <imageheight></imageheight>
 <imagewidth></imagewidth>
-<lastupdated>2014-10-17T13:54:40Z</lastupdated>
+<lastupdated>2014-10-30T12:02:47Z</lastupdated>
 <extratag></extratag>
 </item>
 <item>
@@ -1057,8 +607,8 @@
 <eventtype1>Games/Crafts</eventtype1>
 <eventtype2></eventtype2>
 <eventtype3></eventtype3>
-<agegroups>All Ages, Kids</agegroups>
-<agegroup1>All Ages</agegroup1>
+<agegroups>Families, Kids</agegroups>
+<agegroup1>Families</agegroup1>
 <agegroup2>Kids</agegroup2>
 <agegroup3></agegroup3>
 <otherinfo>Please bring your own needles and yarn. We suggest bringing size #7 or #8 needles and play yarn like Red Heart Super Saver.</otherinfo>
@@ -1076,7 +626,7 @@
 <imagetext></imagetext>
 <imageheight></imageheight>
 <imagewidth></imagewidth>
-<lastupdated>2014-10-17T12:30:48Z</lastupdated>
+<lastupdated>2014-10-30T12:03:58Z</lastupdated>
 <extratag></extratag>
 </item>
 <item>
@@ -1212,6 +762,681 @@
 <imageheight></imageheight>
 <imagewidth></imagewidth>
 <lastupdated>2014-07-16T14:09:39Z</lastupdated>
+<extratag></extratag>
+</item>
+<item>
+<title>To Keep or Not to Keep?  </title>
+<date>Wednesday, November 05, 2014</date>
+<time>10:00 AM</time>
+<enddate></enddate>
+<description>Learn how to manage your important papers. JVS Chicago teaches how to keep your important papers organized and how to recognize and weed out the clutter. </description>
+<location>Business Center Program Room</location>
+<library>Skokie Public Library</library>
+<link>http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21092</link>
+<id>21092</id>
+<recordtype>0</recordtype>
+<RCID>0</RCID>
+<date1>2014/11/05</date1>
+<date2>201411051000To Keep or Not to Keep?  </date2>
+<enddate1></enddate1>
+<length>90</length>
+<status></status>
+<endtime>11:30 AM</endtime>
+<prieventtype>Class/Workshop</prieventtype>
+<eventtypes>Class/Workshop, , </eventtypes>
+<eventtype1>Class/Workshop</eventtype1>
+<eventtype2></eventtype2>
+<eventtype3></eventtype3>
+<agegroups>Adults</agegroups>
+<agegroup1>Adults</agegroup1>
+<agegroup2></agegroup2>
+<agegroup3></agegroup3>
+<otherinfo>Registration is required.</otherinfo>
+<featuredevent>0</featuredevent>
+<presenter>Sharon Beloff, JVS Chicago</presenter>
+<signup>1</signup>
+<signupstarts>9/2/2014 9:00 AM</signupstarts>
+<signupends></signupends>
+<contactname></contactname>
+<contactphone>847-674-7774</contactphone>
+<contactemail>events@skokielibrary.info</contactemail>
+<linktext></linktext>
+<linkaddress></linkaddress>
+<imagepath></imagepath>
+<imagetext></imagetext>
+<imageheight></imageheight>
+<imagewidth></imagewidth>
+<lastupdated>2014-07-16T14:11:43Z</lastupdated>
+<extratag></extratag>
+</item>
+<item>
+<title>Office of Representative Jan Schakowsky and State Representative Lou Lang</title>
+<date>Wednesday, November 05, 2014</date>
+<time>5:30 PM</time>
+<enddate></enddate>
+<description>A constituent advocate for Skokie and Lincolnwood will be available to meet with constituents about problems with immigration, visas, the Post Office, Social Security, Medicare, Veteran's Administration, or any other federal agency or issue.</description>
+<location>Community Engagement</location>
+<library>Skokie Public Library</library>
+<link>http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=18759</link>
+<id>18759</id>
+<recordtype>2</recordtype>
+<RCID>1045</RCID>
+<date1>2014/11/05</date1>
+<date2>201411051730Office of Representative Jan Schakowsky and State Representative Lou Lang</date2>
+<enddate1></enddate1>
+<length>120</length>
+<status></status>
+<endtime>7:30 PM</endtime>
+<prieventtype>Community Service</prieventtype>
+<eventtypes>Community Service, , </eventtypes>
+<eventtype1>Community Service</eventtype1>
+<eventtype2></eventtype2>
+<eventtype3></eventtype3>
+<agegroups>Adults</agegroups>
+<agegroup1>Adults</agegroup1>
+<agegroup2></agegroup2>
+<agegroup3></agegroup3>
+<otherinfo></otherinfo>
+<featuredevent>0</featuredevent>
+<presenter></presenter>
+<signup>0</signup>
+<signupstarts></signupstarts>
+<signupends></signupends>
+<contactname>Kris Sadur</contactname>
+<contactphone>773-506-7100</contactphone>
+<contactemail></contactemail>
+<linktext></linktext>
+<linkaddress></linkaddress>
+<imagepath></imagepath>
+<imagetext></imagetext>
+<imageheight></imageheight>
+<imagewidth></imagewidth>
+<lastupdated>2014-08-19T11:45:25Z</lastupdated>
+<extratag></extratag>
+</item>
+<item>
+<title>Minecraft Mania</title>
+<date>Wednesday, November 05, 2014</date>
+<time>5:30 PM</time>
+<enddate></enddate>
+<description>Minecraft is the game everyone is playing. Let's get together, punch some dirt, and explore a world without limits. No account? No problem--use one of ours. Class size is limited. </description>
+<location>Computer Classroom</location>
+<library>Skokie Public Library</library>
+<link>http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21368</link>
+<id>21368</id>
+<recordtype>0</recordtype>
+<RCID>0</RCID>
+<date1>2014/11/05</date1>
+<date2>201411051730Minecraft Mania</date2>
+<enddate1></enddate1>
+<length>60</length>
+<status></status>
+<endtime>6:30 PM</endtime>
+<prieventtype>Computer Class</prieventtype>
+<eventtypes>Computer Class, , </eventtypes>
+<eventtype1>Computer Class</eventtype1>
+<eventtype2></eventtype2>
+<eventtype3></eventtype3>
+<agegroups>Teens, Kids</agegroups>
+<agegroup1>Teens</agegroup1>
+<agegroup2>Kids</agegroup2>
+<agegroup3></agegroup3>
+<otherinfo>For grades 4-6. Registration begins October 1.</otherinfo>
+<featuredevent>0</featuredevent>
+<presenter></presenter>
+<signup>1</signup>
+<signupstarts>10/1/2014 9:00 AM</signupstarts>
+<signupends>11/4/2014 9:00 PM</signupends>
+<contactname>Youth Services Staff</contactname>
+<contactphone>847-673-7774</contactphone>
+<contactemail>events@skokielibrary.info</contactemail>
+<linktext></linktext>
+<linkaddress></linkaddress>
+<imagepath></imagepath>
+<imagetext></imagetext>
+<imageheight></imageheight>
+<imagewidth></imagewidth>
+<lastupdated>2014-10-31T14:38:57Z</lastupdated>
+<extratag></extratag>
+</item>
+<item>
+<title>Storytime by Stenson</title>
+<date>Wednesday, November 05, 2014</date>
+<time>7:00 PM</time>
+<enddate></enddate>
+<description>Faculty and staff of Jane Stenson Elementary School will read their favorite stories, followed by refreshments.</description>
+<location>Youth Services Department</location>
+<library>Skokie Public Library</library>
+<link>http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21302</link>
+<id>21302</id>
+<recordtype>0</recordtype>
+<RCID>0</RCID>
+<date1>2014/11/05</date1>
+<date2>201411051900Storytime by Stenson</date2>
+<enddate1></enddate1>
+<length>45</length>
+<status></status>
+<endtime>7:45 PM</endtime>
+<prieventtype>Storytime</prieventtype>
+<eventtypes>Storytime, , </eventtypes>
+<eventtype1>Storytime</eventtype1>
+<eventtype2></eventtype2>
+<eventtype3></eventtype3>
+<agegroups>Families</agegroups>
+<agegroup1>Families</agegroup1>
+<agegroup2></agegroup2>
+<agegroup3></agegroup3>
+<otherinfo></otherinfo>
+<featuredevent>0</featuredevent>
+<presenter>Jane Stenson Elementary School staff</presenter>
+<signup>0</signup>
+<signupstarts></signupstarts>
+<signupends></signupends>
+<contactname>Youth Services Staff</contactname>
+<contactphone>847-324-3149</contactphone>
+<contactemail>events@skokielibrary.info</contactemail>
+<linktext></linktext>
+<linkaddress></linkaddress>
+<imagepath></imagepath>
+<imagetext></imagetext>
+<imageheight></imageheight>
+<imagewidth></imagewidth>
+<lastupdated>2014-07-21T15:14:52Z</lastupdated>
+<extratag></extratag>
+</item>
+<item>
+<title>Writing Memorable Characters</title>
+<date>Wednesday, November 05, 2014</date>
+<time>7:00 PM</time>
+<enddate></enddate>
+<description>Join author Gail Lukasik for a hands-on workshop about creating captivating characters your readers will remember. You will learn how to write character sketches, choose character names, and learn invaluable tips on dialogue and making your characters believable.  This workshop is suited for all levels of writers. Signed copies of Gail Lukasik's latest mystery novel, &lt;i&gt;Peak Season for Murder,&lt;/i&gt; will be available for purchase.</description>
+<location>Radmacher Meeting Room</location>
+<library>Skokie Public Library</library>
+<link>http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21548</link>
+<id>21548</id>
+<recordtype>0</recordtype>
+<RCID>0</RCID>
+<date1>2014/11/05</date1>
+<date2>201411051900Writing Memorable Characters</date2>
+<enddate1></enddate1>
+<length>90</length>
+<status></status>
+<endtime>8:30 PM</endtime>
+<prieventtype>Book/Author Program</prieventtype>
+<eventtypes>Book/Author Program, , </eventtypes>
+<eventtype1>Book/Author Program</eventtype1>
+<eventtype2></eventtype2>
+<eventtype3></eventtype3>
+<agegroups>Adults, Teens</agegroups>
+<agegroup1>Adults</agegroup1>
+<agegroup2>Teens</agegroup2>
+<agegroup3></agegroup3>
+<otherinfo>Registration is required. Part of National Novel Writing Month (NaNoWriMo).</otherinfo>
+<featuredevent>1</featuredevent>
+<presenter>Gail Lukasik</presenter>
+<signup>1</signup>
+<signupstarts>9/2/2014 9:00 PM</signupstarts>
+<signupends></signupends>
+<contactname></contactname>
+<contactphone>847-673-7774</contactphone>
+<contactemail>events@skokielibrary.info</contactemail>
+<linktext></linktext>
+<linkaddress></linkaddress>
+<imagepath></imagepath>
+<imagetext></imagetext>
+<imageheight></imageheight>
+<imagewidth></imagewidth>
+<lastupdated>2014-10-31T09:29:17Z</lastupdated>
+<extratag></extratag>
+</item>
+<item>
+<title>Craft Studio: Rainbow Looms </title>
+<date>Thursday, November 06, 2014</date>
+<time>4:30 PM</time>
+<enddate></enddate>
+<description>Explore your own creativity using rainbow looms. Have you seen the awesome bracelets you can make with them? Come and see for yourself. &lt;br /&gt;&lt;br /&gt;</description>
+<location>Youth Services Program Room</location>
+<library>Skokie Public Library</library>
+<link>http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=22713</link>
+<id>22713</id>
+<recordtype>2</recordtype>
+<RCID>1188</RCID>
+<date1>2014/11/06</date1>
+<date2>201411061630Craft Studio: Rainbow Looms </date2>
+<enddate1></enddate1>
+<length>90</length>
+<status></status>
+<endtime>6:00 PM</endtime>
+<prieventtype>Games/Crafts</prieventtype>
+<eventtypes>Games/Crafts, , </eventtypes>
+<eventtype1>Games/Crafts</eventtype1>
+<eventtype2></eventtype2>
+<eventtype3></eventtype3>
+<agegroups>Kids</agegroups>
+<agegroup1>Kids</agegroup1>
+<agegroup2></agegroup2>
+<agegroup3></agegroup3>
+<otherinfo>For children in grades 4 to 8. This is a drop-in program; no registration is required. To allow sufficient time to complete your creation please plan to spend at least 30 minutes in the studio.</otherinfo>
+<featuredevent>0</featuredevent>
+<presenter>Youth Services Staff</presenter>
+<signup>0</signup>
+<signupstarts></signupstarts>
+<signupends></signupends>
+<contactname>Youth Services Staff</contactname>
+<contactphone>847-324-3149</contactphone>
+<contactemail>events@skokielibrary.info</contactemail>
+<linktext></linktext>
+<linkaddress></linkaddress>
+<imagepath></imagepath>
+<imagetext></imagetext>
+<imageheight></imageheight>
+<imagewidth></imagewidth>
+<lastupdated>2014-10-15T15:27:20Z</lastupdated>
+<extratag></extratag>
+</item>
+<item>
+<title>Health Care Navigator</title>
+<date>Thursday, November 06, 2014</date>
+<time>5:00 PM</time>
+<enddate></enddate>
+<description>Trained health care navigators from Connections in Evanston will be available to answer questions about health insurance options available through the Affordable Care Act. Stop by or make an individual appointment by calling 847-673-7774.</description>
+<location>Community Engagement</location>
+<library>Skokie Public Library</library>
+<link>http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=23111</link>
+<id>23111</id>
+<recordtype>2</recordtype>
+<RCID>1349</RCID>
+<date1>2014/11/06</date1>
+<date2>201411061700Health Care Navigator</date2>
+<enddate1></enddate1>
+<length>210</length>
+<status></status>
+<endtime>8:30 PM</endtime>
+<prieventtype>Community Service</prieventtype>
+<eventtypes>Community Service, , </eventtypes>
+<eventtype1>Community Service</eventtype1>
+<eventtype2></eventtype2>
+<eventtype3></eventtype3>
+<agegroups>Adults</agegroups>
+<agegroup1>Adults</agegroup1>
+<agegroup2></agegroup2>
+<agegroup3></agegroup3>
+<otherinfo></otherinfo>
+<featuredevent>0</featuredevent>
+<presenter></presenter>
+<signup>0</signup>
+<signupstarts></signupstarts>
+<signupends></signupends>
+<contactname></contactname>
+<contactphone></contactphone>
+<contactemail></contactemail>
+<linktext></linktext>
+<linkaddress></linkaddress>
+<imagepath></imagepath>
+<imagetext></imagetext>
+<imageheight></imageheight>
+<imagewidth></imagewidth>
+<lastupdated>2014-10-28T08:36:00Z</lastupdated>
+<extratag></extratag>
+</item>
+<item>
+<title>Manga/Anime Appreciation Club</title>
+<date>Thursday, November 06, 2014</date>
+<time>7:00 PM</time>
+<enddate></enddate>
+<description>Students in grades 6 through 12 meet the first Thursday of every month to read free manga, and watch anime on the big screen. Japanese snacks are served! Dying for some ramen? Love to eat Pocky? Join us and revel in epic geekery, otaku style.</description>
+<location>Radmacher Meeting Room</location>
+<library>Skokie Public Library</library>
+<link>http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=20428</link>
+<id>20428</id>
+<recordtype>2</recordtype>
+<RCID>947</RCID>
+<date1>2014/11/06</date1>
+<date2>201411061900Manga/Anime Appreciation Club</date2>
+<enddate1></enddate1>
+<length>90</length>
+<status></status>
+<endtime>8:30 PM</endtime>
+<prieventtype>Book/Author Program</prieventtype>
+<eventtypes>Book/Author Program, , </eventtypes>
+<eventtype1>Book/Author Program</eventtype1>
+<eventtype2></eventtype2>
+<eventtype3></eventtype3>
+<agegroups>Teens</agegroups>
+<agegroup1>Teens</agegroup1>
+<agegroup2></agegroup2>
+<agegroup3></agegroup3>
+<otherinfo>Manga Title: Blue Exorcist&lt;br /&gt;Anime Title: Sword Art Online</otherinfo>
+<featuredevent>0</featuredevent>
+<presenter>Jessi S.</presenter>
+<signup>0</signup>
+<signupstarts></signupstarts>
+<signupends></signupends>
+<contactname></contactname>
+<contactphone>847-673-7774</contactphone>
+<contactemail>events@skokielibrary.info</contactemail>
+<linktext></linktext>
+<linkaddress></linkaddress>
+<imagepath></imagepath>
+<imagetext></imagetext>
+<imageheight></imageheight>
+<imagewidth></imagewidth>
+<lastupdated>2014-10-16T15:37:34Z</lastupdated>
+<extratag></extratag>
+</item>
+<item>
+<title>Make Movies</title>
+<date>Thursday, November 06, 2014</date>
+<time>7:00 PM</time>
+<enddate></enddate>
+<description>Learn to make a professional-looking movie using Apple iMovie. Topics include importing footage, editing content, adding special effects, and transferring to DVD. Classes are taught on Apple computers.</description>
+<location>Digital Media Lab</location>
+<library>Skokie Public Library</library>
+<link>http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21229</link>
+<id>21229</id>
+<recordtype>0</recordtype>
+<RCID>0</RCID>
+<date1>2014/11/06</date1>
+<date2>201411061900Make Movies</date2>
+<enddate1></enddate1>
+<length>60</length>
+<status></status>
+<endtime>8:00 PM</endtime>
+<prieventtype>Computer Class</prieventtype>
+<eventtypes>Computer Class, , </eventtypes>
+<eventtype1>Computer Class</eventtype1>
+<eventtype2></eventtype2>
+<eventtype3></eventtype3>
+<agegroups>Adults</agegroups>
+<agegroup1>Adults</agegroup1>
+<agegroup2></agegroup2>
+<agegroup3></agegroup3>
+<otherinfo>Registration is required.</otherinfo>
+<featuredevent>0</featuredevent>
+<presenter>Skokie Library Staff</presenter>
+<signup>1</signup>
+<signupstarts>9/2/2014 9:00 PM</signupstarts>
+<signupends>11/5/2014 9:00 PM</signupends>
+<contactname></contactname>
+<contactphone>847-673-7774</contactphone>
+<contactemail>events@skokielibrary.info</contactemail>
+<linktext>Computer and Technology Classes</linktext>
+<linkaddress>http://www.skokielibrary.info/s_programs/pr_computer/index.asp</linkaddress>
+<imagepath></imagepath>
+<imagetext></imagetext>
+<imageheight></imageheight>
+<imagewidth></imagewidth>
+<lastupdated>2014-07-18T11:18:28Z</lastupdated>
+<extratag></extratag>
+</item>
+<item>
+<title>Block Party</title>
+<date>Friday, November 07, 2014</date>
+<time>9:00 AM</time>
+<enddate></enddate>
+<description>Attention all builders ages 3 to 5: if you like making roads, bridges, castles, towers, and skyscrapers, drop in each Friday morning, and try out our brand new set of blocks. We can't wait to see what you create! &lt;br /&gt;</description>
+<location>Radmacher Meeting Room</location>
+<library>Skokie Public Library</library>
+<link>http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21082</link>
+<id>21082</id>
+<recordtype>2</recordtype>
+<RCID>1210</RCID>
+<date1>2014/11/07</date1>
+<date2>201411070900Block Party</date2>
+<enddate1></enddate1>
+<length>90</length>
+<status></status>
+<endtime>10:30 AM</endtime>
+<prieventtype>Games/Crafts</prieventtype>
+<eventtypes>Games/Crafts, , </eventtypes>
+<eventtype1>Games/Crafts</eventtype1>
+<eventtype2></eventtype2>
+<eventtype3></eventtype3>
+<agegroups>Kids</agegroups>
+<agegroup1>Kids</agegroup1>
+<agegroup2></agegroup2>
+<agegroup3></agegroup3>
+<otherinfo>No registration is required. </otherinfo>
+<featuredevent>0</featuredevent>
+<presenter>Youth Services Staff</presenter>
+<signup>0</signup>
+<signupstarts></signupstarts>
+<signupends></signupends>
+<contactname>Youth Services Staff</contactname>
+<contactphone>847-324-3149</contactphone>
+<contactemail>events@skokielibrary.info</contactemail>
+<linktext></linktext>
+<linkaddress></linkaddress>
+<imagepath></imagepath>
+<imagetext></imagetext>
+<imageheight></imageheight>
+<imagewidth></imagewidth>
+<lastupdated>2014-10-24T11:16:48Z</lastupdated>
+<extratag></extratag>
+</item>
+<item>
+<title>Tech Bytes for Seniors: Cut, Copy, and Paste</title>
+<date>Friday, November 07, 2014</date>
+<time>1:00 PM</time>
+<enddate></enddate>
+<description>Learn to save hours of time by cutting, copying, and pasting on a computer. This hands-on class will include plenty of time for questions. </description>
+<location>Computer Classroom</location>
+<library>Skokie Public Library</library>
+<link>http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21388</link>
+<id>21388</id>
+<recordtype>0</recordtype>
+<RCID>0</RCID>
+<date1>2014/11/07</date1>
+<date2>201411071300Tech Bytes for Seniors: Cut, Copy, and Paste</date2>
+<enddate1></enddate1>
+<length>60</length>
+<status></status>
+<endtime>2:00 PM</endtime>
+<prieventtype>Computer Class</prieventtype>
+<eventtypes>Computer Class, , </eventtypes>
+<eventtype1>Computer Class</eventtype1>
+<eventtype2></eventtype2>
+<eventtype3></eventtype3>
+<agegroups>Adults</agegroups>
+<agegroup1>Adults</agegroup1>
+<agegroup2></agegroup2>
+<agegroup3></agegroup3>
+<otherinfo>Registration is required. </otherinfo>
+<featuredevent>0</featuredevent>
+<presenter>Skokie Library Staff</presenter>
+<signup>1</signup>
+<signupstarts>9/2/2014 9:00 AM</signupstarts>
+<signupends>11/6/2014 9:00 PM</signupends>
+<contactname></contactname>
+<contactphone>847-673-7774</contactphone>
+<contactemail>events@skokielibrary.info</contactemail>
+<linktext>Computer Classes</linktext>
+<linkaddress>http://www.skokielibrary.info/s_programs/pr_computer/index.asp</linkaddress>
+<imagepath></imagepath>
+<imagetext></imagetext>
+<imageheight></imageheight>
+<imagewidth></imagewidth>
+<lastupdated>2014-10-27T12:00:37Z</lastupdated>
+<extratag></extratag>
+</item>
+<item>
+<title>Movie: A Most Wanted Man</title>
+<date>Friday, November 07, 2014</date>
+<time>1:30 PM</time>
+<enddate></enddate>
+<description>Released 2014&lt;br /&gt;122 minutes&lt;br /&gt;R for language&lt;br /&gt;Thriller&lt;br /&gt;Based on the novel by John LeCarr&#233;, a German espionage agent, G&#252;nther Bachmann, seeks to extract intelligence from the local Muslim community in Hamburg. A Chechnyan refugee named Issa Karpov arrives illegally, disheveled and scarred. G&#252;nther&#146;s team soon learns of Karpov&#146;s classification as a terrorist by Russian intelligence, and a tale of geopolitical intrigue unravels. Directed by Anton Corbijn. Starring Philip Seymour Hoffman, Grigoriy Dobrygin, Rachel McAdams, Willem Dafoe, and Robin Wright.</description>
+<location>Petty Auditorium</location>
+<library>Skokie Public Library</library>
+<link>http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=17426</link>
+<id>17426</id>
+<recordtype>0</recordtype>
+<RCID>0</RCID>
+<date1>2014/11/07</date1>
+<date2>201411071330Movie: A Most Wanted Man</date2>
+<enddate1></enddate1>
+<length>120</length>
+<status></status>
+<endtime>3:30 PM</endtime>
+<prieventtype>Movie</prieventtype>
+<eventtypes>Movie, , </eventtypes>
+<eventtype1>Movie</eventtype1>
+<eventtype2></eventtype2>
+<eventtype3></eventtype3>
+<agegroups>Adults</agegroups>
+<agegroup1>Adults</agegroup1>
+<agegroup2></agegroup2>
+<agegroup3></agegroup3>
+<otherinfo></otherinfo>
+<featuredevent>0</featuredevent>
+<presenter></presenter>
+<signup>0</signup>
+<signupstarts></signupstarts>
+<signupends></signupends>
+<contactname></contactname>
+<contactphone></contactphone>
+<contactemail></contactemail>
+<linktext></linktext>
+<linkaddress></linkaddress>
+<imagepath></imagepath>
+<imagetext></imagetext>
+<imageheight></imageheight>
+<imagewidth></imagewidth>
+<lastupdated>2014-10-08T14:42:11Z</lastupdated>
+<extratag></extratag>
+</item>
+<item>
+<title>Advanced Photoshop Elements</title>
+<date>Friday, November 07, 2014</date>
+<time>3:00 PM</time>
+<enddate></enddate>
+<description>Take your Photoshop Elements skills to the next level. In this advanced class, learn to enhance your digital photos using layers, cloning, and content aware fill. Sample images can be provided, but you are highly encouraged to bring your own photos to work with. It is recommended that you take the beginner Photoshop Elements class before registering for this class. Class is hands-on, taught on Apple computers.</description>
+<location>Digital Media Lab</location>
+<library>Skokie Public Library</library>
+<link>http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21372</link>
+<id>21372</id>
+<recordtype>0</recordtype>
+<RCID>0</RCID>
+<date1>2014/11/07</date1>
+<date2>201411071500Advanced Photoshop Elements</date2>
+<enddate1></enddate1>
+<length>90</length>
+<status></status>
+<endtime>4:30 PM</endtime>
+<prieventtype>Computer Class</prieventtype>
+<eventtypes>Computer Class, , </eventtypes>
+<eventtype1>Computer Class</eventtype1>
+<eventtype2></eventtype2>
+<eventtype3></eventtype3>
+<agegroups>Adults</agegroups>
+<agegroup1>Adults</agegroup1>
+<agegroup2></agegroup2>
+<agegroup3></agegroup3>
+<otherinfo>Registration is required.</otherinfo>
+<featuredevent>0</featuredevent>
+<presenter>Skokie Library Staff</presenter>
+<signup>1</signup>
+<signupstarts>9/2/2014 9:00 PM</signupstarts>
+<signupends>11/6/2014 9:00 PM</signupends>
+<contactname></contactname>
+<contactphone>847-673-7774</contactphone>
+<contactemail>events@skokielibrary.info</contactemail>
+<linktext>Computer and Technology Classes</linktext>
+<linkaddress>http://www.skokielibrary.info/s_programs/pr_computer/index.asp</linkaddress>
+<imagepath></imagepath>
+<imagetext></imagetext>
+<imageheight></imageheight>
+<imagewidth></imagewidth>
+<lastupdated>2014-07-28T11:28:14Z</lastupdated>
+<extratag></extratag>
+</item>
+<item>
+<title>Cosplay Ball</title>
+<date>Friday, November 07, 2014</date>
+<time>7:00 PM</time>
+<enddate></enddate>
+<description>Are you into a fandom? Do you love the idea of a gala evening out dressed to the nines? Dress as your favorite character from any fandom and join us for a night to remember. Dancing and light refreshments will be topped off with a prize for best costume.</description>
+<location>Radmacher Meeting Room</location>
+<library>Skokie Public Library</library>
+<link>http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21285</link>
+<id>21285</id>
+<recordtype>0</recordtype>
+<RCID>0</RCID>
+<date1>2014/11/07</date1>
+<date2>201411071900Cosplay Ball</date2>
+<enddate1></enddate1>
+<length>120</length>
+<status></status>
+<endtime>9:00 PM</endtime>
+<prieventtype>Special Event</prieventtype>
+<eventtypes>Special Event, , </eventtypes>
+<eventtype1>Special Event</eventtype1>
+<eventtype2></eventtype2>
+<eventtype3></eventtype3>
+<agegroups>Teens, Kids</agegroups>
+<agegroup1>Teens</agegroup1>
+<agegroup2>Kids</agegroup2>
+<agegroup3></agegroup3>
+<otherinfo></otherinfo>
+<featuredevent>0</featuredevent>
+<presenter>Skokie Library Staff</presenter>
+<signup>1</signup>
+<signupstarts>9/2/2014 9:00 PM</signupstarts>
+<signupends>11/6/2014 9:00 PM</signupends>
+<contactname></contactname>
+<contactphone>847-673-7774</contactphone>
+<contactemail>events@skokielibrary.info</contactemail>
+<linktext></linktext>
+<linkaddress></linkaddress>
+<imagepath></imagepath>
+<imagetext></imagetext>
+<imageheight></imageheight>
+<imagewidth></imagewidth>
+<lastupdated>2014-07-21T13:18:17Z</lastupdated>
+<extratag></extratag>
+</item>
+<item>
+<title>First Friday Presents Chicago Soul Revue</title>
+<date>Friday, November 07, 2014</date>
+<time>7:00 PM</time>
+<enddate></enddate>
+<description>Join us for a night of family fun and entertainment in partnership with the Independent Merchants of Downtown Skokie, the Village of Skokie, and the Park District. We'll have a performance by Chicago Soul Revue and other delightful activities.</description>
+<location>Petty Auditorium</location>
+<library>Skokie Public Library</library>
+<link>http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21431</link>
+<id>21431</id>
+<recordtype>0</recordtype>
+<RCID>0</RCID>
+<date1>2014/11/07</date1>
+<date2>201411071900First Friday Presents Chicago Soul Revue</date2>
+<enddate1></enddate1>
+<length>120</length>
+<status></status>
+<endtime>9:00 PM</endtime>
+<prieventtype>Performance</prieventtype>
+<eventtypes>Performance, , </eventtypes>
+<eventtype1>Performance</eventtype1>
+<eventtype2></eventtype2>
+<eventtype3></eventtype3>
+<agegroups>Families, Adults, Kids</agegroups>
+<agegroup1>Families</agegroup1>
+<agegroup2>Adults</agegroup2>
+<agegroup3>Kids</agegroup3>
+<otherinfo>No registration required</otherinfo>
+<featuredevent>0</featuredevent>
+<presenter></presenter>
+<signup>0</signup>
+<signupstarts></signupstarts>
+<signupends></signupends>
+<contactname></contactname>
+<contactphone>847-673-7774</contactphone>
+<contactemail>events@skokielibrary.info</contactemail>
+<linktext>Skokie First Friday</linktext>
+<linkaddress>http://downtownskokie.org/skokies-first-fridays/</linkaddress>
+<imagepath></imagepath>
+<imagetext></imagetext>
+<imageheight></imageheight>
+<imagewidth></imagewidth>
+<lastupdated>2014-10-30T12:01:14Z</lastupdated>
 <extratag></extratag>
 </item>
 </event>
