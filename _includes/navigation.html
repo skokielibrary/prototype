@@ -81,6 +81,8 @@
       text-decoration: none !important;
       border-bottom: solid 3px #00747F !important;
     }*/
+
+    .has-content{font-weight: 600 !important;}
     </style>
 
 
@@ -93,12 +95,12 @@
           <div class="row">
             <div class="columns medium-4">
               <li>
-              <span>Events For</span>
+              <span>Events for</span>
               <ul>
+                <li><a href="{{ site.baseurl }}/events" class="has-content">All events</a></li>
                 <li><a href="">Kids</a></li>
                 <li><a href="">Teens</a></li>
                 <li><a href="">Adults</a></li>
-                <li><a href="">All</a></li>
               </ul>
             </li>
             </div>
@@ -106,10 +108,10 @@
               <li>
                 <span>Classes &amp; Schedules</span>
                 <ul>
-                  <li><a href="#">Technology Classes</a></li>
-                  <li><a href="#">Movie Schedule</a></li>
+                  <li><a href="#">Tech classes</a></li>
+                  <li><a href="#">Movie schedule</a></li>
                   <li><a href="#">Performances</a></li>
-                  <li><a href="#">Author Visits</a></li>
+                  <li><a href="#">Author visits</a></li>
                   <li><a href="#">Exhibits</a></li>
                 </ul>
               </li>
@@ -120,13 +122,14 @@
                 <ul>
                   <li><a href="#">Newsletter</a></li>
                   <li><a href="#">Hullabaloo</a></li>
+                  <li><a href="#">Next</a></li>
                 </ul>
               </li>
             </div>
           </div>
           <div class="row">
             <div class="columns medium-12">
-              <a ref="#" class="menu-extra border-extra">Propose A Program</a>
+              <a ref="#" class="menu-extra border-extra">Propose a program</a>
             </div>
           </div>
         </ul> <!-- end of mega dropdown -->
@@ -141,8 +144,7 @@
               <ul>
                 <li><a href="">Books</a></li>
                 <li><a href="">Movies</a></li>
-                <li><a href="{{ site.baseurl }}/books-movies-more/ebooks-downloads">EBooks &amp; Downloads</a></li>
-                <li><a href="">New &amp; Upcoming</a></li>
+                <li><a href="{{ site.baseurl }}/books-movies-more/ebooks-downloads" class="has-content">EBooks &amp; downloads</a></li>
               </ul>
             </li>
             </div>
@@ -150,7 +152,7 @@
               <li>
                 <span>Recommendations</span>
                 <ul>
-                  <li><a href="#">Staff Recommendations</a></li>
+                  <li><a href="#">Staff recommendations</a></li>
                   <li><a href="#">BookMatch</a></li>
                 </ul>
               </li>
@@ -159,7 +161,7 @@
               <li>
                 <span>More</span>
                 <ul>
-                  <li><a href="#">Local Authors</a></li>
+                  <li><a href="#">Local authors</a></li>
                 </ul>
               </li>
             </div>
@@ -179,10 +181,11 @@
               <li>
               <span>Research</span>
               <ul>
-                <li><a href="{{ site.baseurl }}/resources">Research a topic</a></li>
-                <li><a href="">Consumer</a></li>
-                <li><a href="">Business</a></li>
-                <li><a href="">Career</a></li>
+                <li><a href="{{ site.baseurl }}/resources" class="has-content">Research a topic</a></li>
+                <li><a href="">Consumer help</a></li>
+                <li><a href="">Investing &amp; finance</a></li>
+                <li><a href="">Genealogy</a></li>
+                <li><a href="">Languages</a></li>
               </ul>
             </li>
             </div>
@@ -201,7 +204,7 @@
           </div>
           <div class="row">
             <div class="columns medium-12">
-              <a ref="#" class="menu-extra border-extra">Our Favorites</a>
+              <a ref="#" class="menu-extra border-extra">Our favorites</a>
             </div>
           </div>
         </ul> <!-- end of mega dropdown -->
@@ -215,9 +218,9 @@
               <span>Services For</span>
               <ul>
                 <li><a href="">Parents</a></li>
-                <li><a href="{{ site.baseurl }}/services/teachers-schools">Teachers &amp; Schools</a></li>
+                <li><a href="{{ site.baseurl }}/services/teachers-schools" class="has-content">Teachers &amp; schools</a></li>
                 <li><a href="">Business</a></li>
-                <li><a href="{{ site.baseurl }}/services/job-seekers">Job Seekers</a></li>
+                <li><a href="{{ site.baseurl }}/services/job-seekers" class="has-content">Job seekers</a></li>
               </ul>
             </li>
             </div>
@@ -226,8 +229,8 @@
                 <span>In the library</span>
                 <ul>
                   <li><a href="#">Study &amp; Meeting rooms</a></li>
-                  <li><a href="{{ site.baseurl }}/services/computers-technology">Computer &amp; Technology Help</a></li>
-                  <li><a href="{{ site.baseurl }}/services/accessibility">Accessibility</a></li>
+                  <li><a href="{{ site.baseurl }}/services/computers-technology" class="has-content">Computer &amp; technology</a></li>
+                  <li><a href="{{ site.baseurl }}/services/accessibility" class="has-content">Accessibility</a></li>
                 </ul>
               </li>
             </div>
@@ -235,7 +238,7 @@
               <li>
                 <span>In the community</span>
                 <ul>
-                  <li><a href="{{ site.baseurl }}/services/bookmobile">Bookmobile</a></li>
+                  <li><a href="{{ site.baseurl }}/services/bookmobile" class="has-content">Bookmobile</a></li>
                 </ul>
               </li>
             </div>
@@ -264,8 +267,8 @@
               <li>
                 <span>Using the library</span>
                 <ul>
-                  <li><a href="{{ site.baseurl }}/about/library-cards">Library Cards</a></li>
-                  <li><a href="{{ site.baseurl }}/about/borrowing-fees">Borrowing &amp; Fees</a></li>
+                  <li><a href="{{ site.baseurl }}/about/library-cards" class="has-content">Library cards</a></li>
+                  <li><a href="{{ site.baseurl }}/about/borrowing-fees" class="has-content">Borrowing &amp; fees</a></li>
                   <li><a href="#">Policies</a></li>
                 </ul>
               </li>
@@ -274,11 +277,11 @@
               <li>
                 <span>About Us</span>
                 <ul>
-                  <li><a href="#">Hours &amp; Location</a></li>
+                  <li><a href="#">Hours &amp; location</a></li>
                   <li><a href="#">Staff</a></li>
                   <li><a href="#">Board</a></li>
-                  <li><a href="#">History &amp; Art</a></li>
-                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">History &amp; building</a></li>
+                  <li><a href="#">Contact us</a></li>
                 </ul>
               </li>
             </div>
