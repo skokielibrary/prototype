@@ -55,7 +55,7 @@ h4 {
 .fill-teal {
   background-color: #00747F; }
 .fill-mustard {
-  background-color: #EFC050; }
+  background-color: #F9A01B; }
 .fill-offwhite {
   background-color: #F0EEEB; }
 .fill-lighter {
@@ -110,7 +110,6 @@ h4 {
   margin-bottom: 30px;
 }
 .featurette-text a {
-  color: #3b332f;
   font-size: 1.15rem;
   margin: 0;
   font-weight: 400;
@@ -302,7 +301,7 @@ input:-ms-input-placeholder {
   margin-bottom: -1px;
 }
 .arrow-brown{
-  border-left: 8px solid #3b332f;
+  border-left: 8px solid #706259;
 }
 
 .event-list .event-title {
