@@ -32,7 +32,7 @@ layout: base
         <h1 class="post-title">{{ page.title }}</h1>
       </header>
       <div class="page-contact-small">
-        <p><img src="{{ site.baseurl }}/img/{{ page.contact_pic }}" class="avatar">{{ page.contact }}. <span class="contact-details">Call {{ page.contact_phone }} or <a href="mailto:{{ page.contact_email }}">send an email</a></span>.</p>
+        <p>{% if page.contact_pic %}<img src="{{ site.baseurl }}/img/{{ page.contact_pic }}" class="avatar">{% endif %}{{ page.contact }}. <span class="contact-details">Call {{ page.contact_phone }} or <a href="mailto:{{ page.contact_email }}">send an email</a></span>.</p>
       </div>
       {{ content }}
     </div>
